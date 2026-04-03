@@ -1,0 +1,2898 @@
+{
+    "info": {
+        "added": 1773723756.004043, 
+        "started": 1773723756.652, 
+        "duration": 22, 
+        "ended": 1773723778.823934, 
+        "owner": null, 
+        "score": 0.0, 
+        "id": 61, 
+        "category": "archive", 
+        "git": {
+            "head": "13cbe0d9e457be3673304533043e992ead1ea9b2", 
+            "fetch_head": "13cbe0d9e457be3673304533043e992ead1ea9b2"
+        }, 
+        "monitor": "2deb9ccd75d5a7a3fe05b2625b03a8639d6ee36b", 
+        "package": "exe", 
+        "route": "none", 
+        "custom": null, 
+        "machine": {
+            "status": "stopped", 
+            "name": "xp-cuckoo", 
+            "label": "xp-cuckoo", 
+            "manager": "VirtualBox", 
+            "started_on": "2026-03-17 05:02:36", 
+            "shutdown_on": "2026-03-17 05:02:58"
+        }, 
+        "platform": "windows", 
+        "version": "2.0.7", 
+        "options": "filename=f18fe2853ef0d4898085cc5581ae35b83fc6d1c46563dbc8da1b79ef9ef678eb,procmemdump=yes,route=none"
+    }, 
+    "procmemory": [
+        {
+            "regions": [
+                {
+                    "protect": "rw", 
+                    "end": "0x00011000", 
+                    "addr": "0x00010000", 
+                    "state": 4096, 
+                    "offset": 24, 
+                    "type": 131072, 
+                    "size": 4096
+                }, 
+                {
+                    "protect": "rw", 
+                    "end": "0x00021000", 
+                    "addr": "0x00020000", 
+                    "state": 4096, 
+                    "offset": 4144, 
+                    "type": 131072, 
+                    "size": 4096
+                }, 
+                {
+                    "protect": "rw", 
+                    "end": "0x00130000", 
+                    "addr": "0x0012d000", 
+                    "state": 4096, 
+                    "offset": 8264, 
+                    "type": 131072, 
+                    "size": 12288
+                }, 
+                {
+                    "protect": "r", 
+                    "end": "0x00133000", 
+                    "addr": "0x00130000", 
+                    "state": 4096, 
+                    "offset": 20576, 
+                    "type": 262144, 
+                    "size": 12288
+                }, 
+                {
+                    "protect": "r", 
+                    "end": "0x00141000", 
+                    "addr": "0x00140000", 
+                    "state": 4096, 
+                    "offset": 32888, 
+                    "type": 262144, 
+                    "size": 4096
+                }, 
+                {
+                    "protect": "rwx", 
+                    "end": "0x00151000", 
+                    "addr": "0x00150000", 
+                    "state": 4096, 
+                    "offset": 37008, 
+                    "type": 131072, 
+                    "size": 4096
+                }, 
+                {
+                    "protect": "rwx", 
+                    "end": "0x00161000", 
+                    "addr": "0x00160000", 
+                    "state": 4096, 
+                    "offset": 41128, 
+                    "type": 131072, 
+                    "size": 4096
+                }, 
+                {
+                    "protect": "rwx", 
+                    "end": "0x00171000", 
+                    "addr": "0x00170000", 
+                    "state": 4096, 
+                    "offset": 45248, 
+                    "type": 131072, 
+                    "size": 4096
+                }, 
+                {
+                    "protect": "rw", 
+                    "end": "0x00192000", 
+                    "addr": "0x00180000", 
+                    "state": 4096, 
+                    "offset": 49368, 
+                    "type": 131072, 
+                    "size": 73728
+                }, 
+                {
+                    "protect": "rw", 
+                    "end": "0x00196000", 
+                    "addr": "0x00194000", 
+                    "state": 4096, 
+                    "offset": 123120, 
+                    "type": 131072, 
+                    "size": 8192
+                }, 
+                {
+                    "protect": "rw", 
+                    "end": "0x00286000", 
+                    "addr": "0x00280000", 
+                    "state": 4096, 
+                    "offset": 131336, 
+                    "type": 131072, 
+                    "size": 24576
+                }, 
+                {
+                    "protect": "rw", 
+                    "end": "0x00293000", 
+                    "addr": "0x00290000", 
+                    "state": 4096, 
+                    "offset": 155936, 
+                    "type": 262144, 
+                    "size": 12288
+                }, 
+                {
+                    "protect": "r", 
+                    "end": "0x002b6000", 
+                    "addr": "0x002a0000", 
+                    "state": 4096, 
+                    "offset": 168248, 
+                    "type": 262144, 
+                    "size": 90112
+                }, 
+                {
+                    "protect": "r", 
+                    "end": "0x00301000", 
+                    "addr": "0x002c0000", 
+                    "state": 4096, 
+                    "offset": 258384, 
+                    "type": 262144, 
+                    "size": 266240
+                }, 
+                {
+                    "protect": "r", 
+                    "end": "0x00351000", 
+                    "addr": "0x00310000", 
+                    "state": 4096, 
+                    "offset": 524648, 
+                    "type": 262144, 
+                    "size": 266240
+                }, 
+                {
+                    "protect": "r", 
+                    "end": "0x00366000", 
+                    "addr": "0x00360000", 
+                    "state": 4096, 
+                    "offset": 790912, 
+                    "type": 262144, 
+                    "size": 24576
+                }, 
+                {
+                    "protect": "r", 
+                    "end": "0x003b1000", 
+                    "addr": "0x00370000", 
+                    "state": 4096, 
+                    "offset": 815512, 
+                    "type": 262144, 
+                    "size": 266240
+                }, 
+                {
+                    "protect": "rw", 
+                    "end": "0x003c8000", 
+                    "addr": "0x003c0000", 
+                    "state": 4096, 
+                    "offset": 1081776, 
+                    "type": 131072, 
+                    "size": 32768
+                }, 
+                {
+                    "protect": "rw", 
+                    "end": "0x003d1000", 
+                    "addr": "0x003d0000", 
+                    "state": 4096, 
+                    "offset": 1114568, 
+                    "type": 131072, 
+                    "size": 4096
+                }, 
+                {
+                    "protect": "rw", 
+                    "end": "0x003e1000", 
+                    "addr": "0x003e0000", 
+                    "state": 4096, 
+                    "offset": 1118688, 
+                    "type": 131072, 
+                    "size": 4096
+                }, 
+                {
+                    "protect": "rw", 
+                    "end": "0x003f9000", 
+                    "addr": "0x003f0000", 
+                    "state": 4096, 
+                    "offset": 1122808, 
+                    "type": 131072, 
+                    "size": 36864
+                }, 
+                {
+                    "protect": "r", 
+                    "end": "0x00401000", 
+                    "addr": "0x00400000", 
+                    "state": 4096, 
+                    "offset": 1159696, 
+                    "type": 16777216, 
+                    "size": 4096
+                }, 
+                {
+                    "protect": "rx", 
+                    "end": "0x00404000", 
+                    "addr": "0x00401000", 
+                    "state": 4096, 
+                    "offset": 1163816, 
+                    "type": 16777216, 
+                    "size": 12288
+                }, 
+                {
+                    "protect": "r", 
+                    "end": "0x00405000", 
+                    "addr": "0x00404000", 
+                    "state": 4096, 
+                    "offset": 1176128, 
+                    "type": 16777216, 
+                    "size": 4096
+                }, 
+                {
+                    "protect": "rwc", 
+                    "end": "0x00415000", 
+                    "addr": "0x00405000", 
+                    "state": 4096, 
+                    "offset": 1180248, 
+                    "type": 16777216, 
+                    "size": 65536
+                }, 
+                {
+                    "protect": "r", 
+                    "end": "0x00417000", 
+                    "addr": "0x00415000", 
+                    "state": 4096, 
+                    "offset": 1245808, 
+                    "type": 16777216, 
+                    "size": 8192
+                }, 
+                {
+                    "protect": "rx", 
+                    "end": "0x00422000", 
+                    "addr": "0x00420000", 
+                    "state": 4096, 
+                    "offset": 1254024, 
+                    "type": 262144, 
+                    "size": 8192
+                }, 
+                {
+                    "protect": "rx", 
+                    "end": "0x004e2000", 
+                    "addr": "0x004e0000", 
+                    "state": 4096, 
+                    "offset": 1262240, 
+                    "type": 262144, 
+                    "size": 8192
+                }, 
+                {
+                    "protect": "r", 
+                    "end": "0x005f3000", 
+                    "addr": "0x004f0000", 
+                    "state": 4096, 
+                    "offset": 1270456, 
+                    "type": 262144, 
+                    "size": 1060864
+                }, 
+                {
+                    "protect": "rx", 
+                    "end": "0x00642000", 
+                    "addr": "0x00600000", 
+                    "state": 4096, 
+                    "offset": 2331344, 
+                    "type": 262144, 
+                    "size": 270336
+                }, 
+                {
+                    "protect": "r", 
+                    "end": "0x00903000", 
+                    "addr": "0x00900000", 
+                    "state": 4096, 
+                    "offset": 2601704, 
+                    "type": 262144, 
+                    "size": 12288
+                }, 
+                {
+                    "protect": "rx", 
+                    "end": "0x00911000", 
+                    "addr": "0x00910000", 
+                    "state": 4096, 
+                    "offset": 2614016, 
+                    "type": 131072, 
+                    "size": 4096
+                }, 
+                {
+                    "protect": "rw", 
+                    "end": "0x00921000", 
+                    "addr": "0x00920000", 
+                    "state": 4096, 
+                    "offset": 2618136, 
+                    "type": 131072, 
+                    "size": 4096
+                }, 
+                {
+                    "protect": "rw", 
+                    "end": "0x00931000", 
+                    "addr": "0x00930000", 
+                    "state": 4096, 
+                    "offset": 2622256, 
+                    "type": 131072, 
+                    "size": 4096
+                }, 
+                {
+                    "protect": "rw", 
+                    "end": "0x00941000", 
+                    "addr": "0x00940000", 
+                    "state": 4096, 
+                    "offset": 2626376, 
+                    "type": 131072, 
+                    "size": 4096
+                }, 
+                {
+                    "protect": "rw", 
+                    "end": "0x00951000", 
+                    "addr": "0x00950000", 
+                    "state": 4096, 
+                    "offset": 2630496, 
+                    "type": 131072, 
+                    "size": 4096
+                }, 
+                {
+                    "protect": "rw", 
+                    "end": "0x00961000", 
+                    "addr": "0x00960000", 
+                    "state": 4096, 
+                    "offset": 2634616, 
+                    "type": 131072, 
+                    "size": 4096
+                }, 
+                {
+                    "protect": "rw", 
+                    "end": "0x00971000", 
+                    "addr": "0x00970000", 
+                    "state": 4096, 
+                    "offset": 2638736, 
+                    "type": 131072, 
+                    "size": 4096
+                }, 
+                {
+                    "protect": "rw", 
+                    "end": "0x00990000", 
+                    "addr": "0x00980000", 
+                    "state": 4096, 
+                    "offset": 2642856, 
+                    "type": 131072, 
+                    "size": 65536
+                }, 
+                {
+                    "protect": "rwx", 
+                    "end": "0x00998000", 
+                    "addr": "0x00990000", 
+                    "state": 4096, 
+                    "offset": 2708416, 
+                    "type": 131072, 
+                    "size": 32768
+                }, 
+                {
+                    "protect": "rw", 
+                    "end": "0x009a1000", 
+                    "addr": "0x009a0000", 
+                    "state": 4096, 
+                    "offset": 2741208, 
+                    "type": 131072, 
+                    "size": 4096
+                }, 
+                {
+                    "protect": "rw", 
+                    "end": "0x009b1000", 
+                    "addr": "0x009b0000", 
+                    "state": 4096, 
+                    "offset": 2745328, 
+                    "type": 131072, 
+                    "size": 4096
+                }, 
+                {
+                    "protect": "rwx", 
+                    "end": "0x009c8000", 
+                    "addr": "0x009c0000", 
+                    "state": 4096, 
+                    "offset": 2749448, 
+                    "type": 131072, 
+                    "size": 32768
+                }, 
+                {
+                    "protect": "rw", 
+                    "end": "0x009d1000", 
+                    "addr": "0x009d0000", 
+                    "state": 4096, 
+                    "offset": 2782240, 
+                    "type": 131072, 
+                    "size": 4096
+                }, 
+                {
+                    "protect": "rw", 
+                    "end": "0x009f0000", 
+                    "addr": "0x009e0000", 
+                    "state": 4096, 
+                    "offset": 2786360, 
+                    "type": 131072, 
+                    "size": 65536
+                }, 
+                {
+                    "protect": "rw", 
+                    "end": "0x00a00000", 
+                    "addr": "0x009f0000", 
+                    "state": 4096, 
+                    "offset": 2851920, 
+                    "type": 131072, 
+                    "size": 65536
+                }, 
+                {
+                    "protect": "rw", 
+                    "end": "0x00a10000", 
+                    "addr": "0x00a00000", 
+                    "state": 4096, 
+                    "offset": 2917480, 
+                    "type": 131072, 
+                    "size": 65536
+                }, 
+                {
+                    "protect": "r", 
+                    "end": "0x62c21000", 
+                    "addr": "0x62c20000", 
+                    "state": 4096, 
+                    "offset": 2983040, 
+                    "type": 16777216, 
+                    "size": 4096
+                }, 
+                {
+                    "protect": "rx", 
+                    "end": "0x62c26000", 
+                    "addr": "0x62c21000", 
+                    "state": 4096, 
+                    "offset": 2987160, 
+                    "type": 16777216, 
+                    "size": 20480
+                }, 
+                {
+                    "protect": "rw", 
+                    "end": "0x62c27000", 
+                    "addr": "0x62c26000", 
+                    "state": 4096, 
+                    "offset": 3007664, 
+                    "type": 16777216, 
+                    "size": 4096
+                }, 
+                {
+                    "protect": "r", 
+                    "end": "0x62c29000", 
+                    "addr": "0x62c27000", 
+                    "state": 4096, 
+                    "offset": 3011784, 
+                    "type": 16777216, 
+                    "size": 8192
+                }, 
+                {
+                    "protect": "r", 
+                    "end": "0x63dc1000", 
+                    "addr": "0x63dc0000", 
+                    "state": 4096, 
+                    "offset": 3020000, 
+                    "type": 16777216, 
+                    "size": 4096
+                }, 
+                {
+                    "protect": "rx", 
+                    "end": "0x63dfa000", 
+                    "addr": "0x63dc1000", 
+                    "state": 4096, 
+                    "offset": 3024120, 
+                    "type": 16777216, 
+                    "size": 233472
+                }, 
+                {
+                    "protect": "rwc", 
+                    "end": "0x63e01000", 
+                    "addr": "0x63dfa000", 
+                    "state": 4096, 
+                    "offset": 3257616, 
+                    "type": 16777216, 
+                    "size": 28672
+                }, 
+                {
+                    "protect": "rw", 
+                    "end": "0x63e08000", 
+                    "addr": "0x63e01000", 
+                    "state": 4096, 
+                    "offset": 3286312, 
+                    "type": 16777216, 
+                    "size": 28672
+                }, 
+                {
+                    "protect": "rwc", 
+                    "end": "0x63e0a000", 
+                    "addr": "0x63e08000", 
+                    "state": 4096, 
+                    "offset": 3315008, 
+                    "type": 16777216, 
+                    "size": 8192
+                }, 
+                {
+                    "protect": "rw", 
+                    "end": "0x63e0b000", 
+                    "addr": "0x63e0a000", 
+                    "state": 4096, 
+                    "offset": 3323224, 
+                    "type": 16777216, 
+                    "size": 4096
+                }, 
+                {
+                    "protect": "rwc", 
+                    "end": "0x63e1f000", 
+                    "addr": "0x63e0b000", 
+                    "state": 4096, 
+                    "offset": 3327344, 
+                    "type": 16777216, 
+                    "size": 81920
+                }, 
+                {
+                    "protect": "rw", 
+                    "end": "0x63e20000", 
+                    "addr": "0x63e1f000", 
+                    "state": 4096, 
+                    "offset": 3409288, 
+                    "type": 16777216, 
+                    "size": 4096
+                }, 
+                {
+                    "protect": "r", 
+                    "end": "0x63e57000", 
+                    "addr": "0x63e20000", 
+                    "state": 4096, 
+                    "offset": 3413408, 
+                    "type": 16777216, 
+                    "size": 225280
+                }, 
+                {
+                    "protect": "rw", 
+                    "end": "0x63e58000", 
+                    "addr": "0x63e57000", 
+                    "state": 4096, 
+                    "offset": 3638712, 
+                    "type": 16777216, 
+                    "size": 4096
+                }, 
+                {
+                    "protect": "rwc", 
+                    "end": "0x63e5b000", 
+                    "addr": "0x63e58000", 
+                    "state": 4096, 
+                    "offset": 3642832, 
+                    "type": 16777216, 
+                    "size": 12288
+                }, 
+                {
+                    "protect": "rw", 
+                    "end": "0x63e6c000", 
+                    "addr": "0x63e5b000", 
+                    "state": 4096, 
+                    "offset": 3655144, 
+                    "type": 16777216, 
+                    "size": 69632
+                }, 
+                {
+                    "protect": "rwc", 
+                    "end": "0x63e7b000", 
+                    "addr": "0x63e6c000", 
+                    "state": 4096, 
+                    "offset": 3724800, 
+                    "type": 16777216, 
+                    "size": 61440
+                }, 
+                {
+                    "protect": "rw", 
+                    "end": "0x63e9d000", 
+                    "addr": "0x63e7b000", 
+                    "state": 4096, 
+                    "offset": 3786264, 
+                    "type": 16777216, 
+                    "size": 139264
+                }, 
+                {
+                    "protect": "rwc", 
+                    "end": "0x63fa2000", 
+                    "addr": "0x63e9d000", 
+                    "state": 4096, 
+                    "offset": 3925552, 
+                    "type": 16777216, 
+                    "size": 1069056
+                }, 
+                {
+                    "protect": "rw", 
+                    "end": "0x63fa4000", 
+                    "addr": "0x63fa2000", 
+                    "state": 4096, 
+                    "offset": 4994632, 
+                    "type": 16777216, 
+                    "size": 8192
+                }, 
+                {
+                    "protect": "rwc", 
+                    "end": "0x63fb2000", 
+                    "addr": "0x63fa4000", 
+                    "state": 4096, 
+                    "offset": 5002848, 
+                    "type": 16777216, 
+                    "size": 57344
+                }, 
+                {
+                    "protect": "rw", 
+                    "end": "0x63fb4000", 
+                    "addr": "0x63fb2000", 
+                    "state": 4096, 
+                    "offset": 5060216, 
+                    "type": 16777216, 
+                    "size": 8192
+                }, 
+                {
+                    "protect": "r", 
+                    "end": "0x63fbc000", 
+                    "addr": "0x63fb4000", 
+                    "state": 4096, 
+                    "offset": 5068432, 
+                    "type": 16777216, 
+                    "size": 32768
+                }, 
+                {
+                    "protect": "rw", 
+                    "end": "0x63fbd000", 
+                    "addr": "0x63fbc000", 
+                    "state": 4096, 
+                    "offset": 5101224, 
+                    "type": 16777216, 
+                    "size": 4096
+                }, 
+                {
+                    "protect": "rwc", 
+                    "end": "0x63fbf000", 
+                    "addr": "0x63fbd000", 
+                    "state": 4096, 
+                    "offset": 5105344, 
+                    "type": 16777216, 
+                    "size": 8192
+                }, 
+                {
+                    "protect": "r", 
+                    "end": "0x63fc5000", 
+                    "addr": "0x63fbf000", 
+                    "state": 4096, 
+                    "offset": 5113560, 
+                    "type": 16777216, 
+                    "size": 24576
+                }, 
+                {
+                    "protect": "r", 
+                    "end": "0x73fa1000", 
+                    "addr": "0x73fa0000", 
+                    "state": 4096, 
+                    "offset": 5138160, 
+                    "type": 16777216, 
+                    "size": 4096
+                }, 
+                {
+                    "protect": "rx", 
+                    "end": "0x73fe5000", 
+                    "addr": "0x73fa1000", 
+                    "state": 4096, 
+                    "offset": 5142280, 
+                    "type": 16777216, 
+                    "size": 278528
+                }, 
+                {
+                    "protect": "rwc", 
+                    "end": "0x73fef000", 
+                    "addr": "0x73fe5000", 
+                    "state": 4096, 
+                    "offset": 5420832, 
+                    "type": 16777216, 
+                    "size": 40960
+                }, 
+                {
+                    "protect": "rw", 
+                    "end": "0x73ff1000", 
+                    "addr": "0x73fef000", 
+                    "state": 4096, 
+                    "offset": 5461816, 
+                    "type": 16777216, 
+                    "size": 8192
+                }, 
+                {
+                    "protect": "rwc", 
+                    "end": "0x73ff4000", 
+                    "addr": "0x73ff1000", 
+                    "state": 4096, 
+                    "offset": 5470032, 
+                    "type": 16777216, 
+                    "size": 12288
+                }, 
+                {
+                    "protect": "rw", 
+                    "end": "0x73ff5000", 
+                    "addr": "0x73ff4000", 
+                    "state": 4096, 
+                    "offset": 5482344, 
+                    "type": 16777216, 
+                    "size": 4096
+                }, 
+                {
+                    "protect": "r", 
+                    "end": "0x7400b000", 
+                    "addr": "0x73ff5000", 
+                    "state": 4096, 
+                    "offset": 5486464, 
+                    "type": 16777216, 
+                    "size": 90112
+                }, 
+                {
+                    "protect": "r", 
+                    "end": "0x76301000", 
+                    "addr": "0x76300000", 
+                    "state": 4096, 
+                    "offset": 5576600, 
+                    "type": 16777216, 
+                    "size": 4096
+                }, 
+                {
+                    "protect": "rx", 
+                    "end": "0x76316000", 
+                    "addr": "0x76301000", 
+                    "state": 4096, 
+                    "offset": 5580720, 
+                    "type": 16777216, 
+                    "size": 86016
+                }, 
+                {
+                    "protect": "rw", 
+                    "end": "0x76317000", 
+                    "addr": "0x76316000", 
+                    "state": 4096, 
+                    "offset": 5666760, 
+                    "type": 16777216, 
+                    "size": 4096
+                }, 
+                {
+                    "protect": "r", 
+                    "end": "0x7631d000", 
+                    "addr": "0x76317000", 
+                    "state": 4096, 
+                    "offset": 5670880, 
+                    "type": 16777216, 
+                    "size": 24576
+                }, 
+                {
+                    "protect": "r", 
+                    "end": "0x77be1000", 
+                    "addr": "0x77be0000", 
+                    "state": 4096, 
+                    "offset": 5695480, 
+                    "type": 16777216, 
+                    "size": 4096
+                }, 
+                {
+                    "protect": "rx", 
+                    "end": "0x77c2d000", 
+                    "addr": "0x77be1000", 
+                    "state": 4096, 
+                    "offset": 5699600, 
+                    "type": 16777216, 
+                    "size": 311296
+                }, 
+                {
+                    "protect": "rwc", 
+                    "end": "0x77c2f000", 
+                    "addr": "0x77c2d000", 
+                    "state": 4096, 
+                    "offset": 6010920, 
+                    "type": 16777216, 
+                    "size": 8192
+                }, 
+                {
+                    "protect": "rw", 
+                    "end": "0x77c30000", 
+                    "addr": "0x77c2f000", 
+                    "state": 4096, 
+                    "offset": 6019136, 
+                    "type": 16777216, 
+                    "size": 4096
+                }, 
+                {
+                    "protect": "rwc", 
+                    "end": "0x77c31000", 
+                    "addr": "0x77c30000", 
+                    "state": 4096, 
+                    "offset": 6023256, 
+                    "type": 16777216, 
+                    "size": 4096
+                }, 
+                {
+                    "protect": "rw", 
+                    "end": "0x77c34000", 
+                    "addr": "0x77c31000", 
+                    "state": 4096, 
+                    "offset": 6027376, 
+                    "type": 16777216, 
+                    "size": 12288
+                }, 
+                {
+                    "protect": "r", 
+                    "end": "0x77c38000", 
+                    "addr": "0x77c34000", 
+                    "state": 4096, 
+                    "offset": 6039688, 
+                    "type": 16777216, 
+                    "size": 16384
+                }, 
+                {
+                    "protect": "r", 
+                    "end": "0x77d11000", 
+                    "addr": "0x77d10000", 
+                    "state": 4096, 
+                    "offset": 6056096, 
+                    "type": 16777216, 
+                    "size": 4096
+                }, 
+                {
+                    "protect": "rx", 
+                    "end": "0x77d71000", 
+                    "addr": "0x77d11000", 
+                    "state": 4096, 
+                    "offset": 6060216, 
+                    "type": 16777216, 
+                    "size": 393216
+                }, 
+                {
+                    "protect": "rw", 
+                    "end": "0x77d72000", 
+                    "addr": "0x77d71000", 
+                    "state": 4096, 
+                    "offset": 6453456, 
+                    "type": 16777216, 
+                    "size": 4096
+                }, 
+                {
+                    "protect": "rwc", 
+                    "end": "0x77d73000", 
+                    "addr": "0x77d72000", 
+                    "state": 4096, 
+                    "offset": 6457576, 
+                    "type": 16777216, 
+                    "size": 4096
+                }, 
+                {
+                    "protect": "r", 
+                    "end": "0x77da0000", 
+                    "addr": "0x77d73000", 
+                    "state": 4096, 
+                    "offset": 6461696, 
+                    "type": 16777216, 
+                    "size": 184320
+                }, 
+                {
+                    "protect": "r", 
+                    "end": "0x77da1000", 
+                    "addr": "0x77da0000", 
+                    "state": 4096, 
+                    "offset": 6646040, 
+                    "type": 16777216, 
+                    "size": 4096
+                }, 
+                {
+                    "protect": "rx", 
+                    "end": "0x77e16000", 
+                    "addr": "0x77da1000", 
+                    "state": 4096, 
+                    "offset": 6650160, 
+                    "type": 16777216, 
+                    "size": 479232
+                }, 
+                {
+                    "protect": "rw", 
+                    "end": "0x77e17000", 
+                    "addr": "0x77e16000", 
+                    "state": 4096, 
+                    "offset": 7129416, 
+                    "type": 16777216, 
+                    "size": 4096
+                }, 
+                {
+                    "protect": "rwc", 
+                    "end": "0x77e1b000", 
+                    "addr": "0x77e17000", 
+                    "state": 4096, 
+                    "offset": 7133536, 
+                    "type": 16777216, 
+                    "size": 16384
+                }, 
+                {
+                    "protect": "r", 
+                    "end": "0x77e49000", 
+                    "addr": "0x77e1b000", 
+                    "state": 4096, 
+                    "offset": 7149944, 
+                    "type": 16777216, 
+                    "size": 188416
+                }, 
+                {
+                    "protect": "r", 
+                    "end": "0x77e51000", 
+                    "addr": "0x77e50000", 
+                    "state": 4096, 
+                    "offset": 7338384, 
+                    "type": 16777216, 
+                    "size": 4096
+                }, 
+                {
+                    "protect": "rx", 
+                    "end": "0x77edb000", 
+                    "addr": "0x77e51000", 
+                    "state": 4096, 
+                    "offset": 7342504, 
+                    "type": 16777216, 
+                    "size": 565248
+                }, 
+                {
+                    "protect": "rw", 
+                    "end": "0x77edc000", 
+                    "addr": "0x77edb000", 
+                    "state": 4096, 
+                    "offset": 7907776, 
+                    "type": 16777216, 
+                    "size": 4096
+                }, 
+                {
+                    "protect": "r", 
+                    "end": "0x77ee2000", 
+                    "addr": "0x77edc000", 
+                    "state": 4096, 
+                    "offset": 7911896, 
+                    "type": 16777216, 
+                    "size": 24576
+                }, 
+                {
+                    "protect": "r", 
+                    "end": "0x77ef1000", 
+                    "addr": "0x77ef0000", 
+                    "state": 4096, 
+                    "offset": 7936496, 
+                    "type": 16777216, 
+                    "size": 4096
+                }, 
+                {
+                    "protect": "rx", 
+                    "end": "0x77f34000", 
+                    "addr": "0x77ef1000", 
+                    "state": 4096, 
+                    "offset": 7940616, 
+                    "type": 16777216, 
+                    "size": 274432
+                }, 
+                {
+                    "protect": "rw", 
+                    "end": "0x77f36000", 
+                    "addr": "0x77f34000", 
+                    "state": 4096, 
+                    "offset": 8215072, 
+                    "type": 16777216, 
+                    "size": 8192
+                }, 
+                {
+                    "protect": "r", 
+                    "end": "0x77f39000", 
+                    "addr": "0x77f36000", 
+                    "state": 4096, 
+                    "offset": 8223288, 
+                    "type": 16777216, 
+                    "size": 12288
+                }, 
+                {
+                    "protect": "r", 
+                    "end": "0x77fc1000", 
+                    "addr": "0x77fc0000", 
+                    "state": 4096, 
+                    "offset": 8235600, 
+                    "type": 16777216, 
+                    "size": 4096
+                }, 
+                {
+                    "protect": "rx", 
+                    "end": "0x77fce000", 
+                    "addr": "0x77fc1000", 
+                    "state": 4096, 
+                    "offset": 8239720, 
+                    "type": 16777216, 
+                    "size": 53248
+                }, 
+                {
+                    "protect": "rw", 
+                    "end": "0x77fcf000", 
+                    "addr": "0x77fce000", 
+                    "state": 4096, 
+                    "offset": 8292992, 
+                    "type": 16777216, 
+                    "size": 4096
+                }, 
+                {
+                    "protect": "r", 
+                    "end": "0x77fd1000", 
+                    "addr": "0x77fcf000", 
+                    "state": 4096, 
+                    "offset": 8297112, 
+                    "type": 16777216, 
+                    "size": 8192
+                }, 
+                {
+                    "protect": "r", 
+                    "end": "0x7c801000", 
+                    "addr": "0x7c800000", 
+                    "state": 4096, 
+                    "offset": 8305328, 
+                    "type": 16777216, 
+                    "size": 4096
+                }, 
+                {
+                    "protect": "rx", 
+                    "end": "0x7c885000", 
+                    "addr": "0x7c801000", 
+                    "state": 4096, 
+                    "offset": 8309448, 
+                    "type": 16777216, 
+                    "size": 540672
+                }, 
+                {
+                    "protect": "rw", 
+                    "end": "0x7c888000", 
+                    "addr": "0x7c885000", 
+                    "state": 4096, 
+                    "offset": 8850144, 
+                    "type": 16777216, 
+                    "size": 12288
+                }, 
+                {
+                    "protect": "rwc", 
+                    "end": "0x7c88a000", 
+                    "addr": "0x7c888000", 
+                    "state": 4096, 
+                    "offset": 8862456, 
+                    "type": 16777216, 
+                    "size": 8192
+                }, 
+                {
+                    "protect": "r", 
+                    "end": "0x7c91e000", 
+                    "addr": "0x7c88a000", 
+                    "state": 4096, 
+                    "offset": 8870672, 
+                    "type": 16777216, 
+                    "size": 606208
+                }, 
+                {
+                    "protect": "r", 
+                    "end": "0x7c921000", 
+                    "addr": "0x7c920000", 
+                    "state": 4096, 
+                    "offset": 9476904, 
+                    "type": 16777216, 
+                    "size": 4096
+                }, 
+                {
+                    "protect": "rx", 
+                    "end": "0x7c99b000", 
+                    "addr": "0x7c921000", 
+                    "state": 4096, 
+                    "offset": 9481024, 
+                    "type": 16777216, 
+                    "size": 499712
+                }, 
+                {
+                    "protect": "rw", 
+                    "end": "0x7c99e000", 
+                    "addr": "0x7c99b000", 
+                    "state": 4096, 
+                    "offset": 9980760, 
+                    "type": 16777216, 
+                    "size": 12288
+                }, 
+                {
+                    "protect": "rwc", 
+                    "end": "0x7c9a0000", 
+                    "addr": "0x7c99e000", 
+                    "state": 4096, 
+                    "offset": 9993072, 
+                    "type": 16777216, 
+                    "size": 8192
+                }, 
+                {
+                    "protect": "r", 
+                    "end": "0x7c9b3000", 
+                    "addr": "0x7c9a0000", 
+                    "state": 4096, 
+                    "offset": 10001288, 
+                    "type": 16777216, 
+                    "size": 77824
+                }, 
+                {
+                    "protect": "rx", 
+                    "end": "0x7f6f7000", 
+                    "addr": "0x7f6f0000", 
+                    "state": 4096, 
+                    "offset": 10079136, 
+                    "type": 262144, 
+                    "size": 28672
+                }, 
+                {
+                    "protect": "r", 
+                    "end": "0x7ffd3000", 
+                    "addr": "0x7ffa0000", 
+                    "state": 4096, 
+                    "offset": 10107832, 
+                    "type": 262144, 
+                    "size": 208896
+                }, 
+                {
+                    "protect": "rw", 
+                    "end": "0x7ffde000", 
+                    "addr": "0x7ffdd000", 
+                    "state": 4096, 
+                    "offset": 10316752, 
+                    "type": 131072, 
+                    "size": 4096
+                }, 
+                {
+                    "protect": "rw", 
+                    "end": "0x7ffe0000", 
+                    "addr": "0x7ffdf000", 
+                    "state": 4096, 
+                    "offset": 10320872, 
+                    "type": 131072, 
+                    "size": 4096
+                }, 
+                {
+                    "protect": "r", 
+                    "end": "0x7ffe1000", 
+                    "addr": "0x7ffe0000", 
+                    "state": 4096, 
+                    "offset": 10324992, 
+                    "type": 131072, 
+                    "size": 4096
+                }
+            ], 
+            "yara": [], 
+            "num": 1, 
+            "file": "/home/cuckoo/.cuckoo/storage/analyses/61/memory/1812-1.dmp", 
+            "urls": [], 
+            "extracted": [], 
+            "pid": 1812
+        }
+    ], 
+    "target": {
+        "category": "archive", 
+        "human": "f18fe2853ef0d4898085cc5581ae35b83fc6d1c46563dbc8da1b79ef9ef678eb @ f18fe2853ef0d4898085cc5581ae35b83fc6d1c46563dbc8da1b79ef9ef678eb.zip", 
+        "archive": {
+            "yara": [
+                {
+                    "meta": {
+                        "description": "Matched shellcode byte patterns", 
+                        "author": "nex"
+                    }, 
+                    "name": "shellcode", 
+                    "offsets": {
+                        "shell6": [
+                            [
+                                1230, 
+                                0
+                            ], 
+                            [
+                                2683, 
+                                0
+                            ], 
+                            [
+                                2797, 
+                                0
+                            ], 
+                            [
+                                3799, 
+                                0
+                            ], 
+                            [
+                                8832, 
+                                0
+                            ]
+                        ]
+                    }, 
+                    "strings": [
+                        "VYvsgew="
+                    ]
+                }, 
+                {
+                    "meta": {
+                        "description": "Contains an embedded PE32 file", 
+                        "author": "nex"
+                    }, 
+                    "name": "embedded_pe", 
+                    "offsets": {
+                        "b": [
+                            [
+                                172, 
+                                0
+                            ]
+                        ]
+                    }, 
+                    "strings": [
+                        "VGhpcyBwcm9ncmFt"
+                    ]
+                }, 
+                {
+                    "meta": {
+                        "description": "A non-Windows executable contains win32 API functions names", 
+                        "author": "nex"
+                    }, 
+                    "name": "embedded_win_api", 
+                    "offsets": {
+                        "api5": [
+                            [
+                                10718, 
+                                1
+                            ]
+                        ], 
+                        "api6": [
+                            [
+                                10686, 
+                                4
+                            ]
+                        ], 
+                        "api12": [
+                            [
+                                10586, 
+                                3
+                            ]
+                        ], 
+                        "api1": [
+                            [
+                                10632, 
+                                0
+                            ]
+                        ], 
+                        "api2": [
+                            [
+                                10668, 
+                                2
+                            ]
+                        ]
+                    }, 
+                    "strings": [
+                        "Q3JlYXRlRmlsZUE=", 
+                        "R2V0U3lzdGVtRGlyZWN0b3J5QQ==", 
+                        "R2V0UHJvY0FkZHJlc3M=", 
+                        "U2V0RmlsZVBvaW50ZXI=", 
+                        "V3JpdGVGaWxl"
+                    ]
+                }
+            ], 
+            "sha1": "5055fa40fd9528a2d9baf0db5bbcd4ae3d73c461", 
+            "name": "f18fe2853ef0d4898085cc5581ae35b83fc6d1c46563dbc8da1b79ef9ef678eb.zip", 
+            "type": "Zip archive data, at least v2.0 to extract", 
+            "sha256": "05c3ed7f24e4ece9d874b118d3e586735ea032190a2d4112ab05b3d8c4d3480b", 
+            "urls": [], 
+            "crc32": "0638EDA9", 
+            "path": "/home/cuckoo/.cuckoo/storage/binaries/05c3ed7f24e4ece9d874b118d3e586735ea032190a2d4112ab05b3d8c4d3480b", 
+            "ssdeep": null, 
+            "size": 150144, 
+            "sha512": "8fcbb3e27a45cf88c127a7383b45bf6c8c8e7dd7bc2033e7d052bd280abffb61127b54da40cf1e7654cec6e5b80a49fb868588b833a601727eb56410c454b6f0", 
+            "md5": "455871539c251ffbe9579ee24d328939"
+        }, 
+        "file": {
+            "yara": [], 
+            "sha1": "6caa48cd9532da4cabd6994f62b8211ab9672d9e", 
+            "name": "f18fe2853ef0d4898085cc5581ae35b83fc6d1c46563dbc8da1b79ef9ef678eb", 
+            "type": "PE32 executable (GUI) Intel 80386, for MS Windows", 
+            "sha256": "f18fe2853ef0d4898085cc5581ae35b83fc6d1c46563dbc8da1b79ef9ef678eb", 
+            "urls": [], 
+            "crc32": "A45D260B", 
+            "path": "/tmp/tmp3pLeNw", 
+            "ssdeep": null, 
+            "size": 149918, 
+            "sha512": "77d660f89c2080f847bc3fc2f9d1dd9a8902f243fdc3ee7665ae5b60881e9a47ed24403ce317810b6d0953658a8e6a8b2b67c2cc1ec45340cc2f4c030bc6d4b5", 
+            "md5": "9df2ddb2631ff5439c34f80ace40cd29"
+        }, 
+        "filename": "f18fe2853ef0d4898085cc5581ae35b83fc6d1c46563dbc8da1b79ef9ef678eb"
+    }, 
+    "network": {
+        "tls": [], 
+        "udp": [], 
+        "dns_servers": [], 
+        "http": [], 
+        "icmp": [], 
+        "smtp": [], 
+        "tcp": [], 
+        "smtp_ex": [], 
+        "mitm": [], 
+        "hosts": [], 
+        "pcap_sha256": "bcbab4f012e85e719f9ce97bc0dfb9c1be668b8d3c1a460e1291c8253c243e69", 
+        "dns": [], 
+        "http_ex": [], 
+        "domains": [], 
+        "dead_hosts": [], 
+        "sorted_pcap_sha256": "b873a6ec9ac40220554643c26f6434e2ce313d50d89d15de692639bf4a5a600b", 
+        "irc": [], 
+        "https_ex": []
+    }, 
+    "signatures": [], 
+    "static": {
+        "pdb_path": null, 
+        "pe_imports": [
+            {
+                "imports": [
+                    {
+                        "name": "GetCurrentProcess", 
+                        "address": "0x404014"
+                    }, 
+                    {
+                        "name": "GetSystemDirectoryA", 
+                        "address": "0x404018"
+                    }, 
+                    {
+                        "name": "UnhandledExceptionFilter", 
+                        "address": "0x40401c"
+                    }, 
+                    {
+                        "name": "TerminateProcess", 
+                        "address": "0x404020"
+                    }, 
+                    {
+                        "name": "RtlUnwind", 
+                        "address": "0x404024"
+                    }, 
+                    {
+                        "name": "WriteFile", 
+                        "address": "0x404028"
+                    }, 
+                    {
+                        "name": "GetProcAddress", 
+                        "address": "0x40402c"
+                    }, 
+                    {
+                        "name": "GetModuleFileNameA", 
+                        "address": "0x404030"
+                    }, 
+                    {
+                        "name": "CreateFileA", 
+                        "address": "0x404034"
+                    }, 
+                    {
+                        "name": "GetFileSize", 
+                        "address": "0x404038"
+                    }, 
+                    {
+                        "name": "LocalAlloc", 
+                        "address": "0x40403c"
+                    }, 
+                    {
+                        "name": "SetFilePointer", 
+                        "address": "0x404040"
+                    }, 
+                    {
+                        "name": "ReadFile", 
+                        "address": "0x404044"
+                    }, 
+                    {
+                        "name": "CloseHandle", 
+                        "address": "0x404048"
+                    }, 
+                    {
+                        "name": "GetLastError", 
+                        "address": "0x40404c"
+                    }, 
+                    {
+                        "name": "GetModuleHandleA", 
+                        "address": "0x404050"
+                    }, 
+                    {
+                        "name": "LocalFree", 
+                        "address": "0x404054"
+                    }, 
+                    {
+                        "name": "DeviceIoControl", 
+                        "address": "0x404058"
+                    }, 
+                    {
+                        "name": "GetVersionExA", 
+                        "address": "0x40405c"
+                    }, 
+                    {
+                        "name": "FlushFileBuffers", 
+                        "address": "0x404060"
+                    }, 
+                    {
+                        "name": "SetUnhandledExceptionFilter", 
+                        "address": "0x404064"
+                    }
+                ], 
+                "dll": "KERNEL32.dll"
+            }, 
+            {
+                "imports": [
+                    {
+                        "name": "wsprintfA", 
+                        "address": "0x40406c"
+                    }
+                ], 
+                "dll": "USER32.dll"
+            }, 
+            {
+                "imports": [
+                    {
+                        "name": "RegDeleteValueW", 
+                        "address": "0x404000"
+                    }, 
+                    {
+                        "name": "RegCreateKeyW", 
+                        "address": "0x404004"
+                    }, 
+                    {
+                        "name": "RegSetValueExW", 
+                        "address": "0x404008"
+                    }, 
+                    {
+                        "name": "RegCloseKey", 
+                        "address": "0x40400c"
+                    }
+                ], 
+                "dll": "ADVAPI32.dll"
+            }
+        ], 
+        "peid_signatures": null, 
+        "keys": [], 
+        "signature": [], 
+        "pe_timestamp": "2013-05-07 23:35:05", 
+        "pe_exports": [], 
+        "imported_dll_count": 3, 
+        "pe_imphash": "28e9f363e1828fc21aa1548343d494be", 
+        "pe_resources": [
+            {
+                "name": "RT_MANIFEST", 
+                "language": "LANG_ENGLISH", 
+                "filetype": "ASCII text, with CRLF line terminators", 
+                "sublanguage": "SUBLANG_ENGLISH_US", 
+                "offset": "0x00016060", 
+                "size": "0x00000167"
+            }
+        ], 
+        "pe_versioninfo": [], 
+        "pe_sections": [
+            {
+                "size_of_data": "0x00002200", 
+                "virtual_address": "0x00001000", 
+                "entropy": 6.385128621231961, 
+                "name": ".text", 
+                "virtual_size": "0x00002042"
+            }, 
+            {
+                "size_of_data": "0x00000600", 
+                "virtual_address": "0x00004000", 
+                "entropy": 3.7925862109710007, 
+                "name": ".rdata", 
+                "virtual_size": "0x0000049a"
+            }, 
+            {
+                "size_of_data": "0x0000f600", 
+                "virtual_address": "0x00005000", 
+                "entropy": 7.994016647438916, 
+                "name": ".data", 
+                "virtual_size": "0x0000f914"
+            }, 
+            {
+                "size_of_data": "0x00000200", 
+                "virtual_address": "0x00015000", 
+                "entropy": 0.06116285224115448, 
+                "name": ".CRT", 
+                "virtual_size": "0x00000004"
+            }, 
+            {
+                "size_of_data": "0x00000200", 
+                "virtual_address": "0x00016000", 
+                "entropy": 4.467218842557001, 
+                "name": ".rsrc", 
+                "virtual_size": "0x000001c8"
+            }
+        ]
+    }, 
+    "behavior": {
+        "generic": [
+            {
+                "process_path": "C:\\Documents and Settings\\user1\\Local Settings\\Temp\\f18fe2853ef0d4898085cc5581ae35b83fc6d1c46563dbc8da1b79ef9ef678eb.exe", 
+                "process_name": "f18fe2853ef0d4898085cc5581ae35b83fc6d1c46563dbc8da1b79ef9ef678eb.exe", 
+                "pid": 1812, 
+                "summary": {
+                    "regkey_written": [
+                        "HKEY_LOCAL_MACHINE\\SYSTEM\\ControlSet001\\Control\\Lsa\\Impersonation Packages", 
+                        "HKEY_LOCAL_MACHINE\\SYSTEM\\ControlSet001\\Control\\Lsa\\Core Packages"
+                    ], 
+                    "file_opened": [
+                        "C:\\Documents and Settings\\user1\\Local Settings\\Temp\\f18fe2853ef0d4898085cc5581ae35b83fc6d1c46563dbc8da1b79ef9ef678eb.exe", 
+                        "\\??\\PhysicalDrive0", 
+                        "\\??\\C:"
+                    ], 
+                    "regkey_opened": [
+                        "HKEY_LOCAL_MACHINE\\SYSTEM\\CurrentControlSet\\Control\\Lsa"
+                    ], 
+                    "file_written": [
+                        "\\??\\PhysicalDrive0"
+                    ], 
+                    "file_read": [
+                        "C:\\Documents and Settings\\user1\\Local Settings\\Temp\\f18fe2853ef0d4898085cc5581ae35b83fc6d1c46563dbc8da1b79ef9ef678eb.exe", 
+                        "\\??\\PhysicalDrive0"
+                    ], 
+                    "regkey_read": [
+                        "HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows NT\\CurrentVersion\\GRE_Initialize\\DisableMetaFiles"
+                    ]
+                }, 
+                "first_seen": 1773669757.562246, 
+                "ppid": 940
+            }, 
+            {
+                "process_path": "C:\\WINDOWS\\system32\\lsass.exe", 
+                "process_name": "lsass.exe", 
+                "pid": 700, 
+                "summary": {}, 
+                "first_seen": 1773669757.201729, 
+                "ppid": 644
+            }
+        ], 
+        "apistats": {
+            "1812": {
+                "RegCreateKeyExW": 2, 
+                "LdrUnloadDll": 1, 
+                "DeviceIoControl": 1, 
+                "RegCloseKey": 2, 
+                "NtReadFile": 2, 
+                "RegSetValueExW": 2, 
+                "GetFileSize": 1, 
+                "SetFilePointer": 3, 
+                "LdrGetProcedureAddress": 1, 
+                "NtOpenKey": 1, 
+                "NtQueryValueKey": 1, 
+                "SetUnhandledExceptionFilter": 1, 
+                "NtCreateFile": 3, 
+                "NtClose": 6, 
+                "NtAllocateVirtualMemory": 4, 
+                "NtTerminateProcess": 3, 
+                "GetSystemDirectoryA": 1, 
+                "LdrGetDllHandle": 1, 
+                "NtWriteFile": 1, 
+                "NtFreeVirtualMemory": 2
+            }
+        }, 
+        "processes": [
+            {
+                "process_path": "C:\\WINDOWS\\system32\\lsass.exe", 
+                "calls": [], 
+                "track": false, 
+                "pid": 700, 
+                "process_name": "lsass.exe", 
+                "command_line": "C:\\WINDOWS\\system32\\lsass.exe", 
+                "modules": [
+                    {
+                        "basename": "lsass.exe", 
+                        "imgsize": 24576, 
+                        "baseaddr": "0x1000000", 
+                        "filepath": "C:\\WINDOWS\\system32\\lsass.exe"
+                    }, 
+                    {
+                        "basename": "ntdll.dll", 
+                        "imgsize": 602112, 
+                        "baseaddr": "0x7c920000", 
+                        "filepath": "C:\\WINDOWS\\system32\\ntdll.dll"
+                    }, 
+                    {
+                        "basename": "kernel32.dll", 
+                        "imgsize": 1171456, 
+                        "baseaddr": "0x7c800000", 
+                        "filepath": "C:\\WINDOWS\\system32\\kernel32.dll"
+                    }, 
+                    {
+                        "basename": "ADVAPI32.dll", 
+                        "imgsize": 692224, 
+                        "baseaddr": "0x77da0000", 
+                        "filepath": "C:\\WINDOWS\\system32\\ADVAPI32.dll"
+                    }, 
+                    {
+                        "basename": "RPCRT4.dll", 
+                        "imgsize": 598016, 
+                        "baseaddr": "0x77e50000", 
+                        "filepath": "C:\\WINDOWS\\system32\\RPCRT4.dll"
+                    }, 
+                    {
+                        "basename": "Secur32.dll", 
+                        "imgsize": 69632, 
+                        "baseaddr": "0x77fc0000", 
+                        "filepath": "C:\\WINDOWS\\system32\\Secur32.dll"
+                    }, 
+                    {
+                        "basename": "LSASRV.dll", 
+                        "imgsize": 716800, 
+                        "baseaddr": "0x74480000", 
+                        "filepath": "C:\\WINDOWS\\system32\\LSASRV.dll"
+                    }, 
+                    {
+                        "basename": "MPR.dll", 
+                        "imgsize": 73728, 
+                        "baseaddr": "0x71a90000", 
+                        "filepath": "C:\\WINDOWS\\system32\\MPR.dll"
+                    }, 
+                    {
+                        "basename": "USER32.dll", 
+                        "imgsize": 589824, 
+                        "baseaddr": "0x77d10000", 
+                        "filepath": "C:\\WINDOWS\\system32\\USER32.dll"
+                    }, 
+                    {
+                        "basename": "GDI32.dll", 
+                        "imgsize": 299008, 
+                        "baseaddr": "0x77ef0000", 
+                        "filepath": "C:\\WINDOWS\\system32\\GDI32.dll"
+                    }, 
+                    {
+                        "basename": "MSASN1.dll", 
+                        "imgsize": 73728, 
+                        "baseaddr": "0x76db0000", 
+                        "filepath": "C:\\WINDOWS\\system32\\MSASN1.dll"
+                    }, 
+                    {
+                        "basename": "msvcrt.dll", 
+                        "imgsize": 360448, 
+                        "baseaddr": "0x77be0000", 
+                        "filepath": "C:\\WINDOWS\\system32\\msvcrt.dll"
+                    }, 
+                    {
+                        "basename": "NETAPI32.dll", 
+                        "imgsize": 348160, 
+                        "baseaddr": "0x5fdd0000", 
+                        "filepath": "C:\\WINDOWS\\system32\\NETAPI32.dll"
+                    }, 
+                    {
+                        "basename": "NTDSAPI.dll", 
+                        "imgsize": 77824, 
+                        "baseaddr": "0x76770000", 
+                        "filepath": "C:\\WINDOWS\\system32\\NTDSAPI.dll"
+                    }, 
+                    {
+                        "basename": "DNSAPI.dll", 
+                        "imgsize": 159744, 
+                        "baseaddr": "0x76ef0000", 
+                        "filepath": "C:\\WINDOWS\\system32\\DNSAPI.dll"
+                    }, 
+                    {
+                        "basename": "WS2_32.dll", 
+                        "imgsize": 94208, 
+                        "baseaddr": "0x71a20000", 
+                        "filepath": "C:\\WINDOWS\\system32\\WS2_32.dll"
+                    }, 
+                    {
+                        "basename": "WS2HELP.dll", 
+                        "imgsize": 32768, 
+                        "baseaddr": "0x71a10000", 
+                        "filepath": "C:\\WINDOWS\\system32\\WS2HELP.dll"
+                    }, 
+                    {
+                        "basename": "WLDAP32.dll", 
+                        "imgsize": 180224, 
+                        "baseaddr": "0x76f30000", 
+                        "filepath": "C:\\WINDOWS\\system32\\WLDAP32.dll"
+                    }, 
+                    {
+                        "basename": "SAMLIB.dll", 
+                        "imgsize": 77824, 
+                        "baseaddr": "0x71b70000", 
+                        "filepath": "C:\\WINDOWS\\system32\\SAMLIB.dll"
+                    }, 
+                    {
+                        "basename": "SAMSRV.dll", 
+                        "imgsize": 425984, 
+                        "baseaddr": "0x743a0000", 
+                        "filepath": "C:\\WINDOWS\\system32\\SAMSRV.dll"
+                    }, 
+                    {
+                        "basename": "cryptdll.dll", 
+                        "imgsize": 49152, 
+                        "baseaddr": "0x76760000", 
+                        "filepath": "C:\\WINDOWS\\system32\\cryptdll.dll"
+                    }, 
+                    {
+                        "basename": "ShimEng.dll", 
+                        "imgsize": 155648, 
+                        "baseaddr": "0x5cc30000", 
+                        "filepath": "C:\\WINDOWS\\system32\\ShimEng.dll"
+                    }, 
+                    {
+                        "basename": "AcGenral.DLL", 
+                        "imgsize": 1875968, 
+                        "baseaddr": "0x58fb0000", 
+                        "filepath": "C:\\WINDOWS\\AppPatch\\AcGenral.DLL"
+                    }, 
+                    {
+                        "basename": "WINMM.dll", 
+                        "imgsize": 172032, 
+                        "baseaddr": "0x76b10000", 
+                        "filepath": "C:\\WINDOWS\\system32\\WINMM.dll"
+                    }, 
+                    {
+                        "basename": "ole32.dll", 
+                        "imgsize": 1298432, 
+                        "baseaddr": "0x76990000", 
+                        "filepath": "C:\\WINDOWS\\system32\\ole32.dll"
+                    }, 
+                    {
+                        "basename": "OLEAUT32.dll", 
+                        "imgsize": 569344, 
+                        "baseaddr": "0x770f0000", 
+                        "filepath": "C:\\WINDOWS\\system32\\OLEAUT32.dll"
+                    }, 
+                    {
+                        "basename": "MSACM32.dll", 
+                        "imgsize": 86016, 
+                        "baseaddr": "0x77bb0000", 
+                        "filepath": "C:\\WINDOWS\\system32\\MSACM32.dll"
+                    }, 
+                    {
+                        "basename": "VERSION.dll", 
+                        "imgsize": 32768, 
+                        "baseaddr": "0x77bd0000", 
+                        "filepath": "C:\\WINDOWS\\system32\\VERSION.dll"
+                    }, 
+                    {
+                        "basename": "SHELL32.dll", 
+                        "imgsize": 8339456, 
+                        "baseaddr": "0x7d590000", 
+                        "filepath": "C:\\WINDOWS\\system32\\SHELL32.dll"
+                    }, 
+                    {
+                        "basename": "SHLWAPI.dll", 
+                        "imgsize": 483328, 
+                        "baseaddr": "0x77f40000", 
+                        "filepath": "C:\\WINDOWS\\system32\\SHLWAPI.dll"
+                    }, 
+                    {
+                        "basename": "USERENV.dll", 
+                        "imgsize": 716800, 
+                        "baseaddr": "0x759d0000", 
+                        "filepath": "C:\\WINDOWS\\system32\\USERENV.dll"
+                    }, 
+                    {
+                        "basename": "UxTheme.dll", 
+                        "imgsize": 225280, 
+                        "baseaddr": "0x5adc0000", 
+                        "filepath": "C:\\WINDOWS\\system32\\UxTheme.dll"
+                    }, 
+                    {
+                        "basename": "IMM32.DLL", 
+                        "imgsize": 118784, 
+                        "baseaddr": "0x76300000", 
+                        "filepath": "C:\\WINDOWS\\system32\\IMM32.DLL"
+                    }, 
+                    {
+                        "basename": "LPK.DLL", 
+                        "imgsize": 36864, 
+                        "baseaddr": "0x62c20000", 
+                        "filepath": "C:\\WINDOWS\\system32\\LPK.DLL"
+                    }, 
+                    {
+                        "basename": "USP10.dll", 
+                        "imgsize": 438272, 
+                        "baseaddr": "0x73fa0000", 
+                        "filepath": "C:\\WINDOWS\\system32\\USP10.dll"
+                    }, 
+                    {
+                        "basename": "comctl32.dll", 
+                        "imgsize": 1060864, 
+                        "baseaddr": "0x77180000", 
+                        "filepath": "C:\\WINDOWS\\WinSxS\\x86_Microsoft.Windows.Common-Controls_6595b64144ccf1df_6.0.2600.5512_x-ww_35d4ce83\\comctl32.dll"
+                    }, 
+                    {
+                        "basename": "comctl32.dll", 
+                        "imgsize": 630784, 
+                        "baseaddr": "0x5d170000", 
+                        "filepath": "C:\\WINDOWS\\system32\\comctl32.dll"
+                    }, 
+                    {
+                        "basename": "msprivs.dll", 
+                        "imgsize": 57344, 
+                        "baseaddr": "0x4d200000", 
+                        "filepath": "C:\\WINDOWS\\system32\\msprivs.dll"
+                    }, 
+                    {
+                        "basename": "kerberos.dll", 
+                        "imgsize": 311296, 
+                        "baseaddr": "0x71c70000", 
+                        "filepath": "C:\\WINDOWS\\system32\\kerberos.dll"
+                    }, 
+                    {
+                        "basename": "msv1_0.dll", 
+                        "imgsize": 147456, 
+                        "baseaddr": "0x77c40000", 
+                        "filepath": "C:\\WINDOWS\\system32\\msv1_0.dll"
+                    }, 
+                    {
+                        "basename": "iphlpapi.dll", 
+                        "imgsize": 98304, 
+                        "baseaddr": "0x76d30000", 
+                        "filepath": "C:\\WINDOWS\\system32\\iphlpapi.dll"
+                    }, 
+                    {
+                        "basename": "netlogon.dll", 
+                        "imgsize": 413696, 
+                        "baseaddr": "0x74410000", 
+                        "filepath": "C:\\WINDOWS\\system32\\netlogon.dll"
+                    }, 
+                    {
+                        "basename": "w32time.dll", 
+                        "imgsize": 188416, 
+                        "baseaddr": "0x76790000", 
+                        "filepath": "C:\\WINDOWS\\system32\\w32time.dll"
+                    }, 
+                    {
+                        "basename": "MSVCP60.dll", 
+                        "imgsize": 413696, 
+                        "baseaddr": "0x75ff0000", 
+                        "filepath": "C:\\WINDOWS\\system32\\MSVCP60.dll"
+                    }, 
+                    {
+                        "basename": "schannel.dll", 
+                        "imgsize": 159744, 
+                        "baseaddr": "0x767c0000", 
+                        "filepath": "C:\\WINDOWS\\system32\\schannel.dll"
+                    }, 
+                    {
+                        "basename": "CRYPT32.dll", 
+                        "imgsize": 602112, 
+                        "baseaddr": "0x765e0000", 
+                        "filepath": "C:\\WINDOWS\\system32\\CRYPT32.dll"
+                    }, 
+                    {
+                        "basename": "wdigest.dll", 
+                        "imgsize": 61440, 
+                        "baseaddr": "0x742e0000", 
+                        "filepath": "C:\\WINDOWS\\system32\\wdigest.dll"
+                    }, 
+                    {
+                        "basename": "rsaenh.dll", 
+                        "imgsize": 221184, 
+                        "baseaddr": "0x68000000", 
+                        "filepath": "C:\\WINDOWS\\system32\\rsaenh.dll"
+                    }, 
+                    {
+                        "basename": "setupapi.dll", 
+                        "imgsize": 1400832, 
+                        "baseaddr": "0x76060000", 
+                        "filepath": "C:\\WINDOWS\\system32\\setupapi.dll"
+                    }, 
+                    {
+                        "basename": "scecli.dll", 
+                        "imgsize": 184320, 
+                        "baseaddr": "0x74370000", 
+                        "filepath": "C:\\WINDOWS\\system32\\scecli.dll"
+                    }, 
+                    {
+                        "basename": "ipsecsvc.dll", 
+                        "imgsize": 192512, 
+                        "baseaddr": "0x74340000", 
+                        "filepath": "C:\\WINDOWS\\system32\\ipsecsvc.dll"
+                    }, 
+                    {
+                        "basename": "AUTHZ.dll", 
+                        "imgsize": 73728, 
+                        "baseaddr": "0x77fe0000", 
+                        "filepath": "C:\\WINDOWS\\system32\\AUTHZ.dll"
+                    }, 
+                    {
+                        "basename": "oakley.DLL", 
+                        "imgsize": 851968, 
+                        "baseaddr": "0x73ed0000", 
+                        "filepath": "C:\\WINDOWS\\system32\\oakley.DLL"
+                    }, 
+                    {
+                        "basename": "WINIPSEC.DLL", 
+                        "imgsize": 45056, 
+                        "baseaddr": "0x742d0000", 
+                        "filepath": "C:\\WINDOWS\\system32\\WINIPSEC.DLL"
+                    }, 
+                    {
+                        "basename": "mswsock.dll", 
+                        "imgsize": 253952, 
+                        "baseaddr": "0x719c0000", 
+                        "filepath": "C:\\WINDOWS\\system32\\mswsock.dll"
+                    }, 
+                    {
+                        "basename": "hnetcfg.dll", 
+                        "imgsize": 348160, 
+                        "baseaddr": "0x60fd0000", 
+                        "filepath": "C:\\WINDOWS\\system32\\hnetcfg.dll"
+                    }, 
+                    {
+                        "basename": "wshtcpip.dll", 
+                        "imgsize": 32768, 
+                        "baseaddr": "0x71a00000", 
+                        "filepath": "C:\\WINDOWS\\System32\\wshtcpip.dll"
+                    }, 
+                    {
+                        "basename": "pstorsvc.dll", 
+                        "imgsize": 45056, 
+                        "baseaddr": "0x74300000", 
+                        "filepath": "C:\\WINDOWS\\system32\\pstorsvc.dll"
+                    }, 
+                    {
+                        "basename": "psbase.dll", 
+                        "imgsize": 106496, 
+                        "baseaddr": "0x74320000", 
+                        "filepath": "C:\\WINDOWS\\system32\\psbase.dll"
+                    }, 
+                    {
+                        "basename": "dssenh.dll", 
+                        "imgsize": 155648, 
+                        "baseaddr": "0x68100000", 
+                        "filepath": "C:\\WINDOWS\\system32\\dssenh.dll"
+                    }, 
+                    {
+                        "basename": "monitor-x86.dll", 
+                        "imgsize": 2117632, 
+                        "baseaddr": "0x63dc0000", 
+                        "filepath": "C:\\tmpzieajv\\bin\\monitor-x86.dll"
+                    }
+                ], 
+                "time": 0, 
+                "tid": 296, 
+                "first_seen": 1773669757.201729, 
+                "ppid": 644, 
+                "type": "process"
+            }, 
+            {
+                "process_path": "C:\\Documents and Settings\\user1\\Local Settings\\Temp\\f18fe2853ef0d4898085cc5581ae35b83fc6d1c46563dbc8da1b79ef9ef678eb.exe", 
+                "calls": [
+                    {
+                        "category": "system", 
+                        "status": 1, 
+                        "stacktrace": [], 
+                        "api": "LdrGetDllHandle", 
+                        "return_value": 0, 
+                        "arguments": {
+                            "module_name": "kernel32.dll", 
+                            "stack_pivoted": 0, 
+                            "module_address": "0x7c800000"
+                        }, 
+                        "time": 1773669757.653246, 
+                        "tid": 220, 
+                        "flags": {}
+                    }, 
+                    {
+                        "category": "system", 
+                        "status": 1, 
+                        "stacktrace": [], 
+                        "api": "LdrGetProcedureAddress", 
+                        "return_value": 0, 
+                        "arguments": {
+                            "ordinal": 0, 
+                            "module": "kernel32", 
+                            "module_address": "0x7c800000", 
+                            "function_address": "0x7c815229", 
+                            "function_name": "IsWow64Process"
+                        }, 
+                        "time": 1773669757.653246, 
+                        "tid": 220, 
+                        "flags": {}
+                    }, 
+                    {
+                        "category": "process", 
+                        "status": 1, 
+                        "stacktrace": [], 
+                        "api": "NtAllocateVirtualMemory", 
+                        "return_value": 0, 
+                        "arguments": {
+                            "process_identifier": 1812, 
+                            "region_size": 8192, 
+                            "stack_dep_bypass": 0, 
+                            "stack_pivoted": 0, 
+                            "heap_dep_bypass": 0, 
+                            "protection": 4, 
+                            "process_handle": "0xffffffff", 
+                            "allocation_type": 4096, 
+                            "base_address": "0x00185000"
+                        }, 
+                        "time": 1773669757.663246, 
+                        "tid": 220, 
+                        "flags": {
+                            "protection": "PAGE_READWRITE", 
+                            "allocation_type": "MEM_COMMIT"
+                        }
+                    }, 
+                    {
+                        "category": "process", 
+                        "status": 1, 
+                        "stacktrace": [], 
+                        "api": "NtAllocateVirtualMemory", 
+                        "return_value": 0, 
+                        "arguments": {
+                            "process_identifier": 1812, 
+                            "region_size": 12288, 
+                            "stack_dep_bypass": 0, 
+                            "stack_pivoted": 0, 
+                            "heap_dep_bypass": 0, 
+                            "protection": 4, 
+                            "process_handle": "0xffffffff", 
+                            "allocation_type": 4096, 
+                            "base_address": "0x00187000"
+                        }, 
+                        "time": 1773669757.663246, 
+                        "tid": 220, 
+                        "flags": {
+                            "protection": "PAGE_READWRITE", 
+                            "allocation_type": "MEM_COMMIT"
+                        }
+                    }, 
+                    {
+                        "category": "file", 
+                        "status": 1, 
+                        "stacktrace": [], 
+                        "api": "NtCreateFile", 
+                        "return_value": 0, 
+                        "arguments": {
+                            "create_disposition": 1, 
+                            "file_handle": "0x0000003c", 
+                            "filepath": "C:\\Documents and Settings\\user1\\Local Settings\\Temp\\f18fe2853ef0d4898085cc5581ae35b83fc6d1c46563dbc8da1b79ef9ef678eb.exe", 
+                            "desired_access": "0x80100080", 
+                            "file_attributes": 0, 
+                            "filepath_r": "\\??\\C:\\Documents and Settings\\user1\\Local Settings\\Temp\\f18fe2853ef0d4898085cc5581ae35b83fc6d1c46563dbc8da1b79ef9ef678eb.exe", 
+                            "create_options": 96, 
+                            "status_info": 1, 
+                            "share_access": 7
+                        }, 
+                        "time": 1773669757.673246, 
+                        "tid": 220, 
+                        "flags": {
+                            "create_disposition": "FILE_OPEN", 
+                            "desired_access": "FILE_READ_ATTRIBUTES|SYNCHRONIZE", 
+                            "create_options": "FILE_NON_DIRECTORY_FILE|FILE_SYNCHRONOUS_IO_NONALERT", 
+                            "file_attributes": "", 
+                            "status_info": "FILE_OPENED", 
+                            "share_access": "FILE_SHARE_READ|FILE_SHARE_WRITE|FILE_SHARE_DELETE"
+                        }
+                    }, 
+                    {
+                        "category": "file", 
+                        "status": 0, 
+                        "stacktrace": [], 
+                        "last_error": 0, 
+                        "nt_status": -1073741515, 
+                        "api": "GetFileSize", 
+                        "return_value": 149918, 
+                        "arguments": {
+                            "file_size_low": 149918, 
+                            "file_handle": "0x0000003c"
+                        }, 
+                        "time": 1773669757.683246, 
+                        "tid": 220, 
+                        "flags": {}
+                    }, 
+                    {
+                        "category": "process", 
+                        "status": 1, 
+                        "stacktrace": [], 
+                        "api": "NtAllocateVirtualMemory", 
+                        "return_value": 0, 
+                        "arguments": {
+                            "process_identifier": 1812, 
+                            "region_size": 77824, 
+                            "stack_dep_bypass": 0, 
+                            "stack_pivoted": 0, 
+                            "heap_dep_bypass": 0, 
+                            "protection": 4, 
+                            "process_handle": "0xffffffff", 
+                            "allocation_type": 4096, 
+                            "base_address": "0x00196000"
+                        }, 
+                        "time": 1773669757.683246, 
+                        "tid": 220, 
+                        "flags": {
+                            "protection": "PAGE_READWRITE", 
+                            "allocation_type": "MEM_COMMIT"
+                        }
+                    }, 
+                    {
+                        "category": "file", 
+                        "status": 1, 
+                        "stacktrace": [], 
+                        "api": "SetFilePointer", 
+                        "return_value": 75264, 
+                        "arguments": {
+                            "file_handle": "0x0000003c", 
+                            "move_method": 0, 
+                            "offset": 75264
+                        }, 
+                        "time": 1773669757.683246, 
+                        "tid": 220, 
+                        "flags": {}
+                    }, 
+                    {
+                        "category": "file", 
+                        "status": 1, 
+                        "stacktrace": [], 
+                        "api": "NtReadFile", 
+                        "return_value": 0, 
+                        "arguments": {
+                            "file_handle": "0x0000003c", 
+                            "buffer": " :3 \u0080\u0080\u0000\u0000\u0000\u0014\u0001\u0000\u0010\u0000\u0000\u0000\\\u00f6\u00eey,\u00df\u0005\u00e1\u00ba+c%\u00c4\u001a_\u0010Z\u00bbm<:\u009d\u0005l\u00b6`M$\u0015;\u0082\u00c2\u00c6\u00f2\u0093LG\u00f5S8\u00ddFE\u008e\u00a6\u009eb\u0081\u00feE\u0091!\u00f9E0/\u00f0M\\L=\u00cawO\u00e5\u00c2\u0096Q\u00f3\u000f\u00ffK\u001fo\u0098\u00eb\u00c0\u00c3@|\u00b3\u000f\u00e5\rL\u00c5\u00fa\u00c2Y\u00cf\u00e5\u00d8\u00a0F5\u00eb\u00f5\u00d6\u008b#\u00a41@\u00d1\u00c1\u008c\u00f6T\u00a4^h\u00e5\u00d8\u0090l\u00b90R\u00b3!\u00bf\u00eb]\u00ecd\u009d\u00da(\u00b5\u00a2=%\u00a4?\u0082\u000e\u0097\u001bg\u000bF\u00d8v\u00ca\u000b\u00db\u00c6\u00d68\u00be\u0098'\u00ac\"J\\\u00da\u0088|\u00ec\u00ac2\u00b8\u00e0\u009c\u00cd\u0083\u00ab-\u00a1V\u0098~\u00d9z\u00bc\u00c9\u00f8\u00ab\u0099'\u00c2z\u00da\u00f2\u00eb2C\u001e\u001e\u00cb\u00eer\u0010\u008b\u0082\u00dd\\\u0017/\u00db'\u0017\u00fc'\u00ba\u007f\u00ea\u0014\u00ce\u00bd{\u0088\u00e1\u0080\u008a\u0096E\u0013Pe\u00df\u0016i\u00b8\u0012\u00e7\u0092\u00d7\u00ff(\u00af\u00c3=\u0090\u009bG1\u0096s\u0086xL:\u00ce\u00f8\u001dq\u00da\u00bf\u001d\u00ee7H\u0015\u00ff<\u00b3\u00f4p\u00d3~c5\u00eb\u00b9\u00afo=\u0006\u00a9r\u0096\u00e4\u009d\u000fHa\u0002~\u00c8IQG\u00ae\u00d5\u00f1\u00f3\u00c9\u0013\u008f\u000f\u000e\u008e\u0089\u00d1h\u0090\u0090nKP(\u00a5\u00f2\f\u00ab=\u00fb\u0081\u0098\u001c\u0016\u00bd\u00eeKx\u00cdl\u0096\u00bcL\u0002}\u00a9\u00c6nMl{I\u0098<\"[\u009e4\u00ea(\u0082\u00c8\u00b0m1\u00f3\u00ab\u00f5g\u00936y2\u008a\u0093\u00f3\\n,\u00a3\u0001\u009c)\u00df9m\u0088\u009fhT\u00bdN\u0098\u0081}\u0098\u00f8\rm\u00e2\u0006N\u008f\u00f2\u00cc\u00ea\u0013x\u001a\u00c6\u0016\u00b3f\u00cc=W\u00bf\u0087\u00fd35\u0083\u00ef%J\f|;b\u00f5\u0087\u00ea-\u00b0\u00d5\u00ec\u00e7\u0098R\u00c2\u00ef=\u00a9\u0005\u00ef\u00be?\u00b0\u00b7m\u0095\u0003\u00ca\u009b\u00eb\u0013\u00d4\u00b9\u00f6T\u000b\u00f4\u00d3\u00ffC\u00e5p\u00fe\u00aa4\u00ed\u00c1\u00e0\u00c4\u00fd`:|\u0085 \u00b9\u0084H\u0006\u008b0SD\u00ffb\u00ad\u009d\u00b1\u008f\u0096\u00d5Bs\u00b8IS(M\u0085\u0018\u00c6\u00db\u00b0\u00cc1v\u00fb\u001e\u00d9b\u0016\u0080D1\u0090%\u00cf\u00f6\u001eLWy\b*D\u00cd\u009f\u0019(\u009e\u00fa\u00f6\u00b6\u00f5\u00b9\u00920\u00a2\u00b2\u00d8\u0085\u00d7WW\u0085*e\u00871\u00fa6;n\u0004f;\u00b7>\u00f2\u00c8\u009e\u0007\u00d4\u00d6\u00c2\u00e4\u00d2\u00a7\u00c5\u00af\u0085\u00d7fj\u0086\u0093\u00d1\u00a7\u00ec%\u00b0!\rb\u0098\u001c\u00c2\u0096wH`&&\u00d1\u00a8\u00ad\u00ba\u0015\u00f4-\u008b\u001a\u00bb\u00d9\u00c8\u00f3x8.X\u00f2\u0098%\u0081B\u009d\u0011\u0002I\u0002\u00fb\u0096\n\r\u00ca\u00aci>\u000b\u00ef\u00bb\u001d\u00ff<\u00eb\u00d8\u00c0\u00eb\u0098\u00f4=>\u00a1\u001b\u00ba}\u000f(\u009fq'\u00dd\"\u00ea\u0086\"\u000e=\u000b\u00b0\u0011x\u00a1\u009b\u009a\u0017\u0092\u008dZD\u0000*V\u0000T/\u0010\u0092\u00f0\u0081\u00e8\rP\u009c\u000e2\u0096laY\u00e4\u00ad\u008d\u001d<\u00a4\u00ea\u00be\u00e87|\u008b\u00fb\u00a6\u00b97\u00aa<G\u00f3\u00d4B\u0081\u00f0\u0092\u001c\u00eb\u00f6~\u0080\u00ff\u00e3\u009d\u0007\u001c\u0016+D\u00f0\u00b10\u00c7\u00a0\u00cd\u00e0\u00f9\u008a\u001at\u0093|j\u00ed\u00dc%*`\u00efs\u00a7K)\u0094\u0085\fl}\u0011\u0094\u00a8\u00a2\u00fe\u001c54\u00bc:i\u0089`\u00b4e\u0001\u0095\u009e\u00be \u0000?\u0005%\u00ed|\u00a4vp6\u00d4q\u00a8\u00cf\u00d9\u00de\u009b\u00ee\u00136\u000bHN\u008f\u00a5\u00ffjSZ$\u00a2_\u00bd\u00bbK#\u00bfEsZ\u00f3\u0081h\u00f7\u00ff;x\u00ce\u0080}\u00ff\u00eb\u00fd\f.\u0001\u00d9R$\u008b\u0081\u009a_%\u00cfye\u00b2\u001c\u00d8y\u00e7\u009b7\u00fe\u00d2\u0094\u00d5\u009a\u00e1R$\u00bb\rF\u00d2\u00ca\u0004\u001a\u00e1w\u00f7\u00f2\u00c2\u007f\u00af\u0000b\u00d3Q\u0016\u00f2R\u00b2\u00e2yA\u0012o\u00cc\u00f0\u001f.d/u\u0092X\u0096\u00ff\u0012\u00f2-\u00a9\u00a8x\u00d7\u00a7|\u00d6V:%\u00b2a\u0019\u0092Q?\u00f1\u0010\u00c2/\f\u00f4\u00a7\t\u001f\u00a6O\u0096(6\u00a7j\u00df*\u00fae\u00f0\u00b8J\u0013\u00c06v!\u00e3\u00d5\u008c\u00e6\u00c04!$<z\u00fc\u00ae\u00b3\u00d09\u0005u\u00fc\u001f\u00f6\u00f4\\\u00cc\u00f6M\u00d2F!\u00c66<6G\u00a1<\u0097Wn\u000f_\u00aa\u00dc\u0018\u00b4\u00aeD&\u00a6{\u00ba\u00d9G]S\u00ab\u0097w\u000b\u008f\u00a6\u00c2x\b\u008e\u0081\u00b6\u00f0\u00f3~\u000b\u00f4\u00b2j]\u00f7\u00d2^\u0087\u00fak;\u00ac\u00cc\u00dc\u00990:E\u0084NGF\u00ce\u00cf\u00d1\u0012a\u008d>\u009f\u00da5\u0092\u00e7\\;U\u0095c\u0016n\u00da+:\u00a1\u00c4wJ|[\u0080'!Q\u00e4\u00f2\u00b5\u001f\u0080\u00bem\f\u0017'.\u00f0\u00a2\u00e0\u0082\u0004\u00e6\u0011\u0001\u0017a\u0087\u00ffY7\u0083\u00c01\u00ca\u0087\u00a3\u00ff\u0086{o\u0007\u000e\u00caKUv^\u00fd\u00d6\n\u0098\u00b1\u00d12p\u00ba\u00c0\u0012\u009b&(\u0018\u008e\u009cj\u0090E~5\u00ce+7\u00ee\u00eb\u00fb\u00a6;\u0096N\u00d3j\u00b9\u0087p \u00e9\u00da\u0097\u0085\u00f1\u00eck/\u00eb\u0003\u009f>\u00d7\u00db=\u00c2=\u00c7\u0019\u00a6\u00d6l7:s\u009a\u00d9\u001d\u00f6\u009f\u00f9\u00eb\u00ab\u00d0L\u0000G3pUE\u00ca\u00ff\u0006\u00b9\u00d7\u009b*_\b\u00fcw\u00e4t\u00e0\u00dd\u0000\u000e\u0011\u00a6 tn\u0000\u00eb$\u00f9\u0083\u009bD\u00fc~{\u00e6\u00eb\u001a\u00bd\u00a5\u008dRJb~;Y\u0086<\u0094\u00a8\u00dc\u00a5\u0006\u0010\ng\u001b\u00fds\u00a5\u0094}\u00f2P\u00db\u00b8`(\u0011\u00b32\u0081\u008c\u0083\u0001K%\u00dc\u0084\u00d1\u00a6!U\\]\u00b8\u0086\u00d6\u0083\u00db\u00af\u00e2\u009c\u008c\u008a\u0095K$4\u009a\u00c9\u00c8\u0088\u008b\u00d8'\u00f4\u008f\u0000\u00f9\u0088\u001b/\u0097\u00c8W\r\u0083\u001e\u00edW6P~\u00f5\u008d\u00deF\u009c\u00d1\u0084\u00fb\u00c2|\u0090Z\u000f\u0012\u00b4ns\u009b\u00925\u00ed<\u00f4\u000b\u0095\u00cc\u00dfA\u001d(\u00d1\u00e9SA\u0084\u00f4~\u00f0\u00f7s\u00df\u00de\u00e6\u0093\u00ce\u00f8\u0002\u00b0{l\u00de-L\u00f6\u00bb%\u00fa\u0013\u00df\u00983\u0012U\u00eb\u008d\u00f0\u007f\u00b4\u00a9\u0019q\u008bo\u00f4a\u0016\u00dd\u0018\u00f3\u0083\u00d9\u00d0g\u00f0\u009a\u00fbUz\u0094R#f\u00ba-$9\u00d9t\u0092uor\u00fa\u00b1\u00e6\u009c!\u00e11\u009c\u0002\u009a\t\u00a8\u00e5\u00c6Fj\u00ce\u001e\u00d17\u00fc\u0086k\u001fiVlC\u00e2\u00e9z\u00e3\u00feEu\u00a8\u009a\u0006r\u00dd\u0017\t&\u00df\u000bH3\u00a6\u00bb\u009e\u00a0\u00e3\u00fc\u00ae}\u00e4\u0011\u00cf\u0018!7\u0095\u00c0\u00c3\u00ed\u00ba\u0018\u00e1j\u00be\u0002\nHu\u0012\u00d8\u00cc\u007f\u00ff\u0094@SO\u0017\u00c8Hk[\u00a6Z/\u0080\u00b0)XxL\u007fM\u00ec\u00f4x#\u00d4\u00b6\u001b \b\u00d8\u00fe\u00c1T>\u00d7K\fz\u0094\u00b9\u00c3?\u000e\u00deY3\u00f1\u00b8\u00be}2\u0089R2\u001b[c/[\u00a2g\u00fe\u00c3\u0005\u00ad\u00d3\u007f\f0\u0002\u00ae\u00ed/\u00d0'\u0083\u0019\u0081&i*\u00d7\u00cd\u000f\u0000,\u0017\u00ca\r\u007fd\u008f\u008e\u00b9\u00f1\u00b2\u00b8e?\u0085\u00af\u00db\u008f\u00d8\u009bN\u0081\u00ec\u00cd`\u00ee\u00c2;\u008aq\u00ec\u0011\u00a4\u008e\u00a4\u00f8\u0091\u00fb\u00c9\u009fs\u0096>\u00e2#>6\u00c0\u00f6\u00cf\u008evO\u00a5\u0095\u00a4 \u0090\u0089\u00d2\u00c2\u0003\u00d6G\u00b4\u00a8\u00d8\u00f2=\u0082\u00fb9\u0015ztK\u00dal\u0088\u00e8\u00ac\u00e8\u00b1\u00f4\u00a0[\u0011g\u00ec\u00d0G\u00b6m\u00cdb\u00e6\u009b\u009e\u00acA\u0011n~\u009dG\u00dc\u00f2\u009b\u00f3\u0084\u00d6\u00e4\u009c+q\u00ee\u00eb\u0001\u0080\u00fa\u00ca\u00f4\u00d5,z\u0088|3~&\u00c7+\u0004\u00ca`7H\u00b0\u00e5\u00f6\u00c2\u0093\u00caUr\u00c3V\u0001 \u008b\u00cd\u00ed:\u00dc\u00f7C\u00a3\u00bdp\u00e6\u00de\u00edO\u00cc\u0093\u008a\u00bb\u00d0\u0014C\u00ec1\u00c4\u00aeG\u00b8;p\u0017\u00c81T\u0095\u00bbi&\u00d0\u00a7\u00a7\u00a2x\u00ec\u00aaqC\u00baI\u001c[\u00bc\u00dfs\u00f6X\u009c\u0010G\u00cf\u0012\u00ceg\u008eIBk\u0005;\u00b7\u008b\u00b3shv@\u00f9\u009bA\u007fH\u00d9\u00b9\u00ac0/>\u008e_\u0013\u00d9\u009dhg\u00e93\u00a0l\u00ff\u00d7|(<\u00e2*\u0088\u00bc\u0010E\u007fk\u0092\u00e4,\u0097}\u00fc\u00f9]}\u00ec\u008e6\u00dc\t\u009c;6\u001cT\u0018\u00f6\u00aa\u00f2A\u0082\u001c`\u009a\u008c\u00cd{=#\u0084\u00c8^?\u008f$\u00b9\u00a6\u00f2\u00d0\u0096dO\u00e4a\u00e4\u00f8\u00b3\u00c7\u001a\"\u0019\u00e4>\u00845\r\u00ca\u008a\u00fd\u0002\u00cbN/\u00ba7\u000e\u00b4\u009a\u00a0L\u00d2\u0018w\u0017\u00eb\u000f\u0080\u00ef\u00e4\u00f81\u0005R\u00faej\t\u0095N\u0095\u009c\u0089\u00f0\u00906ns\u0010E\u0086\u00cb\u00ae\u008a\u009a\u009a\u00b10\u00c3\u00fc\u00f1V{9'\u00c3\u00a6\u00f8I\u00c2$p\u00a5\u00d5\u00bf}0\u00f0\u0091F\u00a9U\u0011\u00f0\u001b\u00a9.\u008em\u0002\u0012l\u00c4\u009a!\u0088\u00bc\u00a2x\u009b~N\u00dc\u00f8al\u001e5\u0017\u000e\u000e$\u00a0\u00dd\u00ed\u00e7q\u00a3p\u00a8T\u0092\u00c2^\u00c3?\u0016`[>\u00ca\u00ae\n\u0018\u0012{\u00fe\n\u0086\u0092bd\u008bD\u0093\u00cd\u00fcq\u0094\u00c7?w0G\u00f5'$\u0002\u001e\u00f4@\u00b2\u007fF\u000e\u00bag\u0091\u00a39\u00e9x_!\u00acHUM\u0019\u00d7\u00b3\u00ce0\u00d7\u00f0_T?\u00e1\u00c4\u00e3\u00c7W\u008b\u0092\u0018~R\u00d3\u0085\u00c0T\u00ac\u0086D\u009d\u009dk\u00e3\nq\u00cc\u00f2M\u0013\u0005U\u0096\u001e}\u00af\u00e9\u0085\u001b\u008cs\u0012\u00ea\u009f\u00e4ro\u00e2\u00ed\b\u00a15j!o8\u00cc|~\u0096d+\u00cf\u00bf\u0091l\u00f7\u000fi\u008f\u008dTQQ\u0088\u00f7w\u0093:\u00caH\u0087\u00e4\u00ef\u0018\u00b2\u0086\u0017\u00fddAMU\t*\u00f3\u00a3\u00e4\u00fb\u008e\u0087\u00edV\u0012)\u00e7/7\u0010\u00b6\u001e\u00aeX\u000bw5\u00a0\u000f\u00fb\u0085\u0085\u00f7\u008f\u0099R\u00d7\u00c7\u0001\u0099\u00a8\u00cc\u00c9$D\u00c2\u000bO{\u0006$\u0080\u00a1\u00a8E\"\u00ea\u001cz\u00a2[\u00ef\u00e0I\t\u00faJz\u0015\u0083\u007fD\rQ(W7\u00bbh\u008cw\u0099\u0081S\u00ab\u00e23\u008e87!\u0086\u00e2i\u00ff\u00a3]K\u00b2\u0080\u00b6\u0098\u00e0\u00d9\u0007\u00c6\u00f3-m\u00cbJl4\u00f5D\u00b1t{7x\u00b49\u00d9\u0099\nYR<\u008c[\u00f6r7\u00a9\u0006\u008caw\u00c7\u00a5\u00b8v\u009d\u0091\u008a\u00bbF\u0002,\u00dc\u00cc\u00e7=3g\u008b\u0087\u00cfv\u0014\u00d4.\u00c3\u0002\u00c2\u00c0A\u00d22\u00d5\n\u00d2 \u00f5\u009dC\u0086x{;u\u00bdC\u00ce\u0089\u0005\u00d6Cz\u00ec4\u00e6\u00b4\u009c(\u0089\u0082\u0005L\u00eb\u00e8\u00ba\u00a1\u0084\u001c\u00a1/\u000e\u00af\u00e7\u0018\f\u00af\u008cJJ\u0097e\u00a1\u00be\u00d2\u0094a\u00a2\u0091\u009f\u001dk6\nB\\\u0011\u009f0\u00c6\u00dd~\u008c\u0096K\u0007\u001a<\u00a5{\u008f8\u0012\u0015D\u00e9\u0006m\u008f|\u0007e9\u00cfQ\u009a\u00ff>2\u00e6\u00cf\u0000]\u00b7X\u0089JA\u00b2\u009038~\u00c31\u0088h{\"\u00ba\u00fb(I\u000f&kU\u00e5\u00c5^\u00bf\u00a4\u0019\u00aeX\u0087\u00e3 \u00b8\u00a0j\u00876;\u001b\u0091\u00f4\u00c97\u001c)X6\u00cbE\u00f2\u00fc\u00b4\u0081\u001a\u00ffX\f\u0013\u00d0\u00f5\u000e\u00df\u00eeD\u0093A{{\u008b\u0096p\u00ac\u00fbc\u0007D\u00d2\u009d\u00ca\u008f\u000e\u0010\u00ee\u008duX\u0088y\u0019e\u00ec\u0018\u009c\u00f3kq\u00e0\u00a7\r\u00fdmyr\u00bb\u00fdX\u00fe\u007fUPZ\u0094\u00bb%$R\u00a7\u00f6\u001b\u00be[u\u000e\u00fc>\u00eb\u008e\u001f\b\u00ed\u0004\u009b\u0004\u00a5Z\u0080S.\u00c3\u008c\u00e1\u001f_\n\u00b8EL\u001c_\u00cd\u0003L\u0084\u00dd;*\u008bD3$\u00a8\u00cb\u00c67\th\u00d4\u00e9\u00c0\u00c1\u00db\u0016\u0097\u00acz\u0006Q\u0082z\u00ec\r\u0083 ?q\b\u00f7\u0010\u0083\u00b55\u008bN(\u00b6\u00f6\u0018\u00a9*\u00eb\u00fa\u009d>fP\u0016\u00f9_dN\u008a\u00c15V\u00a4m47i\u00b7\u00e7\u00e7\u00b6\u00df,\u00d9\u0088Z\u00dcLX\u00cf;\u0093\"\u0092\u00de\u00d7$T\u00dd\u00ec\u0003\u0082\u00a4\u00f9\u00ban\u00ae\u00af\u00a8\u00bc9$\u0092\u00ffw[\u008fB\u00e1\u00b0\u00dd\u0002j\u000b\u00ce+\u00fc>\u00d1!\u0019-\u00f8\u000e!&\u00dc\u007f\u00c9\u00bf6\u00fd\u00cei8\u0002\u00d8g\u00b5>\u00f42\u00ccj\fr\"c\u00d4\u00d0\u00c6x\u00e2i\u0019\u0006V\u00a9\u0010\u009a'\u0016o\u0083\u00bb2\u009c\u00f1A\u00baZ3\u008ce\u00b2U\u00a4\u00dd-\n\u00b1\u00e2\u00a0\u0088\u00fe*K\u00d6\u00c5\u00b1\u00be`k(\u009b\u00ce\u00cd\u00f2\u001f82t\u00e3\u00e9\u0007/\u00aei+\u00a6\u00ed\u00a8\u0088\u00cc\u0091\u00d0\u00f4\u00bf\u0005^\u00fa\u00ed\u001etJ\u0010&\u0011\u00c3\u00f1\u00a4X\u00ab\u0085\u00e8\u0006\u00d5\u00ba8\u0088\u00e6\u00d1\u00d4:\u00bd\u00d6\u00b4\u00ad\u009a\u0002!\u0082i.\u00f4\u00c0\u00ee\u00fe\u0007\u000f\u00c0\u00fb\u00a4\u00e9dy(\u00c7=\u001b\u00db\u00ac\u000e\u0005\u00ce]B\u00bb\u00af?\u00c7\u00f37W\u00fd\u0006\u008b\u00fcvX\u0011\u0080g#q\u00a2\u00f3\u00c5\u0097\u009e\u00fc\u0016^\u001a\u001c=\u00d1\u001f\u00860ns`@X\u0092r\u00f9\u0000\u00d0S]\u00bf\u007f\u007f\u0093o\u00d7\u0082'B_\u00d3\u00f9\u00e5\u00f7\n\u00ad\u0012\u008c\u00efl\u009bl\u00a5\u00a4=\u00bff\u00cc\u000f\u00a1\u009c\u00a8\u00d4\u00933wQ\u00e5\u009a\u00b3\u0016\u00f1ps\u009a/\u00f0\u009bI\u0081\u009f\u00a6\u008dnEC\u00f0\u00c9\u00d1\u00c2.\u00db\b\u0081\u0086U\u00ed\u00de\u0015v\u00f4*\u001e\u00c5\u00e3\u00a8f\u00b9\u00b7G\u0010D\u0097\u0096\u00d6zh\u0004\r\u00e3\u00fa\u00fe;5\u001eU\u0013u\u00f90&\u0015gJ\u0010\u00ff\u00a3\u00ce\u00b0\u00a4J\u00de\u0010\u00cap\u0087\u00ff\u00db\u0005\u0000\u00e9\u0000\u0080@YN\u0089Z\u00a5p\u00d4\t\u0092eCe\u00b4-G\u00de$b\u0013P\u00da\u00c3\u0005@\u00de\u00ee^uD\u001ewsl\u000bG\u0097\u00dd\u0012\u00fd\u00dcK?\u0085\u00bb\u0095\u00a1\u0018op3`\u0016\u00ae\u009f_TK\u00e1)\u0014\u00aa[*\r\u0018\u00e2\u00a48\u0013\u00a0X\u00d4\u00dcq`\u0084\u00117\u0018\u0006\u008ff0D0#N\u0002ATnn\u00d922\u0000\u007f\u00da\u00eb-\u00f3\u009a\u0096\u00c82M\u00f0\u00eb$\u00de\u0007\u00a79(\u00dd\u00a7:\u00bc\rt\u000f\u0018:\u00e0j\u00a1o\u00f4#u\u00bbUG\u00dc\u0099\u0085\u00e6rz\u00a1B\u00c4k\u00e38\u0093Jz\u00efL\u00d2\u0089\u009b\u00d7#&\u00e6fyD\\\u00da]?\u001e+\u008e>H\u0096^\u00ee\u009fZ\f\u00e8_\u001fl\u00c1\u00bfye\u0003\u00db\u0080\u00cav\u0088R\u00a7#\u00b6\u00e0c\u00b1\u00c5\u00b3p\u00fa\u00dc\u00f6\u00b6P\u0089G\u009dl\u00b0?\u001d\u00d4SH_\u0004\f\u00eb:[\u00e1\u00ab\u0082mta\u00fe+\u00b7\u00a2\\H\u00ba\u00df\u00c4ji,\b\u0016^\u0087I\u00ea!V|{\u00d5r\u00b3\u00827\u00e4\u007f\u00bd\u008a\n<\u00cf#\u00a2\u00cag\u00cd\u00c7J\u0095_K7\u0088\u0086\u008b\u00d8\u009f\u0004\u00c9\u0081K\u00b9:\u000f{\u0085N\u0097\u00f4y\u00c8X\u000e\u00fcC\u0094\u00d9\u00af\u0090\u0011n\u0014q\u00cbp\u00a2\u00ae\u00b4\u0017\u0098WOY\u000f\u00a0v9]:\u00f6\u008a\t\u0002\u009a\u0005\u0097\u00b4\u00a0\u00d0\u0093ZFc\u0012\u00ae\u0097\u00a4\u0016\u00eb5\u001e\u00038n\f\u001a\u00c6\u0095\u00e4\u009c\u00de\u00d5\u00a5S\u00db\t\u0099\u00cc}(\u00e9}\u00c0\u00ed\u00af\u00eb\u00b4\u00bc2\r@\u00acR\u00b7h\":\u00c7\u00ad9+\u0007\u001ct\u00be^j\u0014\u0004\u001b7\u00a7\u0098\u00ab\u0010p\u00ecI\u00e9Rw/B\u0001%5Ku\u00b7\u00a6[\u009d\f\u00b8\u0093\fx)\u00b9+c\bI\u00cd\u0080\u00f8'\u00a8\u00ed)Cn\u008f\u0001\u0017\u001eP[\u0096>\u00c3\u00b1\u0014H\u00da\u00e5=\u00bep\u00c4_\u0082\u00c6\u00db\u00ad\u00e8C\u00dd\u00cbN2\u0003`\u00ca\u00cdaO\u00cb\u00a2\u00bf\u00bdO\u00b9\u00ec\u00d2\u00ef)T\u00dd\u0002\u00ae343\u00b0M\u00a5\u00b0\u0086j\u00e7F\u00dd\u0003'\u00dd2]\u00bf\u0097\"\u00e6&\u00bbyx\u0092a\u00ba\u0001\u008f\u0018\u00c9\u00b8||f\u009c\u008a\u00d2\u009d\u00df\u0004y\u00fb\u001c:\u00ff\u00b1\u00ce\u00fb\u00b7\u00f7/\u00bal\u009d\u0081$\u0012\u00c6\u00dch\u00938\u00b6B\u0093\u00d4\u00f1\u0083\u00deQ\u0006\u00ffTu*;tt\u0087\u009d\u00a3\u00a2\u00e9\u000b\u00bf\u0017\u00d34\u0014Y\u00da\u0007\u00fe\u00c7cz\u0019\u0081\u009e\u00f3'\u001b8P\u00f9S\u009e\u00c6\u00e0\u00b0\u00e4\u00f6`\u00c6\u000b@f\u00b2z\u00c5\u00df\u00b3BS\u00df\u00a6\u000b\u001bR'\u00d45\u00aa\u0099\u008a3o\u00ce\u00ect7\u001a\u00dc\u0088-@G\u001eGw\u0081\u008a\n\u0004a\u00e8\u00b7\u00b0\u00c7x\u009b}U\n\u0088\u00a6\u0099)'X\u00f1\u0097\u00c0\u00b1\u0011m\u00d8\u0011\u0000s?\u0084\u009e\u00b9\u0018\u0085S\u00b8\u00db\u00d4\u00af\u00e3\u0099\u00bb[\u00a7O\u00df\u0003\u001a\u00c0\u00fc\u0087l5s\u00e6\u00eb\u00c8\u0004\u00e4\u00df\u00ee3Lb\u0097\u00b1dQ\u0005\rB\u0016\u00ee\u00a0\u0010\u0099\u00a3kR\u00e5gc\u00f4\u00a0\u00bd\u007f\n\u00b8\u00af6J\u0001\u00a9\u00eb\u00b70\u00bf\u009e\u00f34\b\u0091Y\u009f/\u0096\u00a8\u0091\u00ed\u00c0\u00c0\u0018\u00b0\u00f7\u00c2\u009d\u00bb\u00ed\u00f5\u00b9\u00fa\u008c\u00e76 \u008b \u00d0\u00de*\u0084\u0013J\u00e0\u00ee\u0093;k\u0095k^A\u0011\u0097\u00c6O\u008b\u00e4b\u001cb\u00e7\u0085\u00d81\"\u009f\u00e3\u00ed\u0015S\u0015s\u00ae\u0010\u00f4|\u008f\"*`s\u00b8w\u0011\u009b\u00a1RA\u00c3\u00f4S\u009f\u0080\u0082\u00c4!\u00c47\u00ad\u00d0U\u00b34\u0093bC}\u0085\u001ea7T\u0011\u00be\u00d6\u00dao\u0099\u00d2\u00e2>(\u00e7pwUs\u00cdU\u00ae\u0099\u0017\u00c7E\u0080\u00aa\u00ad\u00daSs\u00db\u00b2\u00cf\u0097\u00e4\b\u00a4+f\u00d4C)\u00df}\u00d8\u0092\u00c4\u00d3G{\u0086\u0088\u00eb\u00db\u00ce\u00a4\u00b7\u00ff\u00b0`\u00fb[\u0002\u00a9\u00cb\u00a8h\u00d5g\u00a4\u00fbI\u0013k|\u00a1\u008bH\u00b4e\u00ff\u00b9\u00c7\u00a9p}6\u00a2\u00d5\u0005\u0012\u00b5}\u00f6\u0006\u0002\u0095\u0085yak \u00f6\u00f8U\u0017[\u00f1\u00edO\u00e8u\u0086\u00c1w\u00fe\u00a6\u00cb8F\u0094\u00bd\u00ba\u00d5\u009e\u00bf*(\f\u00a06\u00f4\u00ad&d\u0080\u00a4\u00e4?\u00ff\u00c9(\u00f5vw]\\\u008a\u0089\u00eej\u00a0Q\r\u00c9\u00fa%\u000b\u00a2\u00b2\n\u00a4\u000f\u001b\u001c\u001c\u00a4k\u0095\u001d\u0013\u001ej\u000b\u00ec\u0090\u0085Y(\u00c1\u00d38\u00a5\u00ba5\u009bQ\u00ed.\u0099\u00e1\u00cd\u00e2>\n\u00c4Kc\u00efzK\u001c\u00e8\u000eA\u00f2\u00c3\u00d4\b=Y\u0000\u00cc\u00a5\u00c7i\u00a1\u00b2\u00f0\u00d5\"\u001eL\u00b8\u0004\u008dN*", 
+                            "length": 74654, 
+                            "offset": 0
+                        }, 
+                        "time": 1773669757.683246, 
+                        "tid": 220, 
+                        "flags": {}
+                    }, 
+                    {
+                        "category": "system", 
+                        "status": 1, 
+                        "stacktrace": [], 
+                        "api": "NtClose", 
+                        "return_value": 0, 
+                        "arguments": {
+                            "handle": "0x0000003c"
+                        }, 
+                        "time": 1773669757.693246, 
+                        "tid": 220, 
+                        "flags": {}
+                    }, 
+                    {
+                        "category": "registry", 
+                        "status": 1, 
+                        "stacktrace": [], 
+                        "api": "RegCreateKeyExW", 
+                        "return_value": 0, 
+                        "arguments": {
+                            "access": "0x02000000", 
+                            "base_handle": "0x80000002", 
+                            "regkey": "HKEY_LOCAL_MACHINE\\SYSTEM\\CurrentControlSet\\Control\\Lsa", 
+                            "key_handle": "0x0000003c", 
+                            "options": 0, 
+                            "regkey_r": "SYSTEM\\CurrentControlSet\\Control\\Lsa", 
+                            "disposition": 0, 
+                            "class": ""
+                        }, 
+                        "time": 1773669757.703246, 
+                        "tid": 220, 
+                        "flags": {}
+                    }, 
+                    {
+                        "category": "registry", 
+                        "status": 1, 
+                        "stacktrace": [], 
+                        "api": "RegSetValueExW", 
+                        "return_value": 0, 
+                        "arguments": {
+                            "key_handle": "0x0000003c", 
+                            "value": " :3 \u0080\u0080\u0000\u0000\u0000\u0014\u0001\u0000\u0010\u0000\u0000\u0000\\\u00f6\u00eey,\u00df\u0005\u00e1\u00ba+c%\u00c4\u001a_\u0010Z\u00bbm<:\u009d\u0005l\u00b6`M$\u0015;\u0082\u00c2\u00c6\u00f2\u0093LG\u00f5S8\u00ddFE\u008e\u00a6\u009eb\u0081\u00feE\u0091!\u00f9E0/\u00f0M\\L=\u00cawO\u00e5\u00c2\u0096Q\u00f3\u000f\u00ffK\u001fo\u0098\u00eb\u00c0\u00c3@|\u00b3\u000f\u00e5\rL\u00c5\u00fa\u00c2Y\u00cf\u00e5\u00d8\u00a0F5\u00eb\u00f5\u00d6\u008b#\u00a41@\u00d1\u00c1\u008c\u00f6T\u00a4^h\u00e5\u00d8\u0090l\u00b90R\u00b3!\u00bf\u00eb]\u00ecd\u009d\u00da(\u00b5\u00a2=%\u00a4?\u0082\u000e\u0097\u001bg\u000bF\u00d8v\u00ca\u000b\u00db\u00c6\u00d68\u00be\u0098'\u00ac\"J\\\u00da\u0088|\u00ec\u00ac2\u00b8\u00e0\u009c\u00cd\u0083\u00ab-\u00a1V\u0098~\u00d9z\u00bc\u00c9\u00f8\u00ab\u0099'\u00c2z\u00da\u00f2\u00eb2C\u001e\u001e\u00cb\u00eer\u0010\u008b\u0082\u00dd\\\u0017/\u00db'\u0017\u00fc'\u00ba\u007f\u00ea\u0014\u00ce\u00bd{\u0088\u00e1\u0080\u008a\u0096E\u0013Pe\u00df\u0016i\u00b8\u0012\u00e7\u0092\u00d7\u00ff(\u00af\u00c3=\u0090\u009bG1\u0096s\u0086xL:\u00ce\u00f8\u001dq\u00da\u00bf\u001d\u00ee7H\u0015\u00ff<\u00b3\u00f4p\u00d3~c5\u00eb\u00b9\u00afo=\u0006\u00a9r\u0096\u00e4\u009d\u000fHa\u0002~\u00c8IQG\u00ae\u00d5\u00f1\u00f3\u00c9\u0013\u008f\u000f\u000e\u008e\u0089\u00d1h\u0090\u0090nKP(\u00a5\u00f2\f\u00ab=\u00fb\u0081\u0098\u001c\u0016\u00bd\u00eeKx\u00cdl\u0096\u00bcL\u0002}\u00a9\u00c6nMl{I\u0098<\"[\u009e4\u00ea(\u0082\u00c8\u00b0m1\u00f3\u00ab\u00f5g\u00936y2\u008a\u0093\u00f3\\n,\u00a3\u0001\u009c)\u00df9m\u0088\u009fhT\u00bdN\u0098\u0081}\u0098\u00f8\rm\u00e2\u0006N\u008f\u00f2\u00cc\u00ea\u0013x\u001a\u00c6\u0016\u00b3f\u00cc=W\u00bf\u0087\u00fd35\u0083\u00ef%J\f|;b\u00f5\u0087\u00ea-\u00b0\u00d5\u00ec\u00e7\u0098R\u00c2\u00ef=\u00a9\u0005\u00ef\u00be?\u00b0\u00b7m\u0095\u0003\u00ca\u009b\u00eb\u0013\u00d4\u00b9\u00f6T\u000b\u00f4\u00d3\u00ffC\u00e5p\u00fe\u00aa4\u00ed\u00c1\u00e0\u00c4\u00fd`:|\u0085 \u00b9\u0084H\u0006\u008b0SD\u00ffb\u00ad\u009d\u00b1\u008f\u0096\u00d5Bs\u00b8IS(M\u0085\u0018\u00c6\u00db\u00b0\u00cc1v\u00fb\u001e\u00d9b\u0016\u0080D1\u0090%\u00cf\u00f6\u001eLWy\b*D\u00cd\u009f\u0019(\u009e\u00fa\u00f6\u00b6\u00f5\u00b9\u00920\u00a2\u00b2\u00d8\u0085\u00d7WW\u0085*e\u00871\u00fa6;n\u0004f;\u00b7>\u00f2\u00c8\u009e\u0007\u00d4\u00d6\u00c2\u00e4\u00d2\u00a7\u00c5\u00af\u0085\u00d7fj\u0086\u0093\u00d1\u00a7\u00ec%\u00b0!\rb\u0098\u001c\u00c2\u0096wH`&&\u00d1\u00a8\u00ad\u00ba\u0015\u00f4-\u008b\u001a\u00bb\u00d9\u00c8\u00f3x8.X\u00f2\u0098%\u0081B\u009d\u0011\u0002I\u0002\u00fb\u0096\n\r\u00ca\u00aci>\u000b\u00ef\u00bb\u001d\u00ff<\u00eb\u00d8\u00c0\u00eb\u0098\u00f4=>\u00a1\u001b\u00ba}\u000f(\u009fq'\u00dd\"\u00ea\u0086\"\u000e=\u000b\u00b0\u0011x\u00a1\u009b\u009a\u0017\u0092\u008dZD\u0000*V\u0000T/\u0010\u0092\u00f0\u0081\u00e8\rP\u009c\u000e2\u0096laY\u00e4\u00ad\u008d\u001d<\u00a4\u00ea\u00be\u00e87|\u008b\u00fb\u00a6\u00b97\u00aa<G\u00f3\u00d4B\u0081\u00f0\u0092\u001c\u00eb\u00f6~\u0080\u00ff\u00e3\u009d\u0007\u001c\u0016+D\u00f0\u00b10\u00c7\u00a0\u00cd\u00e0\u00f9\u008a\u001at\u0093|j\u00ed\u00dc%*`\u00efs\u00a7K)\u0094\u0085\fl}\u0011\u0094\u00a8\u00a2\u00fe\u001c54\u00bc:i\u0089`\u00b4e\u0001\u0095\u009e\u00be \u0000?\u0005%\u00ed|\u00a4vp6\u00d4q\u00a8\u00cf\u00d9\u00de\u009b\u00ee\u00136\u000bHN\u008f\u00a5\u00ffjSZ$\u00a2_\u00bd\u00bbK#\u00bfEsZ\u00f3\u0081h\u00f7\u00ff;x\u00ce\u0080}\u00ff\u00eb\u00fd\f.\u0001\u00d9R$\u008b\u0081\u009a_%\u00cfye\u00b2\u001c\u00d8y\u00e7\u009b7\u00fe\u00d2\u0094\u00d5\u009a\u00e1R$\u00bb\rF\u00d2\u00ca\u0004\u001a\u00e1w\u00f7\u00f2\u00c2\u007f\u00af\u0000b\u00d3Q\u0016\u00f2R\u00b2\u00e2yA\u0012o\u00cc\u00f0\u001f.d/u\u0092X\u0096\u00ff\u0012\u00f2-\u00a9\u00a8x\u00d7\u00a7|\u00d6V:%\u00b2a\u0019\u0092Q?\u00f1\u0010\u00c2/\f\u00f4\u00a7\t\u001f\u00a6O\u0096(6\u00a7j\u00df*\u00fae\u00f0\u00b8J\u0013\u00c06v!\u00e3\u00d5\u008c\u00e6\u00c04!$<z\u00fc\u00ae\u00b3\u00d09\u0005u\u00fc\u001f\u00f6\u00f4\\\u00cc\u00f6M\u00d2F!\u00c66<6G\u00a1<\u0097Wn\u000f_\u00aa\u00dc\u0018\u00b4\u00aeD&\u00a6{\u00ba\u00d9G]S\u00ab\u0097w\u000b\u008f\u00a6\u00c2x\b\u008e\u0081\u00b6\u00f0\u00f3~\u000b\u00f4\u00b2j]\u00f7\u00d2^\u0087\u00fak;\u00ac\u00cc\u00dc\u00990:E\u0084NGF\u00ce\u00cf\u00d1\u0012a\u008d>\u009f\u00da5\u0092\u00e7\\;U\u0095c\u0016n\u00da+:\u00a1\u00c4wJ|[\u0080'!Q\u00e4\u00f2\u00b5\u001f\u0080\u00bem\f\u0017'.\u00f0\u00a2\u00e0\u0082\u0004\u00e6\u0011\u0001\u0017a\u0087\u00ffY7\u0083\u00c01\u00ca\u0087\u00a3\u00ff\u0086{o\u0007\u000e\u00caKUv^\u00fd\u00d6\n\u0098\u00b1\u00d12p\u00ba\u00c0\u0012\u009b&(\u0018\u008e\u009cj\u0090E~5\u00ce+7\u00ee\u00eb\u00fb\u00a6;\u0096N\u00d3j\u00b9\u0087p \u00e9\u00da\u0097\u0085\u00f1\u00eck/\u00eb\u0003\u009f>\u00d7\u00db=\u00c2=\u00c7\u0019\u00a6\u00d6l7:s\u009a\u00d9\u001d\u00f6\u009f\u00f9\u00eb\u00ab\u00d0L\u0000G3pUE\u00ca\u00ff\u0006\u00b9\u00d7\u009b*_\b\u00fcw\u00e4t\u00e0\u00dd\u0000\u000e\u0011\u00a6 tn\u0000\u00eb$\u00f9\u0083\u009bD\u00fc~{\u00e6\u00eb\u001a\u00bd\u00a5\u008dRJb~;Y\u0086<\u0094\u00a8\u00dc\u00a5\u0006\u0010\ng\u001b\u00fds\u00a5\u0094}\u00f2P\u00db\u00b8`(\u0011\u00b32\u0081\u008c\u0083\u0001K%\u00dc\u0084\u00d1\u00a6!U\\]\u00b8\u0086\u00d6\u0083\u00db\u00af\u00e2\u009c\u008c\u008a\u0095K$4\u009a\u00c9\u00c8\u0088\u008b\u00d8'\u00f4\u008f\u0000\u00f9\u0088\u001b/\u0097\u00c8W\r\u0083\u001e\u00edW6P~\u00f5\u008d\u00deF\u009c\u00d1\u0084\u00fb\u00c2|\u0090Z\u000f\u0012\u00b4ns\u009b\u00925\u00ed<\u00f4\u000b\u0095\u00cc\u00dfA\u001d(\u00d1\u00e9SA\u0084\u00f4~\u00f0\u00f7s\u00df\u00de\u00e6\u0093\u00ce\u00f8\u0002\u00b0{l\u00de-L\u00f6\u00bb%\u00fa\u0013\u00df\u00983\u0012U\u00eb\u008d\u00f0\u007f\u00b4\u00a9\u0019q\u008bo\u00f4a\u0016\u00dd\u0018\u00f3\u0083\u00d9\u00d0g\u00f0\u009a\u00fbUz\u0094R#f\u00ba-$9\u00d9t\u0092uor\u00fa\u00b1\u00e6\u009c!\u00e11\u009c\u0002\u009a\t\u00a8\u00e5\u00c6Fj\u00ce\u001e\u00d17\u00fc\u0086k\u001fiVlC\u00e2\u00e9z\u00e3\u00feEu\u00a8\u009a\u0006r\u00dd\u0017\t&\u00df\u000bH3\u00a6\u00bb\u009e\u00a0\u00e3\u00fc\u00ae}\u00e4\u0011\u00cf\u0018!7\u0095\u00c0\u00c3\u00ed\u00ba\u0018\u00e1j\u00be\u0002\nHu\u0012\u00d8\u00cc\u007f\u00ff\u0094@SO\u0017\u00c8Hk[\u00a6Z/\u0080\u00b0)XxL\u007fM\u00ec\u00f4x#\u00d4\u00b6\u001b \b\u00d8\u00fe\u00c1T>\u00d7K\fz\u0094\u00b9\u00c3?\u000e\u00deY3\u00f1\u00b8\u00be}2\u0089R2\u001b[c/[\u00a2g\u00fe\u00c3\u0005\u00ad\u00d3\u007f\f0\u0002\u00ae\u00ed/\u00d0'\u0083\u0019\u0081&i*\u00d7\u00cd\u000f\u0000,\u0017\u00ca\r\u007fd\u008f\u008e\u00b9\u00f1\u00b2\u00b8e?\u0085\u00af\u00db\u008f\u00d8\u009bN\u0081\u00ec\u00cd`\u00ee\u00c2;\u008aq\u00ec\u0011\u00a4\u008e\u00a4\u00f8\u0091\u00fb\u00c9\u009fs\u0096>\u00e2#>6\u00c0\u00f6\u00cf\u008evO\u00a5\u0095\u00a4 \u0090\u0089\u00d2\u00c2\u0003\u00d6G\u00b4\u00a8\u00d8\u00f2=\u0082\u00fb9\u0015ztK\u00dal\u0088\u00e8\u00ac\u00e8\u00b1\u00f4\u00a0[\u0011g\u00ec\u00d0G\u00b6m\u00cdb\u00e6\u009b\u009e\u00acA\u0011n~\u009dG\u00dc\u00f2\u009b\u00f3\u0084\u00d6\u00e4\u009c+q\u00ee\u00eb\u0001\u0080\u00fa\u00ca\u00f4\u00d5,z\u0088|3~&\u00c7+\u0004\u00ca`7H\u00b0\u00e5\u00f6\u00c2\u0093\u00caUr\u00c3V\u0001 \u008b\u00cd\u00ed:\u00dc\u00f7C\u00a3\u00bdp\u00e6\u00de\u00edO\u00cc\u0093\u008a\u00bb\u00d0\u0014C\u00ec1\u00c4\u00aeG\u00b8;p\u0017\u00c81T\u0095\u00bbi&\u00d0\u00a7\u00a7\u00a2x\u00ec\u00aaqC\u00baI\u001c[\u00bc\u00dfs\u00f6X\u009c\u0010G\u00cf\u0012\u00ceg\u008eIBk\u0005;\u00b7\u008b\u00b3shv@\u00f9\u009bA\u007fH\u00d9\u00b9\u00ac0/>\u008e_\u0013\u00d9\u009dhg\u00e93\u00a0l\u00ff\u00d7|(<\u00e2*\u0088\u00bc\u0010E\u007fk\u0092\u00e4,\u0097}\u00fc\u00f9]}\u00ec\u008e6\u00dc\t\u009c;6\u001cT\u0018\u00f6\u00aa\u00f2A\u0082\u001c`\u009a\u008c\u00cd{=#\u0084\u00c8^?\u008f$\u00b9\u00a6\u00f2\u00d0\u0096dO\u00e4a\u00e4\u00f8\u00b3\u00c7\u001a\"\u0019\u00e4>\u00845\r\u00ca\u008a\u00fd\u0002\u00cbN/\u00ba7\u000e\u00b4\u009a\u00a0L\u00d2\u0018w\u0017\u00eb\u000f\u0080\u00ef\u00e4\u00f81\u0005R\u00faej\t\u0095N\u0095\u009c\u0089\u00f0\u00906ns\u0010E\u0086\u00cb\u00ae\u008a\u009a\u009a\u00b10\u00c3\u00fc\u00f1V{9'\u00c3\u00a6\u00f8I\u00c2$p\u00a5\u00d5\u00bf}0\u00f0\u0091F\u00a9U\u0011\u00f0\u001b\u00a9.\u008em\u0002\u0012l\u00c4\u009a!\u0088\u00bc\u00a2x\u009b~N\u00dc\u00f8al\u001e5\u0017\u000e\u000e$\u00a0\u00dd\u00ed\u00e7q\u00a3p\u00a8T\u0092\u00c2^\u00c3?\u0016`[>\u00ca\u00ae\n\u0018\u0012{\u00fe\n\u0086\u0092bd\u008bD\u0093\u00cd\u00fcq\u0094\u00c7?w0G\u00f5'$\u0002\u001e\u00f4@\u00b2\u007fF\u000e\u00bag\u0091\u00a39\u00e9x_!\u00acHUM\u0019\u00d7\u00b3\u00ce0\u00d7\u00f0_T?\u00e1\u00c4\u00e3\u00c7W\u008b\u0092\u0018~R\u00d3\u0085\u00c0T\u00ac\u0086D\u009d\u009dk\u00e3\nq\u00cc\u00f2M\u0013\u0005U\u0096\u001e}\u00af\u00e9\u0085\u001b\u008cs\u0012\u00ea\u009f\u00e4ro\u00e2\u00ed\b\u00a15j!o8\u00cc|~\u0096d+\u00cf\u00bf\u0091l\u00f7\u000fi\u008f\u008dTQQ\u0088\u00f7w\u0093:\u00caH\u0087\u00e4\u00ef\u0018\u00b2\u0086\u0017\u00fddAMU\t*\u00f3\u00a3\u00e4\u00fb\u008e\u0087\u00edV\u0012)\u00e7/7\u0010\u00b6\u001e\u00aeX\u000bw5\u00a0\u000f\u00fb\u0085\u0085\u00f7\u008f\u0099R\u00d7\u00c7\u0001\u0099\u00a8\u00cc\u00c9$D\u00c2\u000bO{\u0006$\u0080\u00a1\u00a8E\"\u00ea\u001cz\u00a2[\u00ef\u00e0I\t\u00faJz\u0015\u0083\u007fD\rQ(W7\u00bbh\u008cw\u0099\u0081S\u00ab\u00e23\u008e87!\u0086\u00e2i\u00ff\u00a3]K\u00b2\u0080\u00b6\u0098\u00e0\u00d9\u0007\u00c6\u00f3-m\u00cbJl4\u00f5D\u00b1t{7x\u00b49\u00d9\u0099\nYR<\u008c[\u00f6r7\u00a9\u0006\u008caw\u00c7\u00a5\u00b8v\u009d\u0091\u008a\u00bbF\u0002,\u00dc\u00cc\u00e7=3g\u008b\u0087\u00cfv\u0014\u00d4.\u00c3\u0002\u00c2\u00c0A\u00d22\u00d5\n\u00d2 \u00f5\u009dC\u0086x{;u\u00bdC\u00ce\u0089\u0005\u00d6Cz\u00ec4\u00e6\u00b4\u009c(\u0089\u0082\u0005L\u00eb\u00e8\u00ba\u00a1\u0084\u001c\u00a1/\u000e\u00af\u00e7\u0018\f\u00af\u008cJJ\u0097e\u00a1\u00be\u00d2\u0094a\u00a2\u0091\u009f\u001dk6\nB\\\u0011\u009f0\u00c6\u00dd~\u008c\u0096K\u0007\u001a<\u00a5{\u008f8\u0012\u0015D\u00e9\u0006m\u008f|\u0007e9\u00cfQ\u009a\u00ff>2\u00e6\u00cf\u0000]\u00b7X\u0089JA\u00b2\u009038~\u00c31\u0088h{\"\u00ba\u00fb(I\u000f&kU\u00e5\u00c5^\u00bf\u00a4\u0019\u00aeX\u0087\u00e3 \u00b8\u00a0j\u00876;\u001b\u0091\u00f4\u00c97\u001c)X6\u00cbE\u00f2\u00fc\u00b4\u0081\u001a\u00ffX\f\u0013\u00d0\u00f5\u000e\u00df\u00eeD\u0093A{{\u008b\u0096p\u00ac\u00fbc\u0007D\u00d2\u009d\u00ca\u008f\u000e\u0010\u00ee\u008duX\u0088y\u0019e\u00ec\u0018\u009c\u00f3kq\u00e0\u00a7\r\u00fdmyr\u00bb\u00fdX\u00fe\u007fUPZ\u0094\u00bb%$R\u00a7\u00f6\u001b\u00be[u\u000e\u00fc>\u00eb\u008e\u001f\b\u00ed\u0004\u009b\u0004\u00a5Z\u0080S.\u00c3\u008c\u00e1\u001f_\n\u00b8EL\u001c_\u00cd\u0003L\u0084\u00dd;*\u008bD3$\u00a8\u00cb\u00c67\th\u00d4\u00e9\u00c0\u00c1\u00db\u0016\u0097\u00acz\u0006Q\u0082z\u00ec\r\u0083 ?q\b\u00f7\u0010\u0083\u00b55\u008bN(\u00b6\u00f6\u0018\u00a9*\u00eb\u00fa\u009d>fP\u0016\u00f9_dN\u008a\u00c15V\u00a4m47i\u00b7\u00e7\u00e7\u00b6\u00df,\u00d9\u0088Z\u00dcLX\u00cf;\u0093\"\u0092\u00de\u00d7$T\u00dd\u00ec\u0003\u0082\u00a4\u00f9\u00ban\u00ae\u00af\u00a8\u00bc9$\u0092\u00ffw[\u008fB\u00e1\u00b0\u00dd\u0002j\u000b\u00ce+\u00fc>\u00d1!\u0019-\u00f8\u000e!&\u00dc\u007f\u00c9\u00bf6\u00fd\u00cei8\u0002\u00d8g\u00b5>\u00f42\u00ccj\fr\"c\u00d4\u00d0\u00c6x\u00e2i\u0019\u0006V\u00a9\u0010\u009a'\u0016o\u0083\u00bb2\u009c\u00f1A\u00baZ3\u008ce\u00b2U\u00a4\u00dd-\n\u00b1\u00e2\u00a0\u0088\u00fe*K\u00d6\u00c5\u00b1\u00be`k(\u009b\u00ce\u00cd\u00f2\u001f82t\u00e3\u00e9\u0007/\u00aei+\u00a6\u00ed\u00a8\u0088\u00cc\u0091\u00d0\u00f4\u00bf\u0005^\u00fa\u00ed\u001etJ\u0010&\u0011\u00c3\u00f1\u00a4X\u00ab\u0085\u00e8\u0006\u00d5\u00ba8\u0088\u00e6\u00d1\u00d4:\u00bd\u00d6\u00b4\u00ad\u009a\u0002!\u0082i.\u00f4\u00c0\u00ee\u00fe\u0007\u000f\u00c0\u00fb\u00a4\u00e9dy(\u00c7=\u001b\u00db\u00ac\u000e\u0005\u00ce]B\u00bb\u00af?\u00c7\u00f37W\u00fd\u0006\u008b\u00fcvX\u0011\u0080g#q\u00a2\u00f3\u00c5\u0097\u009e\u00fc\u0016^\u001a\u001c=\u00d1\u001f\u00860ns`@X\u0092r\u00f9\u0000\u00d0S]\u00bf\u007f\u007f\u0093o\u00d7\u0082'B_\u00d3\u00f9\u00e5\u00f7\n\u00ad\u0012\u008c\u00efl\u009bl\u00a5\u00a4=\u00bff\u00cc\u000f\u00a1\u009c\u00a8\u00d4\u00933wQ\u00e5\u009a\u00b3\u0016\u00f1ps\u009a/\u00f0\u009bI\u0081\u009f\u00a6\u008dnEC\u00f0\u00c9\u00d1\u00c2.\u00db\b\u0081\u0086U\u00ed\u00de\u0015v\u00f4*\u001e\u00c5\u00e3\u00a8f\u00b9\u00b7G\u0010D\u0097\u0096\u00d6zh\u0004\r\u00e3\u00fa\u00fe;5\u001eU\u0013u\u00f90&\u0015gJ\u0010\u00ff\u00a3\u00ce\u00b0\u00a4J\u00de\u0010\u00cap\u0087\u00ff\u00db\u0005\u0000\u00e9\u0000\u0080@YN\u0089Z\u00a5p\u00d4\t\u0092eCe\u00b4-G\u00de$b\u0013P\u00da\u00c3\u0005@\u00de\u00ee^uD\u001ewsl\u000bG\u0097\u00dd\u0012\u00fd\u00dcK?\u0085\u00bb\u0095\u00a1\u0018op3`\u0016\u00ae\u009f_TK\u00e1)\u0014\u00aa[*\r\u0018\u00e2\u00a48\u0013\u00a0X\u00d4\u00dcq`\u0084\u00117\u0018\u0006\u008ff0D0#N\u0002ATnn\u00d922\u0000\u007f\u00da\u00eb-\u00f3\u009a\u0096\u00c82M\u00f0\u00eb$\u00de\u0007\u00a79(\u00dd\u00a7:\u00bc\rt\u000f\u0018:\u00e0j\u00a1o\u00f4#u\u00bbUG\u00dc\u0099\u0085\u00e6rz\u00a1B\u00c4k\u00e38\u0093Jz\u00efL\u00d2\u0089\u009b\u00d7#&\u00e6fyD\\\u00da]?\u001e+\u008e>H\u0096^\u00ee\u009fZ\f\u00e8_\u001fl\u00c1\u00bfye\u0003\u00db\u0080\u00cav\u0088R\u00a7#\u00b6\u00e0c\u00b1\u00c5\u00b3p\u00fa\u00dc\u00f6\u00b6P\u0089G\u009dl\u00b0?\u001d\u00d4SH_\u0004\f\u00eb:[\u00e1\u00ab\u0082mta\u00fe+\u00b7\u00a2\\H\u00ba\u00df\u00c4ji,\b\u0016^\u0087I\u00ea!V|{\u00d5r\u00b3\u00827\u00e4\u007f\u00bd\u008a\n<\u00cf#\u00a2\u00cag\u00cd\u00c7J\u0095_K7\u0088\u0086\u008b\u00d8\u009f\u0004\u00c9\u0081K\u00b9:\u000f{\u0085N\u0097\u00f4y\u00c8X\u000e\u00fcC\u0094\u00d9\u00af\u0090\u0011n\u0014q\u00cbp\u00a2\u00ae\u00b4\u0017\u0098WOY\u000f\u00a0v9]:\u00f6\u008a\t\u0002\u009a\u0005\u0097\u00b4\u00a0\u00d0\u0093ZFc\u0012\u00ae\u0097\u00a4\u0016\u00eb5\u001e\u00038n\f\u001a\u00c6\u0095\u00e4\u009c\u00de\u00d5\u00a5S\u00db\t\u0099\u00cc}(\u00e9}\u00c0\u00ed\u00af\u00eb\u00b4\u00bc2\r@\u00acR\u00b7h\":\u00c7\u00ad9+\u0007\u001ct\u00be^j\u0014\u0004\u001b7\u00a7\u0098\u00ab\u0010p\u00ecI\u00e9Rw/B\u0001%5Ku\u00b7\u00a6[\u009d\f\u00b8\u0093\fx)\u00b9+c\bI\u00cd\u0080\u00f8'\u00a8\u00ed)Cn\u008f\u0001\u0017\u001eP[\u0096>\u00c3\u00b1\u0014H\u00da\u00e5=\u00bep\u00c4_\u0082\u00c6\u00db\u00ad\u00e8C\u00dd\u00cbN2\u0003`\u00ca\u00cdaO\u00cb\u00a2\u00bf\u00bdO\u00b9\u00ec\u00d2\u00ef)T\u00dd\u0002\u00ae343\u00b0M\u00a5\u00b0\u0086j\u00e7F\u00dd\u0003'\u00dd2]\u00bf\u0097\"\u00e6&\u00bbyx\u0092a\u00ba\u0001\u008f\u0018\u00c9\u00b8||f\u009c\u008a\u00d2\u009d\u00df\u0004y\u00fb\u001c:\u00ff\u00b1\u00ce\u00fb\u00b7\u00f7/\u00bal\u009d\u0081$\u0012\u00c6\u00dch\u00938\u00b6B\u0093\u00d4\u00f1\u0083\u00deQ\u0006\u00ffTu*;tt\u0087\u009d\u00a3\u00a2\u00e9\u000b\u00bf\u0017\u00d34\u0014Y\u00da\u0007\u00fe\u00c7cz\u0019\u0081\u009e\u00f3'\u001b8P\u00f9S\u009e\u00c6\u00e0\u00b0\u00e4\u00f6`\u00c6\u000b@f\u00b2z\u00c5\u00df\u00b3BS\u00df\u00a6\u000b\u001bR'\u00d45\u00aa\u0099\u008a3o\u00ce\u00ect7\u001a\u00dc\u0088-@G\u001eGw\u0081\u008a\n\u0004a\u00e8\u00b7\u00b0\u00c7x\u009b}U\n\u0088\u00a6\u0099)'X\u00f1\u0097\u00c0\u00b1\u0011m\u00d8\u0011\u0000s?\u0084\u009e\u00b9\u0018\u0085S\u00b8\u00db\u00d4\u00af\u00e3\u0099\u00bb[\u00a7O\u00df\u0003\u001a\u00c0\u00fc\u0087l5s\u00e6\u00eb\u00c8\u0004\u00e4\u00df\u00ee3Lb\u0097\u00b1dQ\u0005\rB\u0016\u00ee\u00a0\u0010\u0099\u00a3kR\u00e5gc\u00f4\u00a0\u00bd\u007f\n\u00b8\u00af6J\u0001\u00a9\u00eb\u00b70\u00bf\u009e\u00f34\b\u0091Y\u009f/\u0096\u00a8\u0091\u00ed\u00c0\u00c0\u0018\u00b0\u00f7\u00c2\u009d\u00bb\u00ed\u00f5\u00b9\u00fa\u008c\u00e76 \u008b \u00d0\u00de*\u0084\u0013J\u00e0\u00ee\u0093;k\u0095k^A\u0011\u0097\u00c6O\u008b\u00e4b\u001cb\u00e7\u0085\u00d81\"\u009f\u00e3\u00ed\u0015S\u0015s\u00ae\u0010\u00f4|\u008f\"*`s\u00b8w\u0011\u009b\u00a1RA\u00c3\u00f4S\u009f\u0080\u0082\u00c4!\u00c47\u00ad\u00d0U\u00b34\u0093bC}\u0085\u001ea7T\u0011\u00be\u00d6\u00dao\u0099\u00d2\u00e2>(\u00e7pwUs\u00cdU\u00ae\u0099\u0017\u00c7E\u0080\u00aa\u00ad\u00daSs\u00db\u00b2\u00cf\u0097\u00e4\b\u00a4+f\u00d4C)\u00df}\u00d8\u0092\u00c4\u00d3G{\u0086\u0088\u00eb\u00db\u00ce\u00a4\u00b7\u00ff\u00b0`\u00fb[\u0002\u00a9\u00cb\u00a8h\u00d5g\u00a4\u00fbI\u0013k|\u00a1\u008bH\u00b4e\u00ff\u00b9\u00c7\u00a9p}6\u00a2\u00d5\u0005\u0012\u00b5}\u00f6\u0006\u0002\u0095\u0085yak \u00f6\u00f8U\u0017[\u00f1\u00edO\u00e8u\u0086\u00c1w\u00fe\u00a6\u00cb8F\u0094\u00bd\u00ba\u00d5\u009e\u00bf*(\f\u00a06\u00f4\u00ad&d\u0080\u00a4\u00e4?\u00ff\u00c9(\u00f5vw]\\\u008a\u0089\u00eej\u00a0Q\r\u00c9\u00fa%\u000b\u00a2\u00b2\n\u00a4\u000f\u001b\u001c\u001c\u00a4k\u0095\u001d\u0013\u001ej\u000b\u00ec\u0090\u0085Y(\u00c1\u00d38\u00a5\u00ba5\u009bQ\u00ed.\u0099\u00e1\u00cd\u00e2>\n\u00c4Kc\u00efzK\u001c\u00e8\u000eA\u00f2\u00c3\u00d4\b=Y\u0000\u00cc\u00a5\u00c7i\u00a1\u00b2\u00f0\u00d5\"\u001eL\u00b8\u0004\u008dN*", 
+                            "regkey_r": "Impersonation Packages", 
+                            "reg_type": 3, 
+                            "regkey": "HKEY_LOCAL_MACHINE\\SYSTEM\\ControlSet001\\Control\\Lsa\\Impersonation Packages"
+                        }, 
+                        "time": 1773669757.703246, 
+                        "tid": 220, 
+                        "flags": {
+                            "reg_type": "REG_BINARY"
+                        }
+                    }, 
+                    {
+                        "category": "registry", 
+                        "status": 1, 
+                        "stacktrace": [], 
+                        "api": "RegCloseKey", 
+                        "return_value": 0, 
+                        "arguments": {
+                            "key_handle": "0x0000003c"
+                        }, 
+                        "time": 1773669757.713246, 
+                        "tid": 220, 
+                        "flags": {}
+                    }, 
+                    {
+                        "category": "process", 
+                        "status": 1, 
+                        "stacktrace": [], 
+                        "api": "NtFreeVirtualMemory", 
+                        "return_value": 0, 
+                        "arguments": {
+                            "free_type": 16384, 
+                            "process_identifier": 1812, 
+                            "process_handle": "0xffffffff", 
+                            "base_address": "0x00196000", 
+                            "size": 77824
+                        }, 
+                        "time": 1773669757.713246, 
+                        "tid": 220, 
+                        "flags": {}
+                    }, 
+                    {
+                        "category": "registry", 
+                        "status": 1, 
+                        "stacktrace": [], 
+                        "api": "RegCreateKeyExW", 
+                        "return_value": 0, 
+                        "arguments": {
+                            "access": "0x02000000", 
+                            "base_handle": "0x80000002", 
+                            "regkey": "HKEY_LOCAL_MACHINE\\SYSTEM\\CurrentControlSet\\Control\\Lsa", 
+                            "key_handle": "0x0000003c", 
+                            "options": 0, 
+                            "regkey_r": "SYSTEM\\CurrentControlSet\\Control\\Lsa", 
+                            "disposition": 0, 
+                            "class": ""
+                        }, 
+                        "time": 1773669757.723246, 
+                        "tid": 220, 
+                        "flags": {}
+                    }, 
+                    {
+                        "category": "registry", 
+                        "status": 1, 
+                        "stacktrace": [], 
+                        "api": "RegSetValueExW", 
+                        "return_value": 0, 
+                        "arguments": {
+                            "key_handle": "0x0000003c", 
+                            "value": " :3 \u00c4N\u0000\u0000\u0000N\u0002\u0000\u0010\u0000\u0000\u0000\\\u00f6\u00eey,\u00df\u0005\u00e1\u00ba+c%\u00c4\u001a_\u0010Z\u00bbm\u00fc:\u009c\u0004l\u00b6n3\u00dck\u009fP\u00eb&\u00faP\u0019a\u0007\u00bb.`X\u00e3p\u001c:kB\u00c0I\u0099\u00a0\u00182\u00dc \u00d54\u00ecR\u0019\u00d0q[\u0085\u0083\u008b\u00a4\u00ff/\u00a25=\u00dcX\u00fcb\u0018\\k\u0089Ps\u0004f\u0013\u0082\u00f5\u00bdeY\u00eb\u00ac\u00b8\u000bP\u00f2\u00ee\u00cdC\u00a5\u0019\u00b5\u00c4.\u00ae&vsJm\u0099\u00e7\u009cG6\u0014\u0002\u00db~\nj\u00e8\u00ca\u0080\u00b4q!\u001e\u0083w\u007f\u00ea\u0096\u00b4\u0091\u0085\u00d0\u0086{\u00ba\u00ff\u0090\u00ab\u0081\u009a~\u00d6^\u00e3\u009cG\u00b8\u00eat\u00e1\u008eY2\u00a2\u00b3Y0r\u000bN\u0005\u00fb\u009a\u00a9\u00a7\u00fb\u0080\u00ffC\u00dd\u00b1\u00d2.\u0006\u00db\u008aZ\u008f\u00e8A)\u00e3\u00c2)\u000b\u00d9M\u0082[>\u00e4-\u00e8c\u0099:\u008c\u00b1\u0095X\u00b5LE\u00dc\u00b2\u00a7/\u007f\u008f\u00de\u00c0^{m\u001b\u0094\u009f\u00ebN)\u009f\u00d1G\u00f8,\u00b7\u00ee\u0091\u0014\t0\u0083W\u00aaM\u007f\u00a9.\u00f1]K\u00d7\u00de\u000b`:\u00c1\u008fd\u00d6\u00b4\u0092+\u00f1\u00f7\u0083R(h\u00ca>w\u00e0\u00de\u00bd\u00af\u00fe.Gwz)\u00a7\u001f\u0089i+7\u001a\u00f51BD*+c]\u00fc\u00a9\u00d0W\u00b3\u001aeD\u0002\u0010\u00fd\u0006G.$9G\u0010\u001d@\u00bc\u00c7]\u009bn\u00cf\u00c9,nGs*\u00e85\u00a55\u008e<\u0087[\u00e6H\u00a8\u00a6i`;\u001f\u001d#\u009e\u00d2A__\"\u0096\u00fe6\u00cb\u00aa\u001e9\u00821\u00c9\u00c5\u008a\u008a\u0003\u00bc\u00e5H;d\u00ed[s\u0090\u00b7\u008f\u0004\u00cf\u0006<[p M\u00a6v\u00f2\u00a6\u00a5\u00100\u00cd\u00c5\u000f\u00bafk\u00ee\u00ac}\u00b1>z\u00f2\u0081\u0014\u00ea,\u008a\u009a\u0013t\u00910\u00e65\u008b\u008f\u008c\u0098\u0096\u00bd*\u00a0\u00bb\u00c4c\u0014\u001b\u00df\u0010\u0019\u00c77\u0012\u0087F\u00fa\u00bb\u008d3\u0013\u00f2~\u00e8\u00c5\u0087\u008c\n\u00e8\u00f1\u0007-\u00eb\u008c\u00a3\u00db\"\u0006\u0007\u00dc\u00f8\u0091\r '*sM42\u00eb\u00af\u00d5\f\u00c0\u00e9\u00fdn\u0001\u00fa$\u0002\u000bh \u00f7T\u00cb\u00d2n+\u0099\u0081\u00d8m\u00cfd@6u\u00a0\u00d2\u00f9E\u00a9o\u008d4]c\u0085\u00bc\u00fet \u009b\u00ab\u00f5^\u0090\u00de+\u00ec\u00e0t\u001aKQ\u00feh5\"@\u00b9NZ<oNR\u00c9\u0097\u00176\u00b7{KN\u00d8\u00eb\u00b8\n\u00ce\u00c8\u00ca(\u00d7\u0005o\u00e5\u00ba\u00d1\u000ey\u0013\u0019[W\u008f\u009ak\u00fc[r\u00e8\u009c\u0085vW!\nWQ\u00b4\u008e\u0000|#\u00c3X\u00e6\u00b5\u0005:\u00a3\u0092\u00ed/\u008c_$\u00a7\u00fe&\u00e8\u009f\u00cf\u0084h\u00c8\u00f3\u0002*\u00df\u0088\u001eU&\u00b4\u00cf\u00ec\u0090.\u00cbs\u00ea}GO\u00f4P*\u008aX\u0084b\u00cae\u00f9\u0080\u00f6\bH\u00c0\"\u0007['b\u0089kv\u00dd\u001c+\u00c2eW\u00af\u001e.\u00ce\u00f8m\b1t\u00fb\u009f\u0013\u00ffH0\u00e8{\u00ed\u008bMi\u0012\t3\u00a8\u00ac-\u00ac;H\u00c4\u00a68\u008a\u00ba\u00c6\u00ad5\u00da\u00ff\u0087Z2\u00b1\\X\u00e6\u00b0\u00e3\u009f\u00bd\u00ab\u00bb\u0095\u008c\u00c7M\u00aa\u00e6f$lZt\u009b\rm\u00f7\u001b\u00cc\u00e9u\nr}\u0004P\u0093\u00e1\u00ca\u00e5\u00b8\u0006\u00bdp\u00a2\u00a8|\u00ef/@\u0013\u00d3\u0090\u0018\u00b0\u00c0\u00bd\u0010\u00af\\\u00e1!n\u0080uq\u00f0{\u001f\u00da\u008fzmE\u00be\u00d3\u00c1\u00f3\u0087\u008f\u00c4ndx~D\u00e6\u00f4P\u0090\u00be.\u00c6tK\u00c5\u00b1|\u00b0\u0081\u00dc\u00ba>\u00e6\u009a\u008c\u00b1\u0010\"\u00b8\u00a7\u001be\u00a6\u00a0\u001e+l8\u00d7\u008b\u00d9\b\u00fdHr6\u00d7\u00c4\u00eaX\u00865v\u00b6\u00ab\u00f9\u009d\u00bb}R\u00de\u00c6\u000e\u008c\u0000?\u00a1G\u009d\u0002s\u00b7\u00a5\u0098m&\u0095\u009d\u00e2\u00c8\u0084\u0088\u00e3\u00ee\u00cc\u00cep\u0005\u00d5p\u00e8\u0097\u00f1\u00c3?\u00f8\u001c\u009f}08\u00a8`>\u00bfu\u00f2xL\fu\u00e7\n\u0000\u00f6s\u00f9H)\u00f4oZ\u00ff\u0015$\u00f61\u00e2\u00c1\u00dd\u008a}\u00a6\u00ab\u00ea\u00f6{>\u001d\u00f6\u00d5\u0097\u001a\u0003y\u00e1qS\u0080\u0080RL\u00d5\u00961~o\u00ee\u000f\u00cd\u0081\u008d\"\u00bd\"\u008c7\u0005\u00d7@0\u00e0\u00e1>\u0094e>\u00a8\u00c68|\u00c0\u00cc*\u00ca)\nBz\u00e0\u00f6X\u00db\u00ba\u0015I\u0018o{0#^u\u009e\u00ea\u008e!\u0007\u00b0\u00e5\n\u00e4\u00fb\u00cd\u0018d\u00b0\u00af3\u00e9\u00ac\u0080\u00b0eu\"\u009dy\u00f2>g6N\u00dd`\u00d4\u00d3\u00cb\u00e5IU\u0012!\u0011\u00e0\u0013\u00b9\u00bbj8\u0099}\u00d0\u0082\u00e6:.\u00e7\u00dag\u00e0\u000e\u0015(\u00bd\u00d0\u00ef\u00d81$x1\u0012F]\u00af\u00bc\u0096G\u00ee\u00d2\u00e0\u00af\u0095]N7)\u0001C\u00da\u0007$\u00172}W\u00ed\u0080I\u0010w]\u00d1\u0012[\u00a1:&\u0089g\u00b1\u008b\u00e0\u009f\u009cp4IK\u00b1\u00d9\u00d3\u00d3\u00a3\u00a8\u00f0\"\u001a\u00c4\u00ae\u0099\u00bc\u0092i4q\u00f3\u00f2Y\u0082\u00c9\u0082\u001e\u00fe#\u00d8\u00c0\u0017\u001c\u008c-\u00c4\u0015\u001f(\u0091\u00e2\u00b3F\u0099\u00a3\u00a4nI\u000e\u00c8\u009c\t\u0098\u0002\u00dd7\u00c8\t\u0005\u00e6\u0092\u0090\u00d3\u00fdv%MU\"\u0097\u00e87\u001a\u009b\u00d29\u0019\u00fb\u00d7\n=\u00abO\b#i\u00c8\u00f0\u0090\u0004V\u00f9\u008d:%\u00d73\u00eb\u00d9\u008eyg/\u0012\u009b) \u00a1'R\u00f5\u00f6\u00a8\u00ac\u00a1\u00d3\u008c\u00cd2$GK\u00adW\u00c75&r\u009a\u00c1\u00f2V#\u00ee\u00eb\u008a&\u00b7\u00f4\u0007\u00cc\u008f\u0092G\u0006%\u00c4\u0004)\u0013 \u008c\u009e-\u009fo\u0012\u000b\r p\t\u00be\u000f=\u00da&\u009c{:\u00f7;|\u0093\u00cb]qR\u0085\u00c2L\u0091\u00c1\u00ae~D5\t\n\u00b3\u00f6\u00b1c\u00c4\u0010\u00c0f\u0097*QtL0\u00c9\r(\u009e\u009f\u00bf~DL\u00aei\u001aEhXe\u0001]ECe\u0096\u00f3\u00da\u00a5\u00b9\u00e6\u0090\u0095\u00e5\u0088Mv\u0085.8N\u00a7\u00e0z9\u00f3\u00c4\u00a1\u00b2\u0004)O\u0083\u0095[\u00119k\u00b9\u00e2\u00aa\u00a4A\u001c\u00e7\u00db\u001f,\u00dc\u00f8{\u00d4\u00df:m\u00e8\t\u0007\u0081\u00ebTaN\u00e2\u0097\u00ed\u00e7\u00e4[$r\u0014\u00a9\u00b0\u00f1\u00d5\u00a1O\u0001\u00c8D*\u00dfP\u00f9\b\u008c\u0095\u00ee\u00f2\u00da;\u00e6]\u00b1(XQ\u00fb\u0015]\u0080(\u00a0\u0087\u00b2\\v\u00b4\u00f2\u00ea\u00c6\u00d6\r\u008a>]\u00de<u\u00cd\u00f3:\u00eb\u00eaC\u0000\u0018b7Y'g\u0088\u00d8\u00db\u0090\u001b\u00ca\u00d0\u0011\u00918@jP\u00da<\u0001\u00f8vD}\u009a\u0081{\u00ab\u00ebDU\u008e8\u0094\u00c9,\u001a\u0001\u000526\u00f5\u00a16\u00e1F\u00b2\u00c0d\u00e3<y_7\u00d9|ax\u0006S\u00a9\u00ce7)f\u00d6\u00c2\u0094'o\u00ec\u0082h5\u00f8\u00cdX\u00fe\u00d6\u0087;\\K\u00cf \u00cfK\u00f2Jh\u00b8I\u00a5\u00f8f\u000fW\n\u00b0Y%!.\u00cc#\u00d3\u00e6\u00d0\u00e4\u0017+\u00a8\u00beg9\u00ec\u00d6\u00df\u0018\u0085\u00f7\u0015\u0092Y\u00ee\u0083\u0094aX\u00f7*\u00ab\u0014X\u00d7\u00dcTZT\u009b\u00d5\u00beu\u00d5M\u00c3\u00a4\u008c\u00d0\u00d2\u000b\u00fc\f\u00ef\u00af\u00e9\u008ds'\u0096\u007fU\u001a\u00abuH2\u0014\u0090|\u000fp\u000b\u0099P\u00a9\u00d8\u00a6\u00aa\u00b5\u00c8C\u00e9=]8\u00c9\u00a3/\u00d1\u00c9\u00f3u\u00b2\u007f\u00ccP\u00d5~\u00d9k\u00ebA\u00c7\u00f3\u00c3\u009c\u009fR6\u00e2\u009699\u00d4\u00ea8\u0086\u0017\u0012\u0093n7\\\\\u00desz*\u00d4~9\u001f\u008czn\u009a\u00f8\u000e\u00b26!\u009d\u00ab\u0005\u00ae\u008a\u00bf\u00c9\u00bb\u00e7\u00e8\u00a6\u000e\u00c6o\u00ad'\u00d9F\u0082`\u007f\u00a9\u009bU\u00d9_\r\u00e5\u00bdO\u00f4t\u00a7$\u00b2\u000e\u00a3\u001c\u00cfgrr\u00c6L\u00e9;!\u00d6F\t\u00bf\u00cc[%e%\u00bc\u009d\u0083\u00cc\u0099R\u00e1OOv\u0001\u00c4\u00f4>\u00de\u00ce\u00ed\u00be\u0012\u001e\u00a4\u00ed\u001dQ\u00190F\u00a3D\u008f\u0019\u00c8\u001d\u001c\u00ec\u0098\u00f4R\u00a1\u0092Y#\u00ff\u001e\u00198\u008d/\t\u00de}\u001c\u00bc\u0099\u001a\u0017\u0083(\u00ed\u00d5\u00d8@\u00c9\ba\u00b0\u00f8`g{b0\u0099/\u0019\u0087\u00b7(\u008el\u00d7\u00fa:\u0013:3/\u00ee\u00be. \u000f'\u00c1S\u00cc\u00ee\u00bc\u0005d\u001fNY\u00b1\u00e4O\b\u00e3\u00e2uzd\u00ccA\u0083\u0086-\u0019\u0000*\u001c\u00a1d3\u0012\u00ee\u00f7\u001a\u009a\u00050\u009d\u00a9\u00f1\u00deA\u0092\u0016\u00d2v\u001e7\u000e\u00e6\u00b6\u00bd\u00e8\u00cd\u00d1Y\u00bb\u001f\u0019\u00be\u001bf@\u00c1hd*<\u00cc\u00d9h\u00ac\u00c6\u009a\u00c2\u00da\u0093\u008al\u001f\u00d2\u001f\u00d5`\u0096\u00ae\u00f4\u00b9\u00aa\u00fdv\u0091#\u00b1\u00fbu\u009f\u00c7*\u0088\u00eb\u00ee`H\u0081\u00be\u00d3\u0097{\u0006#H\u00d9\u00d7\u00ee\u00f7\u0080\u00f0^\bw\u0092IR\u0011\u00ff\u008d,_>\u0089\u00bd\u0099[\u00a1c\u0086\u00a0AC<5\u00a9\u0085w\u00f0\u00e7\u00ed\u00ac&o\u00e2\u00d5N\u00bd\u00b0\u00c1\u0006\"\u00ff\u009b\u00fb\"6\u00e8\u00a1T\u00b8\u007f\u00d6:\u008f\u00fb7\u00c8\u008e@\u00de\u00e1\u00e4|:\u00ef\u00a0Qg\u0011b\u000b\u0092\u00ba\u009a\u0010\u00b4\u00a3\u00dfA\u00d7?\u00cf\u00ea\u00ef\u00d0\u00ce\u00e5Z\u001e\u0092\u00ccZ\u008b\u0016\u00d8B\u00a2\u00d3\u00c4\u009e\u00b0\u001f\u0004\u00b1\u00e8\u00c6\u008e\u009d{\u00c9U\u001aM\u0018\u00b6\u00d3x/j\u00ac,\u00b6\u00ec\u0007\u00eb\fAI\u00b7\u00e3g\\\u009a\u00e4J\n\u0086\u00fa\u0015\u00eb\u0011\u0015,3\b\u00f8\u00cai\u00a4\u00fe\u00e2\u0018\u008f\u00e9Etc\u00a8IH5\u00eb\u0092\\e\u00b5,\u009f\u00c7\u00b6\u00e4\u00fa\u0097\u008a\u00ec8\u00b9Q\u00bd,\u0090\u00b5\u00da\u00f7\u00b5J\u0005\u00c9\u0084_x\u0096\u008ffE\u00da\u0000\u0001~y\u00d3GJ\u0090}\u00d7N\u00a2\u0092WfG\u0013/\u00f7\u00ce1\u0003\u0086\u00b4\u00e6\u0095\u008d\u00a0\u008f`\u0084\u00fae\u00a7l_P\u00c4\u008e\u00c6\u00fa\tv\u0096~Q\u00efrI\u001a\u0089\u00df\u00ec\u00173Aq\u00b3j\u0000F\u0092\u001a\u001c\u000fdC\u008f\u00f1\u007f\u00ba\u00d9\u00f1\u00d3\u00cbie\u0015\u00ac\u00fe&9\u00f7\u00b8\u00a3\u00e93\u000b\u0097mM\u0019\u00cd\"\u00a2\u00ce1\u0013\u0093=\u00d3\u0089N\u00f0\u00d7_\u00ecK\u00ae5\u00f6\r\u00a3\u00ba\u00dfG'5\u00d6\u00c0\u00a0\u008f_d\u00f6\u00dd\u00c0\u00d5\u00b1\u0019\u00ceG;\\\u00bc\u00f7\u009d.\u00d3\u0013\u00ab,]~u.x\u00b2\u00be\u00f5\u00dea\u009c\u001e\u009eQ\u00b5f\u00f8\u0005\u00be\u00058~\u0085D\u00d7,)'bk\u00baW\u008b\u00daREh\u00caf7R\u00126n\u009f\u000e\u0012b\u0011\t9\u00f8=W\u00be\u009c\u00e8\u00a1\u0014W\u00ad{\u00a3\u00cdF\u00c0\u0014\t}x\u00cf\u008d\u00a7\u0017\u00d9\u00f0\u00be\u001eO0\u0094\u0096 \u00df\u0084d\u00ce\u008f!\u0098F9\u0095\u0005\u00d6\u00fa-\u001f\u00ef\u00d5\u00c7\u00e9\u00c6 \u00f0\u00da\u00e81J\u00dam\u0019\u0019\u001a\u00c3\b(,\u0093\u00af\u0017\u0010\u0014\u0089\u00b9\u00cbU\u00a8EeBrc\u008d\u0081\u00f6^\u00e3_Vv\u00e4;\u00a1\u00b1wX\u00c2L\u00fb\tEZ\u00a0\u00bd\u00fb\u00a8\u00ff\u00c5\u00ab\u00c9ls\u00cd\u0080?\u00c6\u000f]+\u0004S\u00be#9\u00e4\u00d2_u\u0081\u00d3\u00a09\u0001\u00c5\u00a3\u00ebJ'\u00a5W\u000b}m\u008d\u001e\u00c5Y\u00a3\u00d8\u0016\u000b\u0007=\f\u00f5\u00f5\f\u0099\u00ae\u00d8DM\u0087b\u007f!}x\u008a,U\u00fe\nx\u00f8\u0004\u008d1\u0091\u00bd\u00abR\u00a6\u00dc\u00e4r%wv\u009f\u0084\u00ddC\b\u00a7\u0094L\u0080r\u00dc\u008cH\u0002C\u00e0\u00c1\u0096j\u00bc\u00f4\u00f50\u001a\u00d9\u00e7\u008e;G\b\u00d53@\u0093C\u0090\u000e\u0092S\f\\,\u00e8\u00d9r\u0094\u00d2\u0016\u0095\u0006\u00cd\u0001\u00e5F8\u0019\u00f3\u00bd\u00c9\b\u00cd}\u0089q\u00ba\u00d3\u00cb\u008e\u0089\u00c2\u0091\u00bda\u0000\u0014\u00ad\u0086K\u00f6\u00dc.\u00d8q\u0016\u0082\u00bc\u007fl_\u0093\u00d7\u0096(\u008e\u00b1\u00c6r\u00f3z\u0006\u00e9\u001a\u00da`|\u0097\u008b#:\u009c\u00e0\u00a2*k9O\u008fb\u00a2\u0012\u00d8\u0088[\u00bb\u009d[i\u00ee\u0098\u00c7V\u00d3\u00fecK\u0097\u00e2\u00fb\u009c\\w\u00f8\u00c6T\u00fe\u00ae'\u00e59\u00d3H\u00a2\u00f8\u00bb\u0091\u00a6,V(\u00caC\u00a3%!1\u001f\u00f6KS,\u00ab\u00a5H\u00a4>\u009ei\u00ac?\u0091\u001f\u00e8\u00b3A\u00ae\u00a1\u00ab\u00bc\u00f3\u00ee\u00c9`|\u00d5\u0015e\\X\u00b7\u0081\u00b8|(\u0094\u0095\u00c2\u00f8G\u00b6tH4\u00dc\u00c6\u00d1\u0002J}8\u00d4\u00f3\u00f9'5\u00c44\u00ca\u00fb\u00e0\u001c\u00c2c\u0090\u00f4\u00da\u007fR\u00ce\u00df\u00df\u00f2\b{\u00ef\u000bz\u0094\u00c5\u0006\u008a\u001c\u00b0\u00d4\u00fer\u00d1\u0012\u00ba6u@\u0090\u00c7\u0007\u00cc\u00a4\\L\u009d\u0001z\u00a8\t\u008cF\u0092\u00c1g\u00d2/\u009bK#\u00c5\u00f6\u00c7\u00ea\u00bb\u00a5\u0098\tK\u00e5E\"\u00daI\u00ff9\u00fd\u00c0^k\u00b8\u0003\u00c8\u00cc\u00f4S\u0006p(\u00bd\u0015\u00a5\u00bf\\{\u00ec\u001d\u00a7\u008f\u00db\u00fd\u00f1\u00b3\u0016\u00d8\u00abZ\u0012F\u001abn\u0003\u009b\u00b8\u00cb\u00f3f\u0089\u0015\u000e*dH\u008b\u008e\u0089\u00ae\u00cb\u0006\u0090z\u00d0\u0083*\u00ae\u0085\\;Zx\u000b\u00e5\u00d3\u00a9\u00f7\u0098\u00fe\u0091U\u00c8\u0014\u00b2S\u00bfa\u0017v\u0096\u000e\u0090\u00c5\u00dc\u0088\u000f\u00e2\u009bJ\u00b0sO\u00b7%)5\u00ab\u00f8X^\u00bf,\u00cc;\u00a2q`\u00c3\u00de\u00eaW\u00e5\u00e5\u00118!/\u00ad\u00e4I\u00d8\u00d0\u00c7\u00f9\u00fcw\u008c,>\u001b\u00ab\u00ceT\u0002q\u0001\u00e7\u0090\u0015w\u00bf:+U\u00be\u0015\u001a\u0095\u00c6\u00d5d2\u00bc\u00ca<l\u0081\u00f5\"\u008b\u008e\u00ca\u0015\u008cl\u00f6\u00d7\u00c5}\u001e\u00eb\t\u0000/@l\u00c6\u001b\u00ca\u00b9\u00e9\u00a2v/P,\u00f0\u00a9@\u001d2\u00ff\u0010\u0097u\u00c2\u0091E\u00ee#\u0006\u00ca\u007f\u00b0\u00cb5\u00f2\u00f6I\u00a7\u00ec\u00c2\u00c3\u00ca\u00deF\u00b9\u00c4\u00f2\u00ed:<\u00df\u00d2\u00c2\u0097s\u00b1]\u0018\u00bb\u00cd\u0017_l\u00c6\u00a3*\u00bdR\u0003W\u0012\u00ad\u00d2\u00ee\u0097\u009e\u0006sN\u009a\ni\u00cc\"\u009cb\u0002W\u008b\u00f7\u00c8o\u00bc\u00a5=S8*\u00ceb\u00b1\u00e2fp\u00a9\u00da\u0084!s^N\u00a2\u0010\u00b7\u00a4;\u00c3\b?\u00c9Hi\u00b8\u00b7*\u00c8\u0099u\u00f7s\u00d8 a\u00bb\u00d3\u00e1\u001dc\u0002R&U\u009cqH\u001e\u0086\u00dd\u00de\u0017G\u00fd\f\u00f5\u0003q\u00a5\u0087_g2&\u0099\u009a\u00f7\\D\u0014\u0082c\u0005\u0095qM\u007f^+\u00ea\u00a5;\u00ef\u00ba\u00be\u0006R\u0091\u00b9n\u001d\u00c1VO\u0092\u009d\u00bf)!\u00f3\u0089\u0083\u00943\u0012\u00cb\u00c2\u0003\\hM\u00af\u00a5\u00c1|#\u00a9\u00e5\n\u008b\u00c9\u00d7\u008dk\u00eez\\\fg\u00adq\u009fs\u00e0s:\u008a\u00b5\u0082\u00fa\u00ef\u00a2\u0087V\u00cd\u00e6C\u00d8$\u0011]\u0097Fj\u0018\bt\u0098\u00c2\u00f6\u001cx\u00fe\bB\n\u00b2\r\u0016\u00cbk\u00d5\u0098\\\u00a9\u00a4\u0094\u00c5\u00efs\u00fb\u00c3\u00ed\u0014\u00113Nx\u00c7Z1\u00b9;r.\u00f1\u0091\u00f8=\u00b5\u009f/;O\u00f0\u00b1`VP\u00fa\u00e3^Q\u00bd@\u00f0\u00favhv\u00a3*J\u0013Z\u00d3Az\u00cf\u00cd\u0098%\u00d6\u00bc\u00c9zC?\u001c\u008b36\u00e0S\u009b\u000e\u00b0#\u00faF\u0089CN\u00c9\u00d7\u00b5\u0003w\u009ej`\u00d4\u00cb\u0007\u00bc\u00c2\u00ba\u0006\u009a\u0086A\u00fc\u0086\u009c\u00ee-n\u00cab\u00d8\u0098\u00a8\u000f\u000e\u00da\u00db\u00fc\u00ec\u00cf\fm3\u00f4\u00c4(\u00a0\u008b\u008af\u00db\u00e5Z\u00cfg\u000eJC\u0080<n)NSt\u001a.Q'\u00e0+\u00b0\"*\u000eJ\u00e9\u00e1\u00c5}\b.'\u00f0\u00ba\u0090\u009b\u00ac\u00bf\u000b\u00b2\u0098\u009b\u00bdr6\u00c3\u0087d\u00fd\u00a1\u00d6\t.:}\u009b\u00c6q\u00b9\u0099\u0098\u0089\u00fe\u0092\u00c9\u00a6\f{z\u00f3\u00af\u0083\n\u0012\u0099\u0087\u00b7\u00c0i\u0084\u00f9\u00c6\u0082\u00fe\u0087\u00a3\u00dc\u000f\u0088aN\u00ac:,\u00b4\u0011\u008c\u00dc]M\u0010$\u000e\u0098s\u00f7\u0006W\u00a2`Yl\u0081\u001e\u00bf\u00b8z'BW\u0013\u0097\u0094\u00f57E\u00c6!Ag\u00f9\u00dc\u00af\u00c5\u00ac{\u0097\u00f2T\u00ea\u00ed\u00feA\u000bh\u00c5\u0012*\u000b\u00d9\u00ea\u00ed\u00c72&\u00c8\u00a09@)\u00a3Vl\u00bb\u00f8\u008c\u00e6\u00cc8F\u00f8\u0014\u00a3C\u00d1}\u00a1\u00b6\u0004'\u00d9\u0006o\u0092\u009ck\u0097\u00b7,\u0018L?\u00ae\u00b6@u\u00f7\u0006y\u00bc\u0015az\u00c8&j\u00ce\u00b9\b\u0087:,o@Mp\u00ce\u00c8\u0096:\u00fd\u0001p^U\u00c0\u0000\u00ac\u0085]\u0094\u00fa\u00e8u|\u001fv\u00ec\u00fa\u00ff\u00c3\u00b8\u0090\u00ba\u00db\u0098\u00bd\u000fp\u00f8\u00c3j_\fu\u00d2\u00cb\u00d8\u00e9\u00b5!#\u00e4\u00c3\u0083\u00fd6\f@[\u00e6\u0096\u00a9\u00cc\u0081=&\u00f8\u0017\u00fbo\u0094,\u00ec\u00bd_\u001a\u00e23\u00ecp\u00c7\u00fb\u00a4k\u0085by\u00ae\"\u009c\u00c3\u00919\u00d0\u00ab7\u00bb\u0011+\u00f8\u00c1\u00cd\u00efB\u00b9\u0096\u009bJ\u00c1;\u00bb\u00abM\u007f7\u0001-\u0085\u009e\u00c3\u00bb\u001d'\u009c\u00f0\u00bce\u00af\u00eb\u000eU \u00b6\u00049\u0000\u00e5\u00e0FYO\u00bd47\u00d8\u00bb<\u00eb7/r\u0083P\u00f9\u0012\u00e9\u00a0l\u00e2\u0080\u00a8\u00b4\u00e0\u00d6\u00a9\u0083\u0092\u00fc\u00e4Y\u001b\u0012w\u00bfb\u00e2\u009d\u00a1\u001b\u00df)Kf\u0080\u00b4\u00d7\u00cc\u00d61o\u00c1\b:\u00fd_\u00f4\u00a6\u00b1\u00c6e`Lv\u00b2\u00b5\u0080%\u00bb\u0010\u00f0\u00ff\u0006*\u00e0E\u0099\u0006\u00af.!\\tm@\u00a4\u009dY\u00b1X5(\u00f9T>\u0015Aa\u00c2\u00bc\u008d\u00b6\u008em\u00a6\u00edO\u00db\u008bA\u00c2\u00e7\f_\u001f\u00a8O\u00f7\u00de\u0082\u0016)\u0091\u001c\u00d5ES\u00aa\u00a6\u007f\u0093\u00e9w\u0018\u00e9\u00de\u00ec:0\u00e7stw\u001d\u00f0\u00cd4\"\u000f\rP\u00f1\u00dc\u0095|9\u00ce\u00dbO\u00a1\u001a\u00bdX\"\u0094 \u008f\b{\u00fa\u00b0\u00ac\u00d9ov\u00ad\u00e8\u00d8\u00bfQ%;aV\u00e5\u00a2\u00ae\u009b\u00d5\u00bd\u00fd\u000e\u0083\u00a3\u008d\u0080V\u000b\u00bd\u00d3\u00b8\u00d7\u000e\u0092\u00e2\u00b2\u00bc\u00bdUU\u00c9\u00fa\u00ca\bC\"\u00c0\u009e\u0085E\u0001r\u00a2\u00b8\u0085\u009d\n\u00a6}G\u00ab&\u00dd7\u0006\u007fHq\u00a5\u00b8\u00d2J\u00f2\u0010$=\u00c5\t\u00c5\u00a2\u00f7gqJ\u00e5b&\u00a4\u0019eW\u009a\n\u0005_\u00b5\u00b6q\u00a8~\u00d1\u00dc\u00c2\u0006\u0086\u0013=[\u0013\u008d\u00ec\u00cb\u009f\u00f0\u00e7\u00e6\u00b8\u00a5\u0014lR\u00c5\u00eb\u00c1\u0087\u00b2G\u001d\u0087G\u00b9\u00db'q\u00ab\u00f1\u00c2\u0090\u0019ve~\u0096\u00d5\u00d1\u00c1\u00b3F\u0096\u00a2\u00d9)\u00dc\u008f\u0001'", 
+                            "regkey_r": "Core Packages", 
+                            "reg_type": 3, 
+                            "regkey": "HKEY_LOCAL_MACHINE\\SYSTEM\\ControlSet001\\Control\\Lsa\\Core Packages"
+                        }, 
+                        "time": 1773669757.723246, 
+                        "tid": 220, 
+                        "flags": {
+                            "reg_type": "REG_BINARY"
+                        }
+                    }, 
+                    {
+                        "category": "registry", 
+                        "status": 1, 
+                        "stacktrace": [], 
+                        "api": "RegCloseKey", 
+                        "return_value": 0, 
+                        "arguments": {
+                            "key_handle": "0x0000003c"
+                        }, 
+                        "time": 1773669757.733246, 
+                        "tid": 220, 
+                        "flags": {}
+                    }, 
+                    {
+                        "category": "file", 
+                        "status": 1, 
+                        "stacktrace": [], 
+                        "api": "GetSystemDirectoryA", 
+                        "return_value": 19, 
+                        "arguments": {
+                            "dirpath": "C:\\WINDOWS\\system32"
+                        }, 
+                        "time": 1773669757.733246, 
+                        "tid": 220, 
+                        "flags": {}
+                    }, 
+                    {
+                        "category": "file", 
+                        "status": 1, 
+                        "stacktrace": [], 
+                        "api": "NtCreateFile", 
+                        "return_value": 0, 
+                        "arguments": {
+                            "create_disposition": 1, 
+                            "file_handle": "0x0000003c", 
+                            "filepath": "\\??\\C:", 
+                            "desired_access": "0xc0100080", 
+                            "file_attributes": 0, 
+                            "filepath_r": "\\??\\C:", 
+                            "create_options": 96, 
+                            "status_info": 1, 
+                            "share_access": 3
+                        }, 
+                        "time": 1773669758.384246, 
+                        "tid": 220, 
+                        "flags": {
+                            "create_disposition": "FILE_OPEN", 
+                            "desired_access": "FILE_READ_ATTRIBUTES|SYNCHRONIZE|GENERIC_WRITE", 
+                            "create_options": "FILE_NON_DIRECTORY_FILE|FILE_SYNCHRONOUS_IO_NONALERT", 
+                            "file_attributes": "", 
+                            "status_info": "FILE_OPENED", 
+                            "share_access": "FILE_SHARE_READ|FILE_SHARE_WRITE"
+                        }
+                    }, 
+                    {
+                        "category": "file", 
+                        "status": 1, 
+                        "stacktrace": [], 
+                        "api": "DeviceIoControl", 
+                        "return_value": 1, 
+                        "arguments": {
+                            "input_buffer": "", 
+                            "device_handle": "0x0000003c", 
+                            "control_code": 5636096, 
+                            "output_buffer": "\u0001\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000~\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u00b2M\u007f\u0002\u0000\u0000\u0000"
+                        }, 
+                        "time": 1773669758.404246, 
+                        "tid": 220, 
+                        "flags": {
+                            "control_code": ""
+                        }
+                    }, 
+                    {
+                        "category": "file", 
+                        "status": 1, 
+                        "stacktrace": [], 
+                        "api": "NtCreateFile", 
+                        "return_value": 0, 
+                        "arguments": {
+                            "create_disposition": 1, 
+                            "file_handle": "0x00000040", 
+                            "filepath": "\\??\\PhysicalDrive0", 
+                            "desired_access": "0xc0100080", 
+                            "file_attributes": 0, 
+                            "filepath_r": "\\??\\PhysicalDrive0", 
+                            "create_options": 96, 
+                            "status_info": 1, 
+                            "share_access": 3
+                        }, 
+                        "time": 1773669758.404246, 
+                        "tid": 220, 
+                        "flags": {
+                            "create_disposition": "FILE_OPEN", 
+                            "desired_access": "FILE_READ_ATTRIBUTES|SYNCHRONIZE|GENERIC_WRITE", 
+                            "create_options": "FILE_NON_DIRECTORY_FILE|FILE_SYNCHRONOUS_IO_NONALERT", 
+                            "file_attributes": "", 
+                            "status_info": "FILE_OPENED", 
+                            "share_access": "FILE_SHARE_READ|FILE_SHARE_WRITE"
+                        }
+                    }, 
+                    {
+                        "category": "system", 
+                        "status": 1, 
+                        "stacktrace": [], 
+                        "api": "NtClose", 
+                        "return_value": 0, 
+                        "arguments": {
+                            "handle": "0x0000003c"
+                        }, 
+                        "time": 1773669758.404246, 
+                        "tid": 220, 
+                        "flags": {}
+                    }, 
+                    {
+                        "category": "file", 
+                        "status": 1, 
+                        "stacktrace": [], 
+                        "api": "SetFilePointer", 
+                        "return_value": 0, 
+                        "arguments": {
+                            "file_handle": "0x00000040", 
+                            "move_method": 0, 
+                            "offset": 0
+                        }, 
+                        "time": 1773669758.404246, 
+                        "tid": 220, 
+                        "flags": {}
+                    }, 
+                    {
+                        "category": "file", 
+                        "status": 1, 
+                        "stacktrace": [], 
+                        "api": "NtReadFile", 
+                        "return_value": 0, 
+                        "arguments": {
+                            "file_handle": "0x00000040", 
+                            "buffer": "3\u00c0\u008e\u00d0\u00bc\u0000|\u00fbP\u0007P\u001f\u00fc\u00be\u001b|\u00bf\u001b\u0006PW\u00b9\u00e5\u0001\u00f3\u00a4\u00cb\u00bd\u00be\u0007\u00b1\u00048n\u0000|\tu\u0013\u0083\u00c5\u0010\u00e2\u00f4\u00cd\u0018\u008b\u00f5\u0083\u00c6\u0010It\u00198,t\u00f6\u00a0\u00b5\u0007\u00b4\u0007\u008b\u00f0\u00ac<\u0000t\u00fc\u00bb\u0007\u0000\u00b4\u000e\u00cd\u0010\u00eb\u00f2\u0088N\u0010\u00e8F\u0000s*\u00feF\u0010\u0080~\u0004\u000bt\u000b\u0080~\u0004\ft\u0005\u00a0\u00b6\u0007u\u00d2\u0080F\u0002\u0006\u0083F\b\u0006\u0083V\n\u0000\u00e8!\u0000s\u0005\u00a0\u00b6\u0007\u00eb\u00bc\u0081>\u00fe}U\u00aat\u000b\u0080~\u0010\u0000t\u00c8\u00a0\u00b7\u0007\u00eb\u00a9\u008b\u00fc\u001eW\u008b\u00f5\u00cb\u00bf\u0005\u0000\u008aV\u0000\u00b4\b\u00cd\u0013r#\u008a\u00c1$?\u0098\u008a\u00de\u008a\u00fcC\u00f7\u00e3\u008b\u00d1\u0086\u00d6\u00b1\u0006\u00d2\u00eeB\u00f7\u00e29V\nw#r\u00059F\bs\u001c\u00b8\u0001\u0002\u00bb\u0000|\u008bN\u0002\u008bV\u0000\u00cd\u0013sQOtN2\u00e4\u008aV\u0000\u00cd\u0013\u00eb\u00e4\u008aV\u0000`\u00bb\u00aaU\u00b4A\u00cd\u0013r6\u0081\u00fbU\u00aau0\u00f6\u00c1\u0001t+a`j\u0000j\u0000\u00ffv\n\u00ffv\bj\u0000h\u0000|j\u0001j\u0010\u00b4B\u008b\u00f4\u00cd\u0013aas\u000eOt\u000b2\u00e4\u008aV\u0000\u00cd\u0013\u00eb\u00d6a\u00f9\u00c3Invalid partition table\u0000Error loading operating system\u0000Missing operating system\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000,Dc\u001a\u00f0\u001a\u00f0\u0000\u0000\u0080\u0001\u0001\u0000\u0007\u00fe\u00ff\u00ff?\u0000\u0000\u0000\u00d9\u00a6?\u0001\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000U\u00aa", 
+                            "length": 512, 
+                            "offset": 0
+                        }, 
+                        "time": 1773669758.404246, 
+                        "tid": 220, 
+                        "flags": {}
+                    }, 
+                    {
+                        "category": "process", 
+                        "status": 1, 
+                        "stacktrace": [], 
+                        "api": "NtAllocateVirtualMemory", 
+                        "return_value": 0, 
+                        "arguments": {
+                            "process_identifier": 1812, 
+                            "region_size": 32768, 
+                            "stack_dep_bypass": 0, 
+                            "stack_pivoted": 0, 
+                            "heap_dep_bypass": 0, 
+                            "protection": 4, 
+                            "process_handle": "0xffffffff", 
+                            "allocation_type": 4096, 
+                            "base_address": "0x0018a000"
+                        }, 
+                        "time": 1773669758.404246, 
+                        "tid": 220, 
+                        "flags": {
+                            "protection": "PAGE_READWRITE", 
+                            "allocation_type": "MEM_COMMIT"
+                        }
+                    }, 
+                    {
+                        "category": "file", 
+                        "status": 1, 
+                        "stacktrace": [], 
+                        "api": "SetFilePointer", 
+                        "return_value": 0, 
+                        "arguments": {
+                            "file_handle": "0x00000040", 
+                            "move_method": 0, 
+                            "offset": 0
+                        }, 
+                        "time": 1773669758.404246, 
+                        "tid": 220, 
+                        "flags": {}
+                    }, 
+                    {
+                        "category": "file", 
+                        "status": 1, 
+                        "stacktrace": [], 
+                        "api": "NtWriteFile", 
+                        "return_value": 0, 
+                        "arguments": {
+                            "file_handle": "0x00000040", 
+                            "filepath": "\\Device\\Harddisk0\\DR0", 
+                            "buffer": "\u00fa1\u00db\u008e\u00d36\u0089&\u00fe{\u00bc\u00fe{\u001ef`\u008e\u00db\u00a1\u0013\u0004\u0083\u00e8 \u00a3\u0013\u0004\u00c1\u00e0\u0006\u008e\u00c0\u00fc\u00be\u0000|1\u00ff\u00b9\u0000\u0002\u00f3\u00a4f\u008bGL&f\u00a3\u009a\u0000\u00c7GL\u008d\u0000\u008cGN\u0006j@\u00cb\u00fb\u00bb\u0000\u0002\u00b8=\u0002\u00b9\u0003\u0000\u00cd\u0013.\u008bG\u0002\u00bb\u0006\u0002.\u008a\u000e\u0093\u0001.0\u000f\u00fe\u00c1CHu\u00f71\u00db\u008e\u00c3\u00bb\u0000|\u00b8\u0001\u0002\u00b9\u0002\u0000\u00cd\u0013\u00b8\u0000\u0002\u00bb\u0000|.\u008a\u000e\u0093\u0001&0\u000f\u00fe\u00c1CHu\u00f7fa\u001f\\\u00ea\u0000|\u0000\u0000\u009c\u0080\u00fcBt\f\u0080\u00fc\u0002t\u0007\u009d\u00ea\u0000\u0000\u0000\u0000\u0000\u009d\u009c.\u0088&\u0092\u0001.\u00ff\u001e\u009a\u0000\u000f\u0082\u00e0\u0000\u00fa\u009cf`\u0006.\u008a&\u0092\u0001\u0080\u00fcBu\u0004\u00ad\u00ad\u00c4\u001c\u0089\u00c2\u0084\u00d2~T\u00fc\u0088\u00d1\u00c1\u00e1\t\u00b0g\u0089\u00df\u00f2\u00aeuF&f\u0081=f\u008b\\$u\u00f2&f\u0081}\u0004\u0002f3\u00c0u\u00e7&f\u0081}\u000b\u00b9\u0010\u0000\u008eu\u00dcf1\u00c0\u008c\u00c8f\u00c1\u00e0\u0004.f\u00a3\u0007\u0002f\u0005\u0006\u0002\u0000\u0000&\u00c7E\u00fff\u00bb&f\u0089E\u0001\u00b1\u0001.\u0088\u000e\u009e\u0000\u0084\u00d2~j\u00fc\u0088\u00d1\u00c1\u00e1\t\u00b0\u00c8\u0089\u00df\u00f2\u00aeu\\&f\u0081=\u0000\u0000\u0000fu\u00f2&f\u0081}\u0004\u008b^\u0004fu\u00e7&f\u0081}\b\u008bV\bfu\u00dc&\u0081}\f3\u00c9u\u00d4f1\u00c0\u008c\u00c8f\u00c1\u00e0\u0004.f\u00a3\u0007\u0002f\u0005\u0006\u0002\u0000\u0000&\u00c7E\u0003f\u00bb&f\u0089E\u0005&f\u00c7E\tf\u008bV\b&\u00c6E\r\u0090\u00b1\u0001.\u0088\u000e\u009e\u0000\u0007fa\u009d\u00fb\u00ca\u0002\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000 :3 \u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000,Dc\u001a\u00f0\u001a\u00f0\u0000\u0000\u0080\u0001\u0001\u0000\u0007\u00fe\u00ff\u00ff?\u0000\u0000\u0000\u00d9\u00a6?\u0001\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000U\u00aa3\u00c1\u008c\u00d3\u00b8\u0005z\u00fcX\u000eZ\u0014\u00f0\u00b3\u0015s\u00af\n\u0014CC\u00ac\u00f3\u0016\u00eb\u00bd\u00d1\u00a6\u00a2\u001a\u00af\u001b\u0018O\"_-P5\u00a4\u00ed9\u00c8\u00df\u00e15\u00a5\u00da\u00b3\u00f7\"z@,\u000e\u001bL\u00cf\u009a\u008e;\u00899\u00b4\u00b0\u00ed~C0\u00b9\u00fd@H\u00fdD\u0086\\\u00a6\u00bc\u00c7\u001eA\u00ba\u0015T&|\u00a9\u001eI\u00da%XV*T\u00e0\u001ffo\u0010`\u00c6\u00d1o\u001c\u00b8\u00eb*oh\u00ec6yt\u00f0\"\u007fv\u009fYy\t~\u00dc\u00cby\u0094<\u0000\u00bc}\u00f9\u00d0,\u00f3\u0083\t\u00f4\u009b\u008c\u00f9F/'\u0096y:\u001fi\u0088\u00c0\u0013lQ$\u0099\u009d\u0014\u00c9\u00a0\u0015\u00aan\u00b7\u00d7\u0085-i\u008d\u00953&s$S\u00f3FQ8e3`\u0006\u00bekT\u00f9K_\u0087\u00e9\u00ca\u00b6\u00e1\u00b1\u00c1\u00fc\u0080\u00cf\u00bb\u00d5r\u00ca\u00cev\u00ce\u00b3[\u009f\u00d0X\u0082\u00d5\u001b\u00c4\u00ab\u0088\u0095\u00af\u0092\u00ef:U\u00b6\u00e1/\u00f0\u000f\u0001l\u00b1\u00e8\u0089QA\u00b9Y\u00af\"\u00e3\u0083\u00c4r\u000f\u00a0\\\u0082\u00c8\u000f;\u00fa\u0088\u00d6\u009f\u009fj\u0001h\u0003\u00fbs\f\u00f8~\u0001`\u000bd\rre\u0011{\u0002\u00a7V\u009e\u00e2\u00da\u000bx{h\u0012Rj\u0014\u0012\u00c5\u00a8u$\u00e85\u00cc\u00feH\u00d3\u00e8eCXN\\XV\u0013DTDCQMSTR\u001dJ^\"-'C\u000174(:i&$-)'!7q=#1'7#17={/$-+\u0005\fb.\r\u0016\u0015\u000e\u0006\u000eJ\u0004\u001c\b\u001c\u000e\u0004\u0018\u001c\u0014T\u0006\u000f\u0004\f\u001c\u0017{|}~\u007f\u0080\u0081\u0082\u0083\u0084\u0085\u0086\u0087\u0088\u0089\u008a\u008b\u008c\u008d\u008e\u008f\u0090\u0091\u0092\u0093\u0094\u0095\u0096\u0097\u0098\u0099\u009a\u009b\u009c\u009d\u009e\u009f\u00a0\u00a1\u00a2\u00a3\u00a4\u00a5\u00a6\u00a7\u00a8\u00a9\u00aa\u00ab\u00ac\u00ad\u00ae\u00af\u00b0\u00b1\u00b2\u00b3\u00b4\u0099\u00f2\u00d4\u00a2I\u00a0K\u00bc\u00bd>\u00be\u00c1\u00c1\u00c5=;:\u00f9\u00c7\u00c8\u00c9\u0013m\u00f3\u00cc\u00ce\u00cf\u00d0\u00d1\u00d2\u00d3\u00d4\u00d5\u00d6\u00d7\u00d8\u00d9\u00da\u00db\u00dc\u00dd\u00de\u00df\u00e0\u00e1\u00e2\u00e3\u00e4\u00e5\u00e6\u00e7\u00e8\u00e9\u00ea\u00eb\u00ec\u00ed\u00ee\u00ef\u00f0\u00f1\u00f2\u00f3\u00f4\u00f5\u00f6\u00f7\u00f8\u00f9\u00fa\u00fb\u00fc\u00fd\u00abUL\u0001d8\u0000\u0000h\u0001\u0002\u0003\u00f4\u00ed\u0001\u0007\b\t\u008f\u00cbx\u000f\u00f1\u00ef\u00d3\u009aV7\u0010\u0094\u00fa\u0003\u0019\u0019\u001aHIK\u00a7_ a\"t\u00ad$\u00ab\u0097\u00bb(*+\u00c4 '/0\u00baz2\u00b9I\u0012/\u009d\u00b4V39\u0098\r\u00ff\u0000\u00c2\u00baK6\u00bfu\u0087\u008e\u00cdnkMMNN\u00d8\u00d5vrUUVd\u0091\u00e7ZZ\\]\u00d6\u0013lA#X\u00aa\u0019\u0091T\u00a1\u00e3>ot]:cP1\u00f1\u008b|\ttD\u00b88A\u00b5\u0000\u0096\u00fd\u0002\u0082\u0081\u00f4\u00f4\u00ee\u007f\u00d9\n\u00cd\u008f\u00a1v\u0006\u0019\u00aa\u00af\u0091\u0091\u0092\u009c\"g\u001b\u00e3\u00ac\u00b9\u0010\u0095\u0015\u00e9\u00ba\u0087(\u00ed\u0086\u00b1\u00a6)\u0082\u0086\u00a9\u00a9\u00aa\u00a4\u001a\\#\u00db\u0084\u00918\u00ad=\u00c1\u0092\u00a33\u00cd\u009e\u00a34\u00a35\u00cb\u00e4\u00d5J\u009f\u00e0\u00d6L\u009b\u00ec\u00dbB\u00d5\u00c3{\u00ba\u00eb\u00c3\u00ded\b\u00d7&W1'\u00d9\u00da\u00dbV\u0081\u00ea\u00ff\u00d0\u00f9\u001c!\u00a4mj\u00c3\u00c9\u00e8\u00ea\u00eba\u00e1\u00e9gd\u00d5\u00d2\u00f2\u00f4\u00f5\u00cd\u00ba\u00fa\u008bkx\u0098\u00d9\u00e6\u00ff\u00b9LX\u0003\u0004\u0088s\u0001\u00b0\t\n\u000f\fk7\u0002\u0010\u0011R\u0013a\f\u009d\u001a$\u0019Z\u001b\u0097\u009cN\u001f`!\u00a3\u00e2$%f'\u00a3`\u0002\u00a2`\t6\u00a2\u00b81\u00cd\u00cc\u00cb\u0006\u00ed\u00bet\u001d.\u00be\u00f52\u00b8\u00a3BAB\u00fb^E\u0006G\u00c5\u0001\u00ac\u00c1]\u00cd\u00b4\u001a_\u00d4\u00ccSTU\u00d6/\u00bf\u00d2U\u00de\u00c8]^_\u00e0\u0019\u008a\u008fk\u00e0\u00ecghi\u00ea\u0013\u0094\u0092a\u00ea\u00f0qrs\u00f4\r\u008f\u0002\r\u0003\u00fa\u0003\u0086q\u000b\u000b\u0000\u00f9y|\u00f1\u00eb\u00be\u00d7t\u00fc\u00e3\u000b\u00f4p\u0086\u00fa\u00f3\u0011\u00eam\u00c9\u00e0\u00cb\u0017\u00e0fX\u00ee\u00cb\u001d\u00a6\u0097\u00d5\u00f3\"\u00db\u00a5\u00a5\u00d3\u00eb\u009br\u0015\u00e7\u00ad\u00ad\u00ae\u00ec\n\u0003\u00b2\u00f3\u00b4\u00d3\u008f\u00ca\u00b8\u00b6?\u00be\u00be\u00bd\u00be<\u0001\u00d3O\u0081?\u00ee\u0007N\u0089\u00c8\f\u00ca%\n\u00cc0\u00a5\u00dd\u00d2^\u0096\u00d6W\u0011\u009e&e$\u001a\u00dd6V\u00d5W\u00e2\u00a3\u00e4\"\u00e3]\u00e8\u00a9\u00ea\u00b6.\u00e5\u00ee\u0006\u00f4\u00f5\u00f2\u00f3t\u000fv\u00f8}G\u00fa\u00fb\u00fc}\u0086\u0018=\u000e\u0087\u00b7\u0004\u0005\u0006\u0087p\u00e4~\u0004\u0089\u00a7\u000e\u000f\u0010\u0091j\u00fd\u0011\u001a\u0093\u00b7\u0018\u0019\u001a\u009bd\u00f2\u00f7\u0010\u00a5\u00b7\"#$\u00a5^\u00d3\u00d7&\u00af\u00a7,-.\u00afH\u00c4F<\u00b1\u00b7678\u00b9B\u00cd\u0018HB\u00bf8\u00b6J62\u00c5>\u00bf\u00b7<:\u00cb4\u00b4\u001a::\u00d1*\u00a9p 2\u00d7 \u00a2R.\u0002\u00dd&\u00a3\u00a2\u0014:\u00e3\u001c\u0098n\u0012:\u00e9\u0012\u0095l\u0018\"\\\u00ab\u00ce>rtu5\u00cd\u00cay:{\u001aD\u0003\u007f\u008f\u0004\u00bc\u0082\u0084\u0085\u0005F\u0086\u0004\u00c8p\u00a7L\u0007\u00ce\u0091W\u0093zS\u0097i\u00e3\u00bc\u0091\u0017\u00d9\u0098\u001cX\u00da_\u001e]e\u00a4M/\u0092\u001f\u00a9\u00ea\u00abk\u00a8\u0015\u00af\u00f0\u00b1\"q\u00bc\u00b5_\u008a\u00bb\u00b9\u00ba;F\u0096\u00b1:^\u00c1\u00c2\u00c3D\u00bd!1\u00c7L^\u00cb\u00cc\u00cdN\u00b78\u00de\u00ddV^\u00d5\u00d6\u00d7X\u00a13\u00da\u00d3X^\u00df\u00e0\u00e1b\u009b\u000es\u0093\u009dh\u0091\u0005\u00e4\u0099\u0099n\u0097\u0000\u00f0\u0087\u009dt\u008d\u0007i\u008d\u0091z\u0083\u00e8\u00b5\u008b\u009d\u0080y\u0017\u0088qY\u0086\u007f\u001e\u008f\u007f]\u008cu\u0015\u00f0eA\u0092k\b\u00f5c]+\u00c2\u00a5\u007f\u009a\u001d\u001e\\\u009a\u0093\"c$C\u001fZ(&\u00af\u00be,-.\u00ac\u00f1\u001f\u00bfq\u00cf\u001e\u00f7\u00bey8\u00fc:\u00d5\u00be\u001b\u0087@\u0001BC\u00fc\r\u00feGH/\u00c3I\u00f4\u00b2\u00aeOP\u00d8g\u00e7T\u0015V1\u00fb\u00e5Z\u001b\\\u00b4\u00c8]`a\u00e2\u0099\u009b\u0010;\u00ed8\u008e\u00ea\u0091Y\u0018;\u00ef\b\u009d\u008d\u0006V\u00f5\u000e\u009a\u00ed\ff\u00fb\u0004\u008f\u0014\n\u0096\u0001\u00fap\u0080\u00f0\u0096\u0007\u00f0}\u00d4\u00fe\u0086\r\u00f6z\u00f8\u009e\u0016q\u0094\u0095\u0096\u0017b\u00ac\u00ef\u00b3\u001c\u00e5r`\u00d5\u0083\"\u00dbI\u00f0\u00d3\u00bb(\u00d1E\u00c1\u00d9\u00bb.\u00d7@\u00b5\u00c7\u00a34\u00cdG\u00e9\u00cd\u00b3:\u00c3N\u00d5\u00b1;u\u00c1\u00c2\u00c3O\u0089\u00e2\u00d3\u0088DZ-3r1\u00f4\u0001\u00deP\u00a2)*)R\u0003\u00d6_\u00c2\u00de\u00dd\u00de\u00ec;d+\u00ecb\u00ea\u00e4\u00e7\u00e8V\u00e3\u00eb\u00ac\u00edc\u0098\u0007q\u00cc\u00a6\u00fbp\u001b\u00f6\u00f8\u00f9z\u0084\u0003\u00f2\u008b\u00dc\u0080>\u0003v\u001a\u0085y\u0006\r|\u0012\u008bs\u000b\u0001z\u0002\u0091m\u0014\u0015`\u001a\u0097g\u0011\u0017n\u001a\u009da5\u0081Ud\u00a3[&)(\u00ad\u00eb*+,\u00adQ+1>\u00b7\u008b456\u00b7G<?4\u00b9\u0093>?@\u00c1=IKJ\u00c3\u00e3HIJ\u00cb3FO@\u00d5\u00cbRST\u00d5)[UV\u00df\u00cb\\]^\u00df\u001fX\u00c3l\u00e1\u00e3fgh\u0081Ailm\u00ee\u0010Z\u00d0\u0007X\u00ff:]\u009cW\u00c16z|}\u0018F\u00c5\u0081\u008d\u0006\u00f4\u0084\u0086\u0087\u000bH\u008c\u00a0}\u000e`\u008aV\u0090z\u001a\u00e5\u0094P\u00d6\u009d\ts\u00c2\u009d\u009d\u009e\u001f\u00df\u0098\u0003\u00d6\u00ad.\u00e9\u009d!\u00a4\u00ee\u00ab\u00ec\u00ad\u00c4\u00aa\t\u00fd\u00b2\u00f3\u00b4\u00e8<#\u00b7\u0012E\u0004C5\u00af\u00fe\u008d\u00b41\u00e8\u0002F.\u00c2E\u0087\u00cf\u0088\n\u00c8\u009f\u00cf\u0090\u00d1\u00baZ\u00d9\u0087\u00d6\u0097\u00d8\u001f\u00df\u008d\u00dc\u009d\u00de\u001c&\u00e7\u000bj\u00a2\u00e4e\u001c\u00ea\u00e6n\u00e2\u00ed\u00ed\u00eeo\u00ce\u00a4\u00fdv\u001b\u00f5\u00f6\u00f7x\u0087\u00fc\u00f4\u00f3x\u001b\u00ff\u0000\u0001\u0082}\u0003%\t\u0082\u00d3\t\n\u000b\u008cs\u0006\u00cf\u001f\u0094\u00c3\u0013\u0014\u0015\u0096i\u0012\u0016\u0015\u009e\u00db\u001d\u001e\u001f\u00a0_)\u0003+\u00a0\u009b'()\u00aaU \u00f5!\u00aa\u0083123\u00b4K887\u00bc\u0093;<=\u00beAOaM\u00c6\u00dbEFG\u00c87Z\u00abC\u00c8\u00dbOPQ\u00d2-@ZY\u00d2\u00d3YZ[\u00dc#K^o\u00e4\u00e3cde\u00e6\u0019~l\u001f\u0010\u00ec\u0013u`\u0005\u0004\u00f2\rht\u0003\u0018\u00f8\u0007gv\t\u0014\u00fe\u00c1\u000e\u0081\u0082\u0083\u00cc\u00f0\u00e6\u00076\u0006\u008a\u008b\u008c\u0006\u00fb\u00d8\u0010/\u0002\u0093\u0094\u0095\u0010\u00e2\u00d6q\u0099\u0099\u009c\u009d\u0015\u00111\u00a1\u00a2\u00a3\u00ce\u00a0/\u00aa\u00e0\u00a9\u00ea\u00ab\u0015\u00c7\u00ae\u00ef\u00b0\u00ec8'\u00ba#I\bG1\u00ab\u00fa\u00f1\u00c8M\u0094\u0006B*\u00c6I\u008b\u00c3\u0084\u000e\u00cc\u00a5\u00cb\u008c\u00cd\u00a6F\u00dd\u00a1\u00d2\u0093\u00d4\u0013\u00d3\u00a3\u00d8\u0099\u00da\u0018\u001a\u00db7V\u00a6\u00e0a\u0018\u00e6\u0091\u00f7\u00a0en\u001d\u0014S\u0012\u00d5\u00ab\u00d4\u00e5\u00fdq\u0002\b\t\bs\u00bd\u00de\u00e3\u00a3\u00a3\u00a3\u00a4\u0085\u00c1\r\u0086\u0087\u0005\u0006\u0007\u00b1\b\u001aK\f\u0080O\u00f0\u009a\u0001\u0092\u00e9\u009f`\"\u0097!\u00e6o4\u009cd\u001fJU\b\u001ar&P\u0002\u00a7Q*\u00c6^2\u00adW+\u0088D*\u00b3M0\"B*\u00b9C=-H2\u00bf9FB6B\u00c5?OH=\u000f\u00cb\u00b6\u0018;f\u00d0h\u00d9&p\u00d5/V\u00b4,D\u00db%_\u00e6*x\u00e1\u001b`h\u0010t\u00e7\u0011m{\u001e`\u00ed\u0017jp\u0004t\u00f3\rsv\u0003o8\u00f7\u00fa\u0083\u0082\u00c1\u0080\u00bd\u0081\u00a2\u0083\u0084\u00f7\u0000\u00b4Hb\u008f\u008e\u008c\u008d\u00ce\u008f\u0011U\u0086\u0092\u0094\u0095T\u0093\u0098q\u009f\u009b\u009c\u009dw\u009d\u00a0\u00a1\u00a2\u00fbg&\u009b\u00e3\u00a8\u00e9\u00aa\u00ab\u00a3)F\u00af\u00b0\u00b1\u0013\u00f7\u00b4\u00f5\u00b64\u0080\u00b9\u00b5?f\u00bd\u00be\u00bf\u0096J\u00f2B\"\u00c5687q\u0087\u0091\u00cc\u00cd%\u00c9Q?\u00d2\u00c3\u00d4\u00d5]\u001f\u00be\u00e0\u00d4\u00ae/\u008e6\u0084\u00e2\u00e1\u00e2h\u00ac\u00e4k\u00a3\u00e0\u00ecS\u00a7\u00ed\u00ed\u00eeb\u00a8\u00f7\u0094\u00ca\u00fc\u00fasj\u00f8\u00f9\u00fap\u00ba\u00c1\u00fd9\u008bAR\u008e\u0094\u0005\u00f9\u00f8\u00f7\u008c\u00d8\u0004\u008a\u008a\u000e\u000f\u0010Fx\u00edK\u0098P\u00153\u00e7\u0097S\u00e2\u009d'\u0010U\u0014\u00a2[\u00db$S\b\u00a8\u0011?^\u0006\u00adV*?D\u0016\u00b3L37B&\u00b9B<!H&\u00bf8M$6V\u00c5>J\u00f0<F\u00cb4C^:V\u00d1*\\T!\\\u0017\u00d5U]`\u0096/\u00e5\u00b4V\u000be\u00db\u00ece&g6\u00e3\u00fej\u0014\u0092\u00d1\u0090\u00f8a2=\u0001\u0086]\u00ae\u00f58}\u00bdy\u00f2~?\u0080\u00e9!\u0013\u0084\u00c5\u0086A\u008d\u001d\u008a\u00cb\u008cN\rd\u0095W\u0093z\u001d\u00cc\u0097\u00c8\u00c3\u00c7\"\u00d7\u009c\u00dd\u009e`@I\u00a7\u00a3\u00a4\u00a5O\u00a5\u00a8\u00a9\u00aa\u00f3o\u00fc-\u0092\u00f8\u00b1\u00f2\u00b3\u00b4\u00ba2\u00ce\u00b9\u00b9\u00ba\u001a\u00f4\u00bd\u00fe\u00bfC\u00f9\u00c2\u00cc@\u00ae\u00c7\u00c7\u00c8\u009fA\u00fbM+\u00ce?/.j\u009e\u008e\u00d5\u00d6<\u00deX4\u00db\u00cc\u00dd\u00deT(\u0087\u00db\u00ed\u0091\u0016\u00b1\u000f\u00ba\u00e8\u00ea\u00ebg\u00a5\u00efb\u00b4\u00f9\u00f7J\u0090s\u00f6\u00f7u\u0081\u00fc\u009d\u00c5\u00f5\u00f1z.\u0000\u0002\u0003\u008fC:\u0004\u00ce\u0082J[Y\u0080\u00a6\u000f\u00ef\u00ee\u00ed\u0096\u00f9\u001a\u0090\u0001\u0019\u0019\u001a\u0098P9\u0012\u00e0\tU\u0006/w\u00a8`&\u009b&\u00a7c\u00d3\u00ad\u0017g?\u00b4\u0094345\u00bc'\u00b8\u00c3\t4\u00b9\u00a6>?@\u00c1:B\u00b20\u0003\u00c70K\u0006>s\u00cd6L\u00db$k\u00d3,Q\u00b7\"ka\u0002x)s\u00de'D`\u0017K\u00e4\u001dCw\u001dKR3J\u0018s\u00ef\bVs\u0006c\u00f5\u000e_a\fkC$T\u000bs\u0000\u00f9\u00a8\u00a3\u00f1\u0083\u0006\u00ff\u00a3i\u00fe\u00ea\fw\u00bd\u00fa\u00db\u0011\u00ea\u0092b\u00e0\u00d3\u0017\u00e0\u009b\u00d6\u00ee\u00a3\u001d\u00e6\u009c+\u00d4\u009b#\u00dc\u00a1G\u00d2\u009b\u0091\u00f2\u0089\u00d9\u0083.\u00d7\u0093\u00b0\u00c7\u009b4\u00cd\u0092\u00a7\u00cd\u009b\u0082\u00e3\u0099\u00c8\u00a3?\u00b8\u00e7\u00c3\u00b6\u00d3E\u00be\u00e0\u00d1\u00bc\u00db\u00f3\u0094\u00e5\u00bb\u00c3P\u00a9\u00fb\u00f3\u00a1\u00d3V\u00af\u00f29\u00ae\u00caW\u0091\u00fa\u00cf\u00a0\u00e2*\u00d8)\u00ead\u00d8\u0017\u0016\u0015\u0000\u00af\u0087\u00e8Wx\u00f1\u00b2\u00f3\u00aa\u007fb\u00f6\u0080\u0006E\u0004t\u00ed\u00be\u00b1u\u00f2#6\u0090\u0005F\u0007\u00b0A\u00b2\u000b\fk\u00ad\u0081\u0010Q\u00128\u00ed\u0098W\u0011\u00bb\u0089\u001a[\u001c\u00da\u001b\u0087 a\"\u00dc\u00c4%&\u00a4\u00c7,\u00ec*\u00c5\u00a4W.klmm\u008c_6w8\u00ba\u00fe?\u00c3\u00dd\u00d6:@AB\u00aaFEFG\u0010\u008a\u0006JXbNO\u00bbTU^Y\u0011\u00c2#Ti\u00e3\u0010_n|R\u009a\u00d9\u00e5G0c\u00da~\u009d\u00df\u000f\u009d\u00c4\u00fag\u00d8L\u001aW\u00ce\u00ca\u00a5\u00b2\n\u000e\u00f6\u0007,\u00db.\u00b7Y\nQE\u0005<\u008b\u0088QX\u00f9\u00fdZ._!\u00a7\u0004F\u0003x\u008f\u00f3k\u00d0U\u001d\u008b]Bw\u00d3X9\u00e3\u00a5\t\u00b4\u00fd\t\"P\u00f9\u0081\u008a\u00b5\u00dd\u00f3\u0081\u0005o6\u00c9\u0084\u008a\u0083y\u0017\u0015UV\u009a\u001e\u00c1~\u00de\u00c5\u00fd\u0019Fn\u00d2\u00d49d\u00ea\u0080E\u0004\u00cb,\u00bbc<\u00dd\u008a\u0012\u008a_\u0003Vt\u0083;G\u00c0\u0019\u0019\u0098\u0012\u009dv~\u00b7\u009c\u00cc\u00d1;\u001d\u00deYcy\u00d8~l\u001cD\u0010\u0004\u00b93\u00ae\u0000\u00ddNUM\u00f6\u0089\u0085\u00d0E\u001b)0Y\u0099y\u00eb\u0083\u0019\r\u0087\u00f7w&\u00e3\u00b0 \u00a0\u00c9\u00e1bT\u00bd\u00d5B\u008f\u00ef\u009c\u00a4]\u00dc8S\u00bf\u00d0)\u00cf7x|-\u00d7`v\u00ce\u00c6I\u0099\u00bc\u00be\u00c7\u008d\u00a0\u0086\u00ce\u00ce\u00c7[\u00e3c\u001f\u0001\u00dbg\u00f4\u001aF\u00de(\u00damqr\u00a0i\u00a5\u00d9\u00c5y\u00c8i\u00c5-\u00cc\u001a\u00de/\u00ba\u00cdQ\u00b9\u000b\u00f5\u001f\u00e0\u00d6\u00f5\u0096EP\u00f0\u0011\u0089\u009cT52\u009d\u0003&\u00d4\u00c3\u00cf\u00b8`M\u00ed\u0094iK\u008aU\u00bf\u00b6$m+jy\u00c27\u00e0Q\\\u008d\u00c7\u00c3\u009c\u00a5\u0007x\u00db\u009fZ\u0018\fW\u001d\u00d6=J\u00f0\u00978s %\f\u009e\u00fa\u00d2&\u00d8m\u00dc\u00ed\u00e4\u0096o\u00a2\u009f\u00149-\u00fc\u00a7\u00ae\u0005\u00a4\u0090\u00c5\u00c8D\u00c0\u00a7\"\u00b2\u00db\"\u00f4QI\u00e8,H\u00adQ\u00fd\u0004\u00c2\u009f\u0000\u0081\u0007\u0002<\u00f8\u00e53]J\u00a0\u0091s[\u0096\u00eb\u0011<\u00ee\u001f\u00a0\u0094|v\u00f4B\u00e6 \u0091\u00d8xS\u0017zO\u00f3\u001a!\n\u00fb\u008e\u00d7\u00de\u0089\u008f9\u00edM\u009c\u00e2\u00b6\u00d3\u00b6KGiD\u00ee\u0099d\u00c9\u008e\u00ae&@y\u00e1q1h\u001aV[\u00f52\u00c4\u009fy\\\u0006\u00a8W\u0013z\u0099|\u00c3\u00c3r_\u00b8EV\u009eA\f\u00c8\u00cfy'\u00ba\u00dag\u00ce\u00f50\u001d\u00e8\u00c5 z8\u00927\u00dao-\u001eE\u0087\u00cb\u00a3*fg\u0098X\"\u00f0\u00e9.:>\u00c5\u009e{\u008a\u00f7\u00d78\u008f\u00fd\u00bed9\u009b\u00fc\u0013w\u00d8\u00b4}\u00d9\u00e6/\u0001h\u0097\u008c2\u0080\u0090kJ\u0017i\u00fef \u00e2\u008f^}\u008d\u00d6{\u009e\n\u00deR\u00e4L\u00dc\u0002\u0004\u0089-\u0019>\u00eb\u0013:#\u009a\u00a1Wc\u00ad\u00af=\u00b5E\u00e2gcx@\u0093\u00c1\u0084\u00c37[\u00c0\u008b\u00bc/\u00a2m\u00c9S\u008euCE\u008eA ti\u00c2\u0019f\u00da\"\r\u00cd\u00f3\u00e9\u00c5\u008f\u00eb\u001f\u00bc\u009d\u00f7\u0007\u00ac\u00ea\u0005\u00053\u001a\u00ea\u0090\u00b1BQ\u000f\u00c9\u009cA\u00c0\u00b0\u0016Z.\u00dc\u00cc\u00f9\u00ca\u000bYPs\u00d3X:\t\u00de(\u00cc\u00d7\u0086C|\u00be'\u00e1h\u00aah\u00af\u00f4cqg\u00b6DD\u00fb", 
+                            "offset": 0
+                        }, 
+                        "time": 1773669758.414246, 
+                        "tid": 220, 
+                        "flags": {}
+                    }, 
+                    {
+                        "category": "system", 
+                        "status": 1, 
+                        "stacktrace": [], 
+                        "api": "NtClose", 
+                        "return_value": 0, 
+                        "arguments": {
+                            "handle": "0x00000040"
+                        }, 
+                        "time": 1773669758.514246, 
+                        "tid": 220, 
+                        "flags": {}
+                    }, 
+                    {
+                        "category": "process", 
+                        "status": 0, 
+                        "stacktrace": [], 
+                        "last_error": 1, 
+                        "nt_status": -1073741808, 
+                        "api": "NtTerminateProcess", 
+                        "return_value": 0, 
+                        "arguments": {
+                            "status_code": "0x00000000", 
+                            "process_identifier": 0, 
+                            "process_handle": "0x00000000"
+                        }, 
+                        "time": 1773669758.514246, 
+                        "tid": 220, 
+                        "flags": {}
+                    }, 
+                    {
+                        "category": "process", 
+                        "status": 1, 
+                        "stacktrace": [], 
+                        "api": "NtTerminateProcess", 
+                        "return_value": 0, 
+                        "arguments": {
+                            "status_code": "0x00000000", 
+                            "process_identifier": 0, 
+                            "process_handle": "0x00000000"
+                        }, 
+                        "time": 1773669758.514246, 
+                        "tid": 220, 
+                        "flags": {}
+                    }, 
+                    {
+                        "category": "exception", 
+                        "status": 1, 
+                        "stacktrace": [], 
+                        "api": "SetUnhandledExceptionFilter", 
+                        "return_value": 2009038972, 
+                        "arguments": {}, 
+                        "time": 1773669758.514246, 
+                        "tid": 220, 
+                        "flags": {}
+                    }, 
+                    {
+                        "category": "process", 
+                        "status": 0, 
+                        "stacktrace": [], 
+                        "last_error": 1, 
+                        "nt_status": -1073741808, 
+                        "api": "NtFreeVirtualMemory", 
+                        "return_value": 3221225632, 
+                        "arguments": {
+                            "free_type": 32768, 
+                            "process_identifier": 1812, 
+                            "process_handle": "0xffffffff", 
+                            "base_address": "0x00000000", 
+                            "size": 0
+                        }, 
+                        "time": 1773669758.514246, 
+                        "tid": 220, 
+                        "flags": {}
+                    }, 
+                    {
+                        "category": "system", 
+                        "status": 1, 
+                        "stacktrace": [], 
+                        "api": "NtClose", 
+                        "return_value": 0, 
+                        "arguments": {
+                            "handle": "0x00000028"
+                        }, 
+                        "time": 1773669758.514246, 
+                        "tid": 220, 
+                        "flags": {}
+                    }, 
+                    {
+                        "category": "system", 
+                        "status": 1, 
+                        "stacktrace": [], 
+                        "api": "NtClose", 
+                        "return_value": 0, 
+                        "arguments": {
+                            "handle": "0x0000002c"
+                        }, 
+                        "time": 1773669758.514246, 
+                        "tid": 220, 
+                        "flags": {}
+                    }, 
+                    {
+                        "category": "system", 
+                        "status": 1, 
+                        "stacktrace": [], 
+                        "api": "LdrUnloadDll", 
+                        "return_value": 0, 
+                        "arguments": {
+                            "library": "IMM32", 
+                            "module_address": "0x76300000"
+                        }, 
+                        "time": 1773669758.514246, 
+                        "tid": 220, 
+                        "flags": {}
+                    }, 
+                    {
+                        "category": "registry", 
+                        "status": 1, 
+                        "stacktrace": [], 
+                        "api": "NtOpenKey", 
+                        "return_value": 0, 
+                        "arguments": {
+                            "key_handle": "0x0000002c", 
+                            "desired_access": "0x00020019", 
+                            "regkey": "HKEY_LOCAL_MACHINE\\Software\\Microsoft\\Windows NT\\CurrentVersion\\GRE_Initialize"
+                        }, 
+                        "time": 1773669758.514246, 
+                        "tid": 220, 
+                        "flags": {
+                            "desired_access": "READ_CONTROL"
+                        }
+                    }, 
+                    {
+                        "category": "registry", 
+                        "status": 0, 
+                        "stacktrace": [], 
+                        "last_error": 1, 
+                        "nt_status": -1073741808, 
+                        "api": "NtQueryValueKey", 
+                        "return_value": 3221225524, 
+                        "arguments": {
+                            "key_handle": "0x0000002c", 
+                            "key_name": "", 
+                            "value": "", 
+                            "reg_type": 0, 
+                            "information_class": 2, 
+                            "regkey": "HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows NT\\CurrentVersion\\GRE_Initialize\\DisableMetaFiles"
+                        }, 
+                        "time": 1773669758.514246, 
+                        "tid": 220, 
+                        "flags": {
+                            "reg_type": "REG_NONE", 
+                            "information_class": "KeyValuePartialInformation"
+                        }
+                    }, 
+                    {
+                        "category": "system", 
+                        "status": 1, 
+                        "stacktrace": [], 
+                        "api": "NtClose", 
+                        "return_value": 0, 
+                        "arguments": {
+                            "handle": "0x0000002c"
+                        }, 
+                        "time": 1773669758.514246, 
+                        "tid": 220, 
+                        "flags": {}
+                    }, 
+                    {
+                        "category": "process", 
+                        "status": 0, 
+                        "stacktrace": [], 
+                        "last_error": 1, 
+                        "nt_status": -1073741808, 
+                        "api": "NtTerminateProcess", 
+                        "return_value": 0, 
+                        "arguments": {
+                            "status_code": "0x00000000", 
+                            "process_identifier": 1812, 
+                            "process_handle": "0xffffffff"
+                        }, 
+                        "time": 1773669762.860246, 
+                        "tid": 220, 
+                        "flags": {}
+                    }
+                ], 
+                "track": true, 
+                "pid": 1812, 
+                "process_name": "f18fe2853ef0d4898085cc5581ae35b83fc6d1c46563dbc8da1b79ef9ef678eb.exe", 
+                "command_line": "\"C:\\Documents and Settings\\user1\\Local Settings\\Temp\\f18fe2853ef0d4898085cc5581ae35b83fc6d1c46563dbc8da1b79ef9ef678eb.exe\" ", 
+                "modules": [
+                    {
+                        "basename": "f18fe2853ef0d4898085cc5581ae35b83fc6d1c46563dbc8da1b79ef9ef678eb.exe", 
+                        "imgsize": 94208, 
+                        "baseaddr": "0x400000", 
+                        "filepath": "C:\\Documents and Settings\\user1\\Local Settings\\Temp\\f18fe2853ef0d4898085cc5581ae35b83fc6d1c46563dbc8da1b79ef9ef678eb.exe"
+                    }, 
+                    {
+                        "basename": "ntdll.dll", 
+                        "imgsize": 602112, 
+                        "baseaddr": "0x7c920000", 
+                        "filepath": "C:\\WINDOWS\\system32\\ntdll.dll"
+                    }, 
+                    {
+                        "basename": "kernel32.dll", 
+                        "imgsize": 1171456, 
+                        "baseaddr": "0x7c800000", 
+                        "filepath": "C:\\WINDOWS\\system32\\kernel32.dll"
+                    }, 
+                    {
+                        "basename": "USER32.dll", 
+                        "imgsize": 589824, 
+                        "baseaddr": "0x77d10000", 
+                        "filepath": "C:\\WINDOWS\\system32\\USER32.dll"
+                    }, 
+                    {
+                        "basename": "GDI32.dll", 
+                        "imgsize": 299008, 
+                        "baseaddr": "0x77ef0000", 
+                        "filepath": "C:\\WINDOWS\\system32\\GDI32.dll"
+                    }, 
+                    {
+                        "basename": "ADVAPI32.dll", 
+                        "imgsize": 692224, 
+                        "baseaddr": "0x77da0000", 
+                        "filepath": "C:\\WINDOWS\\system32\\ADVAPI32.dll"
+                    }, 
+                    {
+                        "basename": "RPCRT4.dll", 
+                        "imgsize": 598016, 
+                        "baseaddr": "0x77e50000", 
+                        "filepath": "C:\\WINDOWS\\system32\\RPCRT4.dll"
+                    }, 
+                    {
+                        "basename": "Secur32.dll", 
+                        "imgsize": 69632, 
+                        "baseaddr": "0x77fc0000", 
+                        "filepath": "C:\\WINDOWS\\system32\\Secur32.dll"
+                    }, 
+                    {
+                        "basename": "IMM32.DLL", 
+                        "imgsize": 118784, 
+                        "baseaddr": "0x76300000", 
+                        "filepath": "C:\\WINDOWS\\system32\\IMM32.DLL"
+                    }, 
+                    {
+                        "basename": "LPK.DLL", 
+                        "imgsize": 36864, 
+                        "baseaddr": "0x62c20000", 
+                        "filepath": "C:\\WINDOWS\\system32\\LPK.DLL"
+                    }, 
+                    {
+                        "basename": "USP10.dll", 
+                        "imgsize": 438272, 
+                        "baseaddr": "0x73fa0000", 
+                        "filepath": "C:\\WINDOWS\\system32\\USP10.dll"
+                    }, 
+                    {
+                        "basename": "monitor-x86.dll", 
+                        "imgsize": 2117632, 
+                        "baseaddr": "0x63dc0000", 
+                        "filepath": "C:\\tmpzieajv\\bin\\monitor-x86.dll"
+                    }, 
+                    {
+                        "basename": "msvcrt.dll", 
+                        "imgsize": 360448, 
+                        "baseaddr": "0x77be0000", 
+                        "filepath": "C:\\WINDOWS\\system32\\msvcrt.dll"
+                    }
+                ], 
+                "time": 0, 
+                "tid": 220, 
+                "first_seen": 1773669757.562246, 
+                "ppid": 940, 
+                "type": "process"
+            }
+        ], 
+        "processtree": [
+            {
+                "track": false, 
+                "pid": 700, 
+                "process_name": "lsass.exe", 
+                "command_line": "C:\\WINDOWS\\system32\\lsass.exe", 
+                "first_seen": 1773669757.201729, 
+                "ppid": 644, 
+                "children": []
+            }, 
+            {
+                "track": true, 
+                "pid": 1812, 
+                "process_name": "f18fe2853ef0d4898085cc5581ae35b83fc6d1c46563dbc8da1b79ef9ef678eb.exe", 
+                "command_line": "\"C:\\Documents and Settings\\user1\\Local Settings\\Temp\\f18fe2853ef0d4898085cc5581ae35b83fc6d1c46563dbc8da1b79ef9ef678eb.exe\" ", 
+                "first_seen": 1773669757.562246, 
+                "ppid": 940, 
+                "children": []
+            }
+        ], 
+        "summary": {
+            "regkey_written": [
+                "HKEY_LOCAL_MACHINE\\SYSTEM\\ControlSet001\\Control\\Lsa\\Impersonation Packages", 
+                "HKEY_LOCAL_MACHINE\\SYSTEM\\ControlSet001\\Control\\Lsa\\Core Packages"
+            ], 
+            "file_opened": [
+                "C:\\Documents and Settings\\user1\\Local Settings\\Temp\\f18fe2853ef0d4898085cc5581ae35b83fc6d1c46563dbc8da1b79ef9ef678eb.exe", 
+                "\\??\\PhysicalDrive0", 
+                "\\??\\C:"
+            ], 
+            "regkey_opened": [
+                "HKEY_LOCAL_MACHINE\\SYSTEM\\CurrentControlSet\\Control\\Lsa"
+            ], 
+            "file_written": [
+                "\\??\\PhysicalDrive0"
+            ], 
+            "file_read": [
+                "C:\\Documents and Settings\\user1\\Local Settings\\Temp\\f18fe2853ef0d4898085cc5581ae35b83fc6d1c46563dbc8da1b79ef9ef678eb.exe", 
+                "\\??\\PhysicalDrive0"
+            ], 
+            "regkey_read": [
+                "HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows NT\\CurrentVersion\\GRE_Initialize\\DisableMetaFiles"
+            ]
+        }
+    }, 
+    "debug": {
+        "action": [
+            "gatherer"
+        ], 
+        "dbgview": [], 
+        "errors": [], 
+        "log": [
+            "2026-03-17 05:02:36,009 [analyzer] DEBUG: Starting analyzer from: C:\\tmpzieajv\n", 
+            "2026-03-17 05:02:36,009 [analyzer] DEBUG: Pipe server name: \\\\.\\PIPE\\RgJTlPLgeKlvsKYCUgUDsSySAfvLwniY\n", 
+            "2026-03-17 05:02:36,009 [analyzer] DEBUG: Log pipe server name: \\\\.\\PIPE\\RzOWLLgqtpiyGNFDB\n", 
+            "2026-03-17 05:02:36,349 [analyzer] DEBUG: Started auxiliary module DbgView\n", 
+            "2026-03-17 05:02:36,940 [analyzer] DEBUG: Started auxiliary module Disguise\n", 
+            "2026-03-17 05:02:37,260 [analyzer] DEBUG: Loaded monitor into process with pid 700\n", 
+            "2026-03-17 05:02:37,260 [analyzer] DEBUG: Started auxiliary module DumpTLSMasterSecrets\n", 
+            "2026-03-17 05:02:37,290 [analyzer] DEBUG: Started auxiliary module Human\n", 
+            "2026-03-17 05:02:37,301 [analyzer] DEBUG: Started auxiliary module InstallCertificate\n", 
+            "2026-03-17 05:02:37,301 [analyzer] DEBUG: Started auxiliary module Reboot\n", 
+            "2026-03-17 05:02:37,301 [analyzer] DEBUG: Started auxiliary module RecentFiles\n", 
+            "2026-03-17 05:02:37,311 [analyzer] DEBUG: Started auxiliary module Screenshots\n", 
+            "2026-03-17 05:02:37,311 [analyzer] DEBUG: Started auxiliary module LoadZer0m0n\n", 
+            "2026-03-17 05:02:37,502 [lib.api.process] INFO: Successfully executed process from path 'C:\\\\DOCUME~1\\\\user1\\\\LOCALS~1\\\\Temp\\\\f18fe2853ef0d4898085cc5581ae35b83fc6d1c46563dbc8da1b79ef9ef678eb.exe' with arguments '' and pid 1812\n", 
+            "2026-03-17 05:02:37,641 [analyzer] DEBUG: Loaded monitor into process with pid 1812\n", 
+            "2026-03-17 05:02:38,453 [analyzer] INFO: Added new file to list with pid 1812 and path \\Device\\Harddisk0\\DR0\n", 
+            "2026-03-17 05:02:42,858 [lib.api.process] INFO: Memory dump of process with pid 1812 completed\n", 
+            "2026-03-17 05:02:42,970 [analyzer] INFO: Process with pid 1812 has terminated\n", 
+            "2026-03-17 05:02:42,980 [analyzer] INFO: Process list is empty, terminating analysis.\n", 
+            "2026-03-17 05:02:44,000 [analyzer] WARNING: File at path u'\\\\device\\\\harddisk0\\\\dr0' does not exist, skip.\n", 
+            "2026-03-17 05:02:44,000 [analyzer] INFO: Analysis completed.\n"
+        ], 
+        "cuckoo": [
+            "2026-03-17 05:02:36,697 [cuckoo.core.scheduler] INFO: Task #61: acquired machine xp-cuckoo (label=xp-cuckoo)\n", 
+            "2026-03-17 05:02:36,697 [cuckoo.core.resultserver] DEBUG: Now tracking machine 192.168.56.101 for task #61\n", 
+            "2026-03-17 05:02:36,698 [cuckoo.core.plugins] DEBUG: Started auxiliary module: Replay\n", 
+            "2026-03-17 05:02:36,720 [cuckoo.auxiliary.sniffer] INFO: Started sniffer with PID 29600 (interface=vboxnet0, host=192.168.56.101)\n", 
+            "2026-03-17 05:02:36,721 [cuckoo.core.plugins] DEBUG: Started auxiliary module: Sniffer\n", 
+            "2026-03-17 05:02:36,785 [cuckoo.machinery.virtualbox] DEBUG: Starting vm xp-cuckoo\n", 
+            "2026-03-17 05:02:37,041 [cuckoo.machinery.virtualbox] DEBUG: Restoring virtual machine xp-cuckoo to Snapshot1\n", 
+            "2026-03-17 05:02:40,592 [cuckoo.core.guest] INFO: Starting analysis #61 on guest (id=xp-cuckoo, ip=192.168.56.101)\n", 
+            "2026-03-17 05:02:41,595 [cuckoo.core.guest] DEBUG: xp-cuckoo: not ready yet\n", 
+            "2026-03-17 05:02:42,600 [cuckoo.core.guest] DEBUG: xp-cuckoo: not ready yet\n", 
+            "2026-03-17 05:02:43,605 [cuckoo.core.guest] DEBUG: xp-cuckoo: not ready yet\n", 
+            "2026-03-17 05:02:43,654 [cuckoo.core.guest] DEBUG: xp-cuckoo: not ready yet\n", 
+            "2026-03-17 05:02:44,681 [cuckoo.core.guest] INFO: Guest is running Cuckoo Agent 0.10 (id=xp-cuckoo, ip=192.168.56.101)\n", 
+            "2026-03-17 05:02:44,741 [cuckoo.core.guest] DEBUG: Uploading analyzer to guest (id=xp-cuckoo, ip=192.168.56.101, monitor=latest, size=1720495)\n", 
+            "2026-03-17 05:02:45,838 [cuckoo.core.resultserver] DEBUG: Task #61: live log analysis.log initialized.\n", 
+            "2026-03-17 05:02:47,086 [cuckoo.core.resultserver] DEBUG: Task #61 is sending a BSON stream\n", 
+            "2026-03-17 05:02:47,433 [cuckoo.core.resultserver] DEBUG: Task #61 is sending a BSON stream\n", 
+            "2026-03-17 05:02:48,413 [cuckoo.core.resultserver] DEBUG: Task #61: File upload for 'shots/0001.jpg'\n", 
+            "2026-03-17 05:02:49,079 [cuckoo.core.resultserver] DEBUG: Task #61 uploaded file length: 72216\n", 
+            "2026-03-17 05:02:49,388 [cuckoo.core.resultserver] DEBUG: Task #61: File upload for 'memory/1812-1.dmp'\n", 
+            "2026-03-17 05:02:50,504 [cuckoo.core.guest] DEBUG: xp-cuckoo: analysis #61 still processing\n", 
+            "2026-03-17 05:02:50,589 [cuckoo.core.resultserver] DEBUG: Task #61: File upload for 'shots/0002.jpg'\n", 
+            "2026-03-17 05:02:52,009 [cuckoo.core.resultserver] DEBUG: Task #61 uploaded file length: 72913\n", 
+            "2026-03-17 05:02:52,815 [cuckoo.core.resultserver] DEBUG: Task #61 uploaded file length: 10329088\n", 
+            "2026-03-17 05:02:54,147 [cuckoo.core.resultserver] DEBUG: Task #61 had connection reset for <Context for LOG>\n", 
+            "2026-03-17 05:02:54,696 [cuckoo.core.guest] INFO: xp-cuckoo: analysis completed successfully\n", 
+            "2026-03-17 05:02:54,704 [cuckoo.core.plugins] DEBUG: Stopped auxiliary module: Replay\n", 
+            "2026-03-17 05:02:54,739 [cuckoo.core.plugins] DEBUG: Stopped auxiliary module: Sniffer\n", 
+            "2026-03-17 05:02:57,231 [cuckoo.machinery.virtualbox] INFO: Successfully generated memory dump for virtual machine with label xp-cuckoo to path /home/cuckoo/.cuckoo/storage/analyses/61/memory.dmp\n", 
+            "2026-03-17 05:02:57,232 [cuckoo.machinery.virtualbox] DEBUG: Stopping vm xp-cuckoo\n", 
+            "2026-03-17 05:02:58,800 [cuckoo.core.resultserver] DEBUG: Stopped tracking machine 192.168.56.101 for task #61\n", 
+            "2026-03-17 05:02:58,808 [cuckoo.core.scheduler] DEBUG: Released database task #61\n", 
+            "2026-03-17 05:02:58,834 [cuckoo.core.plugins] DEBUG: Executed processing module \"AnalysisInfo\" for task #61\n", 
+            "2026-03-17 05:02:58,845 [cuckoo.core.plugins] DEBUG: Executed processing module \"BehaviorAnalysis\" for task #61\n", 
+            "2026-03-17 05:02:58,845 [cuckoo.core.plugins] DEBUG: Executed processing module \"Dropped\" for task #61\n", 
+            "2026-03-17 05:02:58,846 [cuckoo.core.plugins] DEBUG: Executed processing module \"DroppedBuffer\" for task #61\n", 
+            "2026-03-17 05:02:59,011 [cuckoo.core.plugins] DEBUG: Executed processing module \"MetaInfo\" for task #61\n", 
+            "2026-03-17 05:02:59,144 [cuckoo.core.plugins] DEBUG: Executed processing module \"ProcessMemory\" for task #61\n", 
+            "2026-03-17 05:02:59,145 [cuckoo.core.plugins] DEBUG: Executed processing module \"Procmon\" for task #61\n", 
+            "2026-03-17 05:02:59,240 [cuckoo.core.plugins] DEBUG: Executed processing module \"Screenshots\" for task #61\n", 
+            "2026-03-17 05:02:59,630 [cu"
+        ]
+    }, 
+    "screenshots": [
+        {
+            "path": "/home/cuckoo/.cuckoo/storage/analyses/61/shots/0001.jpg", 
+            "ocr": ""
+        }, 
+        {
+            "path": "/home/cuckoo/.cuckoo/storage/analyses/61/shots/0002.jpg", 
+            "ocr": ""
+        }
+    ], 
+    "metadata": {
+        "output": {
+            "memdumps": [
+                {
+                    "basename": "1812-1.dmp", 
+                    "sha256": "5382ffec280cc62bf6f387623c0483a16999d7ba06f60c9da066ea9e480b5086", 
+                    "dirname": "memory"
+                }
+            ], 
+            "pcap": {
+                "basename": "dump.pcap", 
+                "sha256": "bcbab4f012e85e719f9ce97bc0dfb9c1be668b8d3c1a460e1291c8253c243e69", 
+                "dirname": ""
+            }
+        }
+    }
+}

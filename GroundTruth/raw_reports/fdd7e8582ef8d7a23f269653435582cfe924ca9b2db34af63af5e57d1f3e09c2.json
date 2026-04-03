@@ -1,0 +1,3907 @@
+{
+    "info": {
+        "added": 1773724805.444772, 
+        "started": 1773724938.778337, 
+        "duration": 146, 
+        "ended": 1773725085.400752, 
+        "owner": null, 
+        "score": 0.0, 
+        "id": 67, 
+        "category": "archive", 
+        "git": {
+            "head": "13cbe0d9e457be3673304533043e992ead1ea9b2", 
+            "fetch_head": "13cbe0d9e457be3673304533043e992ead1ea9b2"
+        }, 
+        "monitor": "2deb9ccd75d5a7a3fe05b2625b03a8639d6ee36b", 
+        "package": "dll", 
+        "route": "none", 
+        "custom": null, 
+        "machine": {
+            "status": "stopped", 
+            "name": "xp-cuckoo", 
+            "label": "xp-cuckoo", 
+            "manager": "VirtualBox", 
+            "started_on": "2026-03-17 05:22:18", 
+            "shutdown_on": "2026-03-17 05:24:45"
+        }, 
+        "platform": "windows", 
+        "version": "2.0.7", 
+        "options": "filename=fdd7e8582ef8d7a23f269653435582cfe924ca9b2db34af63af5e57d1f3e09c2,procmemdump=yes,route=none"
+    }, 
+    "procmemory": [
+        {
+            "regions": [
+                {
+                    "protect": "rw", 
+                    "end": "0x00011000", 
+                    "addr": "0x00010000", 
+                    "state": 4096, 
+                    "offset": 24, 
+                    "type": 131072, 
+                    "size": 4096
+                }, 
+                {
+                    "protect": "rw", 
+                    "end": "0x00021000", 
+                    "addr": "0x00020000", 
+                    "state": 4096, 
+                    "offset": 4144, 
+                    "type": 131072, 
+                    "size": 4096
+                }, 
+                {
+                    "protect": "rw", 
+                    "end": "0x00039000", 
+                    "addr": "0x00030000", 
+                    "state": 4096, 
+                    "offset": 8264, 
+                    "type": 131072, 
+                    "size": 36864
+                }, 
+                {
+                    "protect": "rw", 
+                    "end": "0x00080000", 
+                    "addr": "0x00074000", 
+                    "state": 4096, 
+                    "offset": 45152, 
+                    "type": 131072, 
+                    "size": 49152
+                }, 
+                {
+                    "protect": "r", 
+                    "end": "0x00083000", 
+                    "addr": "0x00080000", 
+                    "state": 4096, 
+                    "offset": 94328, 
+                    "type": 262144, 
+                    "size": 12288
+                }, 
+                {
+                    "protect": "rwx", 
+                    "end": "0x00091000", 
+                    "addr": "0x00090000", 
+                    "state": 4096, 
+                    "offset": 106640, 
+                    "type": 131072, 
+                    "size": 4096
+                }, 
+                {
+                    "protect": "rwx", 
+                    "end": "0x000a1000", 
+                    "addr": "0x000a0000", 
+                    "state": 4096, 
+                    "offset": 110760, 
+                    "type": 131072, 
+                    "size": 4096
+                }, 
+                {
+                    "protect": "rwx", 
+                    "end": "0x000b1000", 
+                    "addr": "0x000b0000", 
+                    "state": 4096, 
+                    "offset": 114880, 
+                    "type": 131072, 
+                    "size": 4096
+                }, 
+                {
+                    "protect": "rw", 
+                    "end": "0x000d6000", 
+                    "addr": "0x000c0000", 
+                    "state": 4096, 
+                    "offset": 119000, 
+                    "type": 131072, 
+                    "size": 90112
+                }, 
+                {
+                    "protect": "rw", 
+                    "end": "0x001c6000", 
+                    "addr": "0x001c0000", 
+                    "state": 4096, 
+                    "offset": 209136, 
+                    "type": 131072, 
+                    "size": 24576
+                }, 
+                {
+                    "protect": "rw", 
+                    "end": "0x001d3000", 
+                    "addr": "0x001d0000", 
+                    "state": 4096, 
+                    "offset": 233736, 
+                    "type": 262144, 
+                    "size": 12288
+                }, 
+                {
+                    "protect": "r", 
+                    "end": "0x001f6000", 
+                    "addr": "0x001e0000", 
+                    "state": 4096, 
+                    "offset": 246048, 
+                    "type": 262144, 
+                    "size": 90112
+                }, 
+                {
+                    "protect": "r", 
+                    "end": "0x00241000", 
+                    "addr": "0x00200000", 
+                    "state": 4096, 
+                    "offset": 336184, 
+                    "type": 262144, 
+                    "size": 266240
+                }, 
+                {
+                    "protect": "r", 
+                    "end": "0x00291000", 
+                    "addr": "0x00250000", 
+                    "state": 4096, 
+                    "offset": 602448, 
+                    "type": 262144, 
+                    "size": 266240
+                }, 
+                {
+                    "protect": "r", 
+                    "end": "0x002a6000", 
+                    "addr": "0x002a0000", 
+                    "state": 4096, 
+                    "offset": 868712, 
+                    "type": 262144, 
+                    "size": 24576
+                }, 
+                {
+                    "protect": "r", 
+                    "end": "0x002f1000", 
+                    "addr": "0x002b0000", 
+                    "state": 4096, 
+                    "offset": 893312, 
+                    "type": 262144, 
+                    "size": 266240
+                }, 
+                {
+                    "protect": "rx", 
+                    "end": "0x00302000", 
+                    "addr": "0x00300000", 
+                    "state": 4096, 
+                    "offset": 1159576, 
+                    "type": 262144, 
+                    "size": 8192
+                }, 
+                {
+                    "protect": "rx", 
+                    "end": "0x003c2000", 
+                    "addr": "0x003c0000", 
+                    "state": 4096, 
+                    "offset": 1167792, 
+                    "type": 262144, 
+                    "size": 8192
+                }, 
+                {
+                    "protect": "rw", 
+                    "end": "0x003d8000", 
+                    "addr": "0x003d0000", 
+                    "state": 4096, 
+                    "offset": 1176008, 
+                    "type": 131072, 
+                    "size": 32768
+                }, 
+                {
+                    "protect": "rw", 
+                    "end": "0x003e1000", 
+                    "addr": "0x003e0000", 
+                    "state": 4096, 
+                    "offset": 1208800, 
+                    "type": 131072, 
+                    "size": 4096
+                }, 
+                {
+                    "protect": "rw", 
+                    "end": "0x003f1000", 
+                    "addr": "0x003f0000", 
+                    "state": 4096, 
+                    "offset": 1212920, 
+                    "type": 131072, 
+                    "size": 4096
+                }, 
+                {
+                    "protect": "r", 
+                    "end": "0x00402000", 
+                    "addr": "0x00400000", 
+                    "state": 4096, 
+                    "offset": 1217040, 
+                    "type": 262144, 
+                    "size": 8192
+                }, 
+                {
+                    "protect": "rw", 
+                    "end": "0x00414000", 
+                    "addr": "0x00410000", 
+                    "state": 4096, 
+                    "offset": 1225256, 
+                    "type": 131072, 
+                    "size": 16384
+                }, 
+                {
+                    "protect": "r", 
+                    "end": "0x00422000", 
+                    "addr": "0x00420000", 
+                    "state": 4096, 
+                    "offset": 1241664, 
+                    "type": 262144, 
+                    "size": 8192
+                }, 
+                {
+                    "protect": "rw", 
+                    "end": "0x00438000", 
+                    "addr": "0x00430000", 
+                    "state": 4096, 
+                    "offset": 1249880, 
+                    "type": 131072, 
+                    "size": 32768
+                }, 
+                {
+                    "protect": "rw", 
+                    "end": "0x00444000", 
+                    "addr": "0x00440000", 
+                    "state": 4096, 
+                    "offset": 1282672, 
+                    "type": 131072, 
+                    "size": 16384
+                }, 
+                {
+                    "protect": "r", 
+                    "end": "0x00453000", 
+                    "addr": "0x00450000", 
+                    "state": 4096, 
+                    "offset": 1299080, 
+                    "type": 262144, 
+                    "size": 12288
+                }, 
+                {
+                    "protect": "rw", 
+                    "end": "0x00463000", 
+                    "addr": "0x00460000", 
+                    "state": 4096, 
+                    "offset": 1311392, 
+                    "type": 131072, 
+                    "size": 12288
+                }, 
+                {
+                    "protect": "r", 
+                    "end": "0x005a3000", 
+                    "addr": "0x004a0000", 
+                    "state": 4096, 
+                    "offset": 1323704, 
+                    "type": 262144, 
+                    "size": 1060864
+                }, 
+                {
+                    "protect": "rx", 
+                    "end": "0x005f5000", 
+                    "addr": "0x005b0000", 
+                    "state": 4096, 
+                    "offset": 2384592, 
+                    "type": 262144, 
+                    "size": 282624
+                }, 
+                {
+                    "protect": "rw", 
+                    "end": "0x009b0000", 
+                    "addr": "0x008b0000", 
+                    "state": 4096, 
+                    "offset": 2667240, 
+                    "type": 131072, 
+                    "size": 1048576
+                }, 
+                {
+                    "protect": "rw", 
+                    "end": "0x009b1000", 
+                    "addr": "0x009b0000", 
+                    "state": 4096, 
+                    "offset": 3715840, 
+                    "type": 131072, 
+                    "size": 4096
+                }, 
+                {
+                    "protect": "rx", 
+                    "end": "0x00a31000", 
+                    "addr": "0x00a30000", 
+                    "state": 4096, 
+                    "offset": 3719960, 
+                    "type": 131072, 
+                    "size": 4096
+                }, 
+                {
+                    "protect": "rw", 
+                    "end": "0x00a41000", 
+                    "addr": "0x00a40000", 
+                    "state": 4096, 
+                    "offset": 3724080, 
+                    "type": 131072, 
+                    "size": 4096
+                }, 
+                {
+                    "protect": "rw", 
+                    "end": "0x00a51000", 
+                    "addr": "0x00a50000", 
+                    "state": 4096, 
+                    "offset": 3728200, 
+                    "type": 131072, 
+                    "size": 4096
+                }, 
+                {
+                    "protect": "rw", 
+                    "end": "0x00a61000", 
+                    "addr": "0x00a60000", 
+                    "state": 4096, 
+                    "offset": 3732320, 
+                    "type": 131072, 
+                    "size": 4096
+                }, 
+                {
+                    "protect": "rw", 
+                    "end": "0x00a71000", 
+                    "addr": "0x00a70000", 
+                    "state": 4096, 
+                    "offset": 3736440, 
+                    "type": 131072, 
+                    "size": 4096
+                }, 
+                {
+                    "protect": "rw", 
+                    "end": "0x00a82000", 
+                    "addr": "0x00a80000", 
+                    "state": 4096, 
+                    "offset": 3740560, 
+                    "type": 131072, 
+                    "size": 8192
+                }, 
+                {
+                    "protect": "rw", 
+                    "end": "0x00aa0000", 
+                    "addr": "0x00a90000", 
+                    "state": 4096, 
+                    "offset": 3748776, 
+                    "type": 131072, 
+                    "size": 65536
+                }, 
+                {
+                    "protect": "rw", 
+                    "end": "0x00ab0000", 
+                    "addr": "0x00aa0000", 
+                    "state": 4096, 
+                    "offset": 3814336, 
+                    "type": 131072, 
+                    "size": 65536
+                }, 
+                {
+                    "protect": "rwx", 
+                    "end": "0x00ab8000", 
+                    "addr": "0x00ab0000", 
+                    "state": 4096, 
+                    "offset": 3879896, 
+                    "type": 131072, 
+                    "size": 32768
+                }, 
+                {
+                    "protect": "rw", 
+                    "end": "0x00ac1000", 
+                    "addr": "0x00ac0000", 
+                    "state": 4096, 
+                    "offset": 3912688, 
+                    "type": 131072, 
+                    "size": 4096
+                }, 
+                {
+                    "protect": "r", 
+                    "end": "0x00ad2000", 
+                    "addr": "0x00ad0000", 
+                    "state": 4096, 
+                    "offset": 3916808, 
+                    "type": 262144, 
+                    "size": 8192
+                }, 
+                {
+                    "protect": "rw", 
+                    "end": "0x00ae1000", 
+                    "addr": "0x00ae0000", 
+                    "state": 4096, 
+                    "offset": 3925024, 
+                    "type": 131072, 
+                    "size": 4096
+                }, 
+                {
+                    "protect": "rwx", 
+                    "end": "0x00af8000", 
+                    "addr": "0x00af0000", 
+                    "state": 4096, 
+                    "offset": 3929144, 
+                    "type": 131072, 
+                    "size": 32768
+                }, 
+                {
+                    "protect": "rw", 
+                    "end": "0x00b01000", 
+                    "addr": "0x00b00000", 
+                    "state": 4096, 
+                    "offset": 3961936, 
+                    "type": 131072, 
+                    "size": 4096
+                }, 
+                {
+                    "protect": "rw", 
+                    "end": "0x00b20000", 
+                    "addr": "0x00b10000", 
+                    "state": 4096, 
+                    "offset": 3966056, 
+                    "type": 131072, 
+                    "size": 65536
+                }, 
+                {
+                    "protect": "rw", 
+                    "end": "0x00b30000", 
+                    "addr": "0x00b20000", 
+                    "state": 4096, 
+                    "offset": 4031616, 
+                    "type": 131072, 
+                    "size": 65536
+                }, 
+                {
+                    "protect": "rw", 
+                    "end": "0x00b34000", 
+                    "addr": "0x00b30000", 
+                    "state": 4096, 
+                    "offset": 4097176, 
+                    "type": 131072, 
+                    "size": 16384
+                }, 
+                {
+                    "protect": "rw", 
+                    "end": "0x00b81000", 
+                    "addr": "0x00b80000", 
+                    "state": 4096, 
+                    "offset": 4113584, 
+                    "type": 131072, 
+                    "size": 4096
+                }, 
+                {
+                    "protect": "rw", 
+                    "end": "0x00b91000", 
+                    "addr": "0x00b90000", 
+                    "state": 4096, 
+                    "offset": 4117704, 
+                    "type": 131072, 
+                    "size": 4096
+                }, 
+                {
+                    "protect": "rw", 
+                    "end": "0x00ba2000", 
+                    "addr": "0x00ba0000", 
+                    "state": 4096, 
+                    "offset": 4121824, 
+                    "type": 131072, 
+                    "size": 8192
+                }, 
+                {
+                    "protect": "rw", 
+                    "end": "0x00bb1000", 
+                    "addr": "0x00bb0000", 
+                    "state": 4096, 
+                    "offset": 4130040, 
+                    "type": 131072, 
+                    "size": 4096
+                }, 
+                {
+                    "protect": "rw", 
+                    "end": "0x00c3b000", 
+                    "addr": "0x00bc0000", 
+                    "state": 4096, 
+                    "offset": 4134160, 
+                    "type": 131072, 
+                    "size": 503808
+                }, 
+                {
+                    "protect": "r", 
+                    "end": "0x00d10000", 
+                    "addr": "0x00cc0000", 
+                    "state": 4096, 
+                    "offset": 4637992, 
+                    "type": 262144, 
+                    "size": 327680
+                }, 
+                {
+                    "protect": "rw", 
+                    "end": "0x00d11000", 
+                    "addr": "0x00d10000", 
+                    "state": 4096, 
+                    "offset": 4965696, 
+                    "type": 262144, 
+                    "size": 4096
+                }, 
+                {
+                    "protect": "rw", 
+                    "end": "0x00d30000", 
+                    "addr": "0x00d20000", 
+                    "state": 4096, 
+                    "offset": 4969816, 
+                    "type": 262144, 
+                    "size": 65536
+                }, 
+                {
+                    "protect": "rw", 
+                    "end": "0x00d6e000", 
+                    "addr": "0x00d60000", 
+                    "state": 4096, 
+                    "offset": 5035376, 
+                    "type": 262144, 
+                    "size": 57344
+                }, 
+                {
+                    "protect": "rw", 
+                    "end": "0x00d80000", 
+                    "addr": "0x00d70000", 
+                    "state": 4096, 
+                    "offset": 5092744, 
+                    "type": 131072, 
+                    "size": 65536
+                }, 
+                {
+                    "protect": "rw", 
+                    "end": "0x00d90000", 
+                    "addr": "0x00d80000", 
+                    "state": 4096, 
+                    "offset": 5158304, 
+                    "type": 131072, 
+                    "size": 65536
+                }, 
+                {
+                    "protect": "rw", 
+                    "end": "0x00da0000", 
+                    "addr": "0x00d90000", 
+                    "state": 4096, 
+                    "offset": 5223864, 
+                    "type": 131072, 
+                    "size": 65536
+                }, 
+                {
+                    "protect": "rw", 
+                    "end": "0x00db7000", 
+                    "addr": "0x00db0000", 
+                    "state": 4096, 
+                    "offset": 5289424, 
+                    "type": 262144, 
+                    "size": 28672
+                }, 
+                {
+                    "protect": "r", 
+                    "end": "0x01001000", 
+                    "addr": "0x01000000", 
+                    "state": 4096, 
+                    "offset": 5318120, 
+                    "type": 16777216, 
+                    "size": 4096
+                }, 
+                {
+                    "protect": "rx", 
+                    "end": "0x01003000", 
+                    "addr": "0x01001000", 
+                    "state": 4096, 
+                    "offset": 5322240, 
+                    "type": 16777216, 
+                    "size": 8192
+                }, 
+                {
+                    "protect": "rw", 
+                    "end": "0x01004000", 
+                    "addr": "0x01003000", 
+                    "state": 4096, 
+                    "offset": 5330456, 
+                    "type": 16777216, 
+                    "size": 4096
+                }, 
+                {
+                    "protect": "r", 
+                    "end": "0x0100b000", 
+                    "addr": "0x01004000", 
+                    "state": 4096, 
+                    "offset": 5334576, 
+                    "type": 16777216, 
+                    "size": 28672
+                }, 
+                {
+                    "protect": "r", 
+                    "end": "0x10001000", 
+                    "addr": "0x10000000", 
+                    "state": 4096, 
+                    "offset": 5363272, 
+                    "type": 16777216, 
+                    "size": 4096
+                }, 
+                {
+                    "protect": "rx", 
+                    "end": "0x10009000", 
+                    "addr": "0x10001000", 
+                    "state": 4096, 
+                    "offset": 5367392, 
+                    "type": 16777216, 
+                    "size": 32768
+                }, 
+                {
+                    "protect": "r", 
+                    "end": "0x1000c000", 
+                    "addr": "0x10009000", 
+                    "state": 4096, 
+                    "offset": 5400184, 
+                    "type": 16777216, 
+                    "size": 12288
+                }, 
+                {
+                    "protect": "rw", 
+                    "end": "0x1000f000", 
+                    "addr": "0x1000c000", 
+                    "state": 4096, 
+                    "offset": 5412496, 
+                    "type": 16777216, 
+                    "size": 12288
+                }, 
+                {
+                    "protect": "r", 
+                    "end": "0x10011000", 
+                    "addr": "0x1000f000", 
+                    "state": 4096, 
+                    "offset": 5424808, 
+                    "type": 16777216, 
+                    "size": 8192
+                }, 
+                {
+                    "protect": "r", 
+                    "end": "0x58fb1000", 
+                    "addr": "0x58fb0000", 
+                    "state": 4096, 
+                    "offset": 5433024, 
+                    "type": 16777216, 
+                    "size": 4096
+                }, 
+                {
+                    "protect": "rx", 
+                    "end": "0x58fe3000", 
+                    "addr": "0x58fb1000", 
+                    "state": 4096, 
+                    "offset": 5437144, 
+                    "type": 16777216, 
+                    "size": 204800
+                }, 
+                {
+                    "protect": "rw", 
+                    "end": "0x58fe4000", 
+                    "addr": "0x58fe3000", 
+                    "state": 4096, 
+                    "offset": 5641968, 
+                    "type": 16777216, 
+                    "size": 4096
+                }, 
+                {
+                    "protect": "rwc", 
+                    "end": "0x58fe8000", 
+                    "addr": "0x58fe4000", 
+                    "state": 4096, 
+                    "offset": 5646088, 
+                    "type": 16777216, 
+                    "size": 16384
+                }, 
+                {
+                    "protect": "rw", 
+                    "end": "0x58fec000", 
+                    "addr": "0x58fe8000", 
+                    "state": 4096, 
+                    "offset": 5662496, 
+                    "type": 16777216, 
+                    "size": 16384
+                }, 
+                {
+                    "protect": "r", 
+                    "end": "0x5917a000", 
+                    "addr": "0x58fec000", 
+                    "state": 4096, 
+                    "offset": 5678904, 
+                    "type": 16777216, 
+                    "size": 1630208
+                }, 
+                {
+                    "protect": "r", 
+                    "end": "0x5adc1000", 
+                    "addr": "0x5adc0000", 
+                    "state": 4096, 
+                    "offset": 7309136, 
+                    "type": 16777216, 
+                    "size": 4096
+                }, 
+                {
+                    "protect": "rx", 
+                    "end": "0x5adf1000", 
+                    "addr": "0x5adc1000", 
+                    "state": 4096, 
+                    "offset": 7313256, 
+                    "type": 16777216, 
+                    "size": 196608
+                }, 
+                {
+                    "protect": "rw", 
+                    "end": "0x5adf2000", 
+                    "addr": "0x5adf1000", 
+                    "state": 4096, 
+                    "offset": 7509888, 
+                    "type": 16777216, 
+                    "size": 4096
+                }, 
+                {
+                    "protect": "r", 
+                    "end": "0x5adf7000", 
+                    "addr": "0x5adf2000", 
+                    "state": 4096, 
+                    "offset": 7514008, 
+                    "type": 16777216, 
+                    "size": 20480
+                }, 
+                {
+                    "protect": "r", 
+                    "end": "0x5cc31000", 
+                    "addr": "0x5cc30000", 
+                    "state": 4096, 
+                    "offset": 7534512, 
+                    "type": 16777216, 
+                    "size": 4096
+                }, 
+                {
+                    "protect": "rx", 
+                    "end": "0x5cc3f000", 
+                    "addr": "0x5cc31000", 
+                    "state": 4096, 
+                    "offset": 7538632, 
+                    "type": 16777216, 
+                    "size": 57344
+                }, 
+                {
+                    "protect": "rw", 
+                    "end": "0x5cc42000", 
+                    "addr": "0x5cc3f000", 
+                    "state": 4096, 
+                    "offset": 7596000, 
+                    "type": 16777216, 
+                    "size": 12288
+                }, 
+                {
+                    "protect": "rwc", 
+                    "end": "0x5cc53000", 
+                    "addr": "0x5cc42000", 
+                    "state": 4096, 
+                    "offset": 7608312, 
+                    "type": 16777216, 
+                    "size": 69632
+                }, 
+                {
+                    "protect": "r", 
+                    "end": "0x5cc56000", 
+                    "addr": "0x5cc53000", 
+                    "state": 4096, 
+                    "offset": 7677968, 
+                    "type": 16777216, 
+                    "size": 12288
+                }, 
+                {
+                    "protect": "r", 
+                    "end": "0x5d171000", 
+                    "addr": "0x5d170000", 
+                    "state": 4096, 
+                    "offset": 7690280, 
+                    "type": 16777216, 
+                    "size": 4096
+                }, 
+                {
+                    "protect": "rx", 
+                    "end": "0x5d1e2000", 
+                    "addr": "0x5d171000", 
+                    "state": 4096, 
+                    "offset": 7694400, 
+                    "type": 16777216, 
+                    "size": 462848
+                }, 
+                {
+                    "protect": "rw", 
+                    "end": "0x5d1e5000", 
+                    "addr": "0x5d1e2000", 
+                    "state": 4096, 
+                    "offset": 8157272, 
+                    "type": 16777216, 
+                    "size": 12288
+                }, 
+                {
+                    "protect": "r", 
+                    "end": "0x5d20a000", 
+                    "addr": "0x5d1e5000", 
+                    "state": 4096, 
+                    "offset": 8169584, 
+                    "type": 16777216, 
+                    "size": 151552
+                }, 
+                {
+                    "protect": "r", 
+                    "end": "0x62c21000", 
+                    "addr": "0x62c20000", 
+                    "state": 4096, 
+                    "offset": 8321160, 
+                    "type": 16777216, 
+                    "size": 4096
+                }, 
+                {
+                    "protect": "rx", 
+                    "end": "0x62c26000", 
+                    "addr": "0x62c21000", 
+                    "state": 4096, 
+                    "offset": 8325280, 
+                    "type": 16777216, 
+                    "size": 20480
+                }, 
+                {
+                    "protect": "rw", 
+                    "end": "0x62c27000", 
+                    "addr": "0x62c26000", 
+                    "state": 4096, 
+                    "offset": 8345784, 
+                    "type": 16777216, 
+                    "size": 4096
+                }, 
+                {
+                    "protect": "r", 
+                    "end": "0x62c29000", 
+                    "addr": "0x62c27000", 
+                    "state": 4096, 
+                    "offset": 8349904, 
+                    "type": 16777216, 
+                    "size": 8192
+                }, 
+                {
+                    "protect": "r", 
+                    "end": "0x63dc1000", 
+                    "addr": "0x63dc0000", 
+                    "state": 4096, 
+                    "offset": 8358120, 
+                    "type": 16777216, 
+                    "size": 4096
+                }, 
+                {
+                    "protect": "rx", 
+                    "end": "0x63dfa000", 
+                    "addr": "0x63dc1000", 
+                    "state": 4096, 
+                    "offset": 8362240, 
+                    "type": 16777216, 
+                    "size": 233472
+                }, 
+                {
+                    "protect": "rwc", 
+                    "end": "0x63e01000", 
+                    "addr": "0x63dfa000", 
+                    "state": 4096, 
+                    "offset": 8595736, 
+                    "type": 16777216, 
+                    "size": 28672
+                }, 
+                {
+                    "protect": "rw", 
+                    "end": "0x63e08000", 
+                    "addr": "0x63e01000", 
+                    "state": 4096, 
+                    "offset": 8624432, 
+                    "type": 16777216, 
+                    "size": 28672
+                }, 
+                {
+                    "protect": "rwc", 
+                    "end": "0x63e0a000", 
+                    "addr": "0x63e08000", 
+                    "state": 4096, 
+                    "offset": 8653128, 
+                    "type": 16777216, 
+                    "size": 8192
+                }, 
+                {
+                    "protect": "rw", 
+                    "end": "0x63e0b000", 
+                    "addr": "0x63e0a000", 
+                    "state": 4096, 
+                    "offset": 8661344, 
+                    "type": 16777216, 
+                    "size": 4096
+                }, 
+                {
+                    "protect": "rwc", 
+                    "end": "0x63e1f000", 
+                    "addr": "0x63e0b000", 
+                    "state": 4096, 
+                    "offset": 8665464, 
+                    "type": 16777216, 
+                    "size": 81920
+                }, 
+                {
+                    "protect": "rw", 
+                    "end": "0x63e20000", 
+                    "addr": "0x63e1f000", 
+                    "state": 4096, 
+                    "offset": 8747408, 
+                    "type": 16777216, 
+                    "size": 4096
+                }, 
+                {
+                    "protect": "r", 
+                    "end": "0x63e57000", 
+                    "addr": "0x63e20000", 
+                    "state": 4096, 
+                    "offset": 8751528, 
+                    "type": 16777216, 
+                    "size": 225280
+                }, 
+                {
+                    "protect": "rw", 
+                    "end": "0x63e58000", 
+                    "addr": "0x63e57000", 
+                    "state": 4096, 
+                    "offset": 8976832, 
+                    "type": 16777216, 
+                    "size": 4096
+                }, 
+                {
+                    "protect": "rwc", 
+                    "end": "0x63e5b000", 
+                    "addr": "0x63e58000", 
+                    "state": 4096, 
+                    "offset": 8980952, 
+                    "type": 16777216, 
+                    "size": 12288
+                }, 
+                {
+                    "protect": "rw", 
+                    "end": "0x63e6c000", 
+                    "addr": "0x63e5b000", 
+                    "state": 4096, 
+                    "offset": 8993264, 
+                    "type": 16777216, 
+                    "size": 69632
+                }, 
+                {
+                    "protect": "rwc", 
+                    "end": "0x63e7b000", 
+                    "addr": "0x63e6c000", 
+                    "state": 4096, 
+                    "offset": 9062920, 
+                    "type": 16777216, 
+                    "size": 61440
+                }, 
+                {
+                    "protect": "rw", 
+                    "end": "0x63ea0000", 
+                    "addr": "0x63e7b000", 
+                    "state": 4096, 
+                    "offset": 9124384, 
+                    "type": 16777216, 
+                    "size": 151552
+                }, 
+                {
+                    "protect": "rwc", 
+                    "end": "0x63fa2000", 
+                    "addr": "0x63ea0000", 
+                    "state": 4096, 
+                    "offset": 9275960, 
+                    "type": 16777216, 
+                    "size": 1056768
+                }, 
+                {
+                    "protect": "rw", 
+                    "end": "0x63fa4000", 
+                    "addr": "0x63fa2000", 
+                    "state": 4096, 
+                    "offset": 10332752, 
+                    "type": 16777216, 
+                    "size": 8192
+                }, 
+                {
+                    "protect": "rwc", 
+                    "end": "0x63fb2000", 
+                    "addr": "0x63fa4000", 
+                    "state": 4096, 
+                    "offset": 10340968, 
+                    "type": 16777216, 
+                    "size": 57344
+                }, 
+                {
+                    "protect": "rw", 
+                    "end": "0x63fb4000", 
+                    "addr": "0x63fb2000", 
+                    "state": 4096, 
+                    "offset": 10398336, 
+                    "type": 16777216, 
+                    "size": 8192
+                }, 
+                {
+                    "protect": "r", 
+                    "end": "0x63fbc000", 
+                    "addr": "0x63fb4000", 
+                    "state": 4096, 
+                    "offset": 10406552, 
+                    "type": 16777216, 
+                    "size": 32768
+                }, 
+                {
+                    "protect": "rw", 
+                    "end": "0x63fbd000", 
+                    "addr": "0x63fbc000", 
+                    "state": 4096, 
+                    "offset": 10439344, 
+                    "type": 16777216, 
+                    "size": 4096
+                }, 
+                {
+                    "protect": "rwc", 
+                    "end": "0x63fbf000", 
+                    "addr": "0x63fbd000", 
+                    "state": 4096, 
+                    "offset": 10443464, 
+                    "type": 16777216, 
+                    "size": 8192
+                }, 
+                {
+                    "protect": "r", 
+                    "end": "0x63fc5000", 
+                    "addr": "0x63fbf000", 
+                    "state": 4096, 
+                    "offset": 10451680, 
+                    "type": 16777216, 
+                    "size": 24576
+                }, 
+                {
+                    "protect": "r", 
+                    "end": "0x73641000", 
+                    "addr": "0x73640000", 
+                    "state": 4096, 
+                    "offset": 10476280, 
+                    "type": 16777216, 
+                    "size": 4096
+                }, 
+                {
+                    "protect": "rx", 
+                    "end": "0x73668000", 
+                    "addr": "0x73641000", 
+                    "state": 4096, 
+                    "offset": 10480400, 
+                    "type": 16777216, 
+                    "size": 159744
+                }, 
+                {
+                    "protect": "rw", 
+                    "end": "0x73669000", 
+                    "addr": "0x73668000", 
+                    "state": 4096, 
+                    "offset": 10640168, 
+                    "type": 16777216, 
+                    "size": 4096
+                }, 
+                {
+                    "protect": "r", 
+                    "end": "0x7366e000", 
+                    "addr": "0x73669000", 
+                    "state": 4096, 
+                    "offset": 10644288, 
+                    "type": 16777216, 
+                    "size": 20480
+                }, 
+                {
+                    "protect": "r", 
+                    "end": "0x73fa1000", 
+                    "addr": "0x73fa0000", 
+                    "state": 4096, 
+                    "offset": 10664792, 
+                    "type": 16777216, 
+                    "size": 4096
+                }, 
+                {
+                    "protect": "rx", 
+                    "end": "0x73fe5000", 
+                    "addr": "0x73fa1000", 
+                    "state": 4096, 
+                    "offset": 10668912, 
+                    "type": 16777216, 
+                    "size": 278528
+                }, 
+                {
+                    "protect": "rw", 
+                    "end": "0x73fe6000", 
+                    "addr": "0x73fe5000", 
+                    "state": 4096, 
+                    "offset": 10947464, 
+                    "type": 16777216, 
+                    "size": 4096
+                }, 
+                {
+                    "protect": "rwc", 
+                    "end": "0x73fee000", 
+                    "addr": "0x73fe6000", 
+                    "state": 4096, 
+                    "offset": 10951584, 
+                    "type": 16777216, 
+                    "size": 32768
+                }, 
+                {
+                    "protect": "rw", 
+                    "end": "0x73ff2000", 
+                    "addr": "0x73fee000", 
+                    "state": 4096, 
+                    "offset": 10984376, 
+                    "type": 16777216, 
+                    "size": 16384
+                }, 
+                {
+                    "protect": "rwc", 
+                    "end": "0x73ff4000", 
+                    "addr": "0x73ff2000", 
+                    "state": 4096, 
+                    "offset": 11000784, 
+                    "type": 16777216, 
+                    "size": 8192
+                }, 
+                {
+                    "protect": "rw", 
+                    "end": "0x73ff5000", 
+                    "addr": "0x73ff4000", 
+                    "state": 4096, 
+                    "offset": 11009000, 
+                    "type": 16777216, 
+                    "size": 4096
+                }, 
+                {
+                    "protect": "r", 
+                    "end": "0x7400b000", 
+                    "addr": "0x73ff5000", 
+                    "state": 4096, 
+                    "offset": 11013120, 
+                    "type": 16777216, 
+                    "size": 90112
+                }, 
+                {
+                    "protect": "r", 
+                    "end": "0x74681000", 
+                    "addr": "0x74680000", 
+                    "state": 4096, 
+                    "offset": 11103256, 
+                    "type": 16777216, 
+                    "size": 4096
+                }, 
+                {
+                    "protect": "rx", 
+                    "end": "0x746c3000", 
+                    "addr": "0x74681000", 
+                    "state": 4096, 
+                    "offset": 11107376, 
+                    "type": 16777216, 
+                    "size": 270336
+                }, 
+                {
+                    "protect": "rw", 
+                    "end": "0x746c5000", 
+                    "addr": "0x746c3000", 
+                    "state": 4096, 
+                    "offset": 11377736, 
+                    "type": 16777216, 
+                    "size": 8192
+                }, 
+                {
+                    "protect": "r", 
+                    "end": "0x746cc000", 
+                    "addr": "0x746c5000", 
+                    "state": 4096, 
+                    "offset": 11385952, 
+                    "type": 16777216, 
+                    "size": 28672
+                }, 
+                {
+                    "protect": "r", 
+                    "end": "0x759d1000", 
+                    "addr": "0x759d0000", 
+                    "state": 4096, 
+                    "offset": 11414648, 
+                    "type": 16777216, 
+                    "size": 4096
+                }, 
+                {
+                    "protect": "rx", 
+                    "end": "0x75a71000", 
+                    "addr": "0x759d1000", 
+                    "state": 4096, 
+                    "offset": 11418768, 
+                    "type": 16777216, 
+                    "size": 655360
+                }, 
+                {
+                    "protect": "rw", 
+                    "end": "0x75a73000", 
+                    "addr": "0x75a71000", 
+                    "state": 4096, 
+                    "offset": 12074152, 
+                    "type": 16777216, 
+                    "size": 8192
+                }, 
+                {
+                    "protect": "r", 
+                    "end": "0x75a7f000", 
+                    "addr": "0x75a73000", 
+                    "state": 4096, 
+                    "offset": 12082368, 
+                    "type": 16777216, 
+                    "size": 49152
+                }, 
+                {
+                    "protect": "r", 
+                    "end": "0x76301000", 
+                    "addr": "0x76300000", 
+                    "state": 4096, 
+                    "offset": 12131544, 
+                    "type": 16777216, 
+                    "size": 4096
+                }, 
+                {
+                    "protect": "rx", 
+                    "end": "0x76316000", 
+                    "addr": "0x76301000", 
+                    "state": 4096, 
+                    "offset": 12135664, 
+                    "type": 16777216, 
+                    "size": 86016
+                }, 
+                {
+                    "protect": "rw", 
+                    "end": "0x76317000", 
+                    "addr": "0x76316000", 
+                    "state": 4096, 
+                    "offset": 12221704, 
+                    "type": 16777216, 
+                    "size": 4096
+                }, 
+                {
+                    "protect": "r", 
+                    "end": "0x7631d000", 
+                    "addr": "0x76317000", 
+                    "state": 4096, 
+                    "offset": 12225824, 
+                    "type": 16777216, 
+                    "size": 24576
+                }, 
+                {
+                    "protect": "r", 
+                    "end": "0x76991000", 
+                    "addr": "0x76990000", 
+                    "state": 4096, 
+                    "offset": 12250424, 
+                    "type": 16777216, 
+                    "size": 4096
+                }, 
+                {
+                    "protect": "rx", 
+                    "end": "0x76ab6000", 
+                    "addr": "0x76991000", 
+                    "state": 4096, 
+                    "offset": 12254544, 
+                    "type": 16777216, 
+                    "size": 1200128
+                }, 
+                {
+                    "protect": "rw", 
+                    "end": "0x76ab8000", 
+                    "addr": "0x76ab6000", 
+                    "state": 4096, 
+                    "offset": 13454696, 
+                    "type": 16777216, 
+                    "size": 8192
+                }, 
+                {
+                    "protect": "rwc", 
+                    "end": "0x76abd000", 
+                    "addr": "0x76ab8000", 
+                    "state": 4096, 
+                    "offset": 13462912, 
+                    "type": 16777216, 
+                    "size": 20480
+                }, 
+                {
+                    "protect": "r", 
+                    "end": "0x76acd000", 
+                    "addr": "0x76abd000", 
+                    "state": 4096, 
+                    "offset": 13483416, 
+                    "type": 16777216, 
+                    "size": 65536
+                }, 
+                {
+                    "protect": "r", 
+                    "end": "0x76b11000", 
+                    "addr": "0x76b10000", 
+                    "state": 4096, 
+                    "offset": 13548976, 
+                    "type": 16777216, 
+                    "size": 4096
+                }, 
+                {
+                    "protect": "rx", 
+                    "end": "0x76b30000", 
+                    "addr": "0x76b11000", 
+                    "state": 4096, 
+                    "offset": 13553096, 
+                    "type": 16777216, 
+                    "size": 126976
+                }, 
+                {
+                    "protect": "rw", 
+                    "end": "0x76b31000", 
+                    "addr": "0x76b30000", 
+                    "state": 4096, 
+                    "offset": 13680096, 
+                    "type": 16777216, 
+                    "size": 4096
+                }, 
+                {
+                    "protect": "rwc", 
+                    "end": "0x76b32000", 
+                    "addr": "0x76b31000", 
+                    "state": 4096, 
+                    "offset": 13684216, 
+                    "type": 16777216, 
+                    "size": 4096
+                }, 
+                {
+                    "protect": "r", 
+                    "end": "0x76b3a000", 
+                    "addr": "0x76b32000", 
+                    "state": 4096, 
+                    "offset": 13688336, 
+                    "type": 16777216, 
+                    "size": 32768
+                }, 
+                {
+                    "protect": "r", 
+                    "end": "0x76c61000", 
+                    "addr": "0x76c60000", 
+                    "state": 4096, 
+                    "offset": 13721128, 
+                    "type": 16777216, 
+                    "size": 4096
+                }, 
+                {
+                    "protect": "rx", 
+                    "end": "0x76c83000", 
+                    "addr": "0x76c61000", 
+                    "state": 4096, 
+                    "offset": 13725248, 
+                    "type": 16777216, 
+                    "size": 139264
+                }, 
+                {
+                    "protect": "rw", 
+                    "end": "0x76c84000", 
+                    "addr": "0x76c83000", 
+                    "state": 4096, 
+                    "offset": 13864536, 
+                    "type": 16777216, 
+                    "size": 4096
+                }, 
+                {
+                    "protect": "rwc", 
+                    "end": "0x76c85000", 
+                    "addr": "0x76c84000", 
+                    "state": 4096, 
+                    "offset": 13868656, 
+                    "type": 16777216, 
+                    "size": 4096
+                }, 
+                {
+                    "protect": "r", 
+                    "end": "0x76c88000", 
+                    "addr": "0x76c85000", 
+                    "state": 4096, 
+                    "offset": 13872776, 
+                    "type": 16777216, 
+                    "size": 12288
+                }, 
+                {
+                    "protect": "r", 
+                    "end": "0x770f1000", 
+                    "addr": "0x770f0000", 
+                    "state": 4096, 
+                    "offset": 13885088, 
+                    "type": 16777216, 
+                    "size": 4096
+                }, 
+                {
+                    "protect": "rx", 
+                    "end": "0x77171000", 
+                    "addr": "0x770f1000", 
+                    "state": 4096, 
+                    "offset": 13889208, 
+                    "type": 16777216, 
+                    "size": 524288
+                }, 
+                {
+                    "protect": "rw", 
+                    "end": "0x77172000", 
+                    "addr": "0x77171000", 
+                    "state": 4096, 
+                    "offset": 14413520, 
+                    "type": 16777216, 
+                    "size": 4096
+                }, 
+                {
+                    "protect": "rwc", 
+                    "end": "0x77174000", 
+                    "addr": "0x77172000", 
+                    "state": 4096, 
+                    "offset": 14417640, 
+                    "type": 16777216, 
+                    "size": 8192
+                }, 
+                {
+                    "protect": "r", 
+                    "end": "0x7717b000", 
+                    "addr": "0x77174000", 
+                    "state": 4096, 
+                    "offset": 14425856, 
+                    "type": 16777216, 
+                    "size": 28672
+                }, 
+                {
+                    "protect": "r", 
+                    "end": "0x77181000", 
+                    "addr": "0x77180000", 
+                    "state": 4096, 
+                    "offset": 14454552, 
+                    "type": 16777216, 
+                    "size": 4096
+                }, 
+                {
+                    "protect": "rx", 
+                    "end": "0x77212000", 
+                    "addr": "0x77181000", 
+                    "state": 4096, 
+                    "offset": 14458672, 
+                    "type": 16777216, 
+                    "size": 593920
+                }, 
+                {
+                    "protect": "rw", 
+                    "end": "0x77213000", 
+                    "addr": "0x77212000", 
+                    "state": 4096, 
+                    "offset": 15052616, 
+                    "type": 16777216, 
+                    "size": 4096
+                }, 
+                {
+                    "protect": "r", 
+                    "end": "0x77283000", 
+                    "addr": "0x77213000", 
+                    "state": 4096, 
+                    "offset": 15056736, 
+                    "type": 16777216, 
+                    "size": 458752
+                }, 
+                {
+                    "protect": "r", 
+                    "end": "0x77bb1000", 
+                    "addr": "0x77bb0000", 
+                    "state": 4096, 
+                    "offset": 15515512, 
+                    "type": 16777216, 
+                    "size": 4096
+                }, 
+                {
+                    "protect": "rx", 
+                    "end": "0x77bc1000", 
+                    "addr": "0x77bb1000", 
+                    "state": 4096, 
+                    "offset": 15519632, 
+                    "type": 16777216, 
+                    "size": 65536
+                }, 
+                {
+                    "protect": "rw", 
+                    "end": "0x77bc2000", 
+                    "addr": "0x77bc1000", 
+                    "state": 4096, 
+                    "offset": 15585192, 
+                    "type": 16777216, 
+                    "size": 4096
+                }, 
+                {
+                    "protect": "r", 
+                    "end": "0x77bc5000", 
+                    "addr": "0x77bc2000", 
+                    "state": 4096, 
+                    "offset": 15589312, 
+                    "type": 16777216, 
+                    "size": 12288
+                }, 
+                {
+                    "protect": "r", 
+                    "end": "0x77bd1000", 
+                    "addr": "0x77bd0000", 
+                    "state": 4096, 
+                    "offset": 15601624, 
+                    "type": 16777216, 
+                    "size": 4096
+                }, 
+                {
+                    "protect": "rx", 
+                    "end": "0x77bd5000", 
+                    "addr": "0x77bd1000", 
+                    "state": 4096, 
+                    "offset": 15605744, 
+                    "type": 16777216, 
+                    "size": 16384
+                }, 
+                {
+                    "protect": "rw", 
+                    "end": "0x77bd6000", 
+                    "addr": "0x77bd5000", 
+                    "state": 4096, 
+                    "offset": 15622152, 
+                    "type": 16777216, 
+                    "size": 4096
+                }, 
+                {
+                    "protect": "r", 
+                    "end": "0x77bd8000", 
+                    "addr": "0x77bd6000", 
+                    "state": 4096, 
+                    "offset": 15626272, 
+                    "type": 16777216, 
+                    "size": 8192
+                }, 
+                {
+                    "protect": "r", 
+                    "end": "0x77be1000", 
+                    "addr": "0x77be0000", 
+                    "state": 4096, 
+                    "offset": 15634488, 
+                    "type": 16777216, 
+                    "size": 4096
+                }, 
+                {
+                    "protect": "rx", 
+                    "end": "0x77c2d000", 
+                    "addr": "0x77be1000", 
+                    "state": 4096, 
+                    "offset": 15638608, 
+                    "type": 16777216, 
+                    "size": 311296
+                }, 
+                {
+                    "protect": "rwc", 
+                    "end": "0x77c2f000", 
+                    "addr": "0x77c2d000", 
+                    "state": 4096, 
+                    "offset": 15949928, 
+                    "type": 16777216, 
+                    "size": 8192
+                }, 
+                {
+                    "protect": "rw", 
+                    "end": "0x77c30000", 
+                    "addr": "0x77c2f000", 
+                    "state": 4096, 
+                    "offset": 15958144, 
+                    "type": 16777216, 
+                    "size": 4096
+                }, 
+                {
+                    "protect": "rwc", 
+                    "end": "0x77c31000", 
+                    "addr": "0x77c30000", 
+                    "state": 4096, 
+                    "offset": 15962264, 
+                    "type": 16777216, 
+                    "size": 4096
+                }, 
+                {
+                    "protect": "rw", 
+                    "end": "0x77c34000", 
+                    "addr": "0x77c31000", 
+                    "state": 4096, 
+                    "offset": 15966384, 
+                    "type": 16777216, 
+                    "size": 12288
+                }, 
+                {
+                    "protect": "r", 
+                    "end": "0x77c38000", 
+                    "addr": "0x77c34000", 
+                    "state": 4096, 
+                    "offset": 15978696, 
+                    "type": 16777216, 
+                    "size": 16384
+                }, 
+                {
+                    "protect": "r", 
+                    "end": "0x77d11000", 
+                    "addr": "0x77d10000", 
+                    "state": 4096, 
+                    "offset": 15995104, 
+                    "type": 16777216, 
+                    "size": 4096
+                }, 
+                {
+                    "protect": "rx", 
+                    "end": "0x77d71000", 
+                    "addr": "0x77d11000", 
+                    "state": 4096, 
+                    "offset": 15999224, 
+                    "type": 16777216, 
+                    "size": 393216
+                }, 
+                {
+                    "protect": "rw", 
+                    "end": "0x77d72000", 
+                    "addr": "0x77d71000", 
+                    "state": 4096, 
+                    "offset": 16392464, 
+                    "type": 16777216, 
+                    "size": 4096
+                }, 
+                {
+                    "protect": "rwc", 
+                    "end": "0x77d73000", 
+                    "addr": "0x77d72000", 
+                    "state": 4096, 
+                    "offset": 16396584, 
+                    "type": 16777216, 
+                    "size": 4096
+                }, 
+                {
+                    "protect": "r", 
+                    "end": "0x77da0000", 
+                    "addr": "0x77d73000", 
+                    "state": 4096, 
+                    "offset": 16400704, 
+                    "type": 16777216, 
+                    "size": 184320
+                }, 
+                {
+                    "protect": "r", 
+                    "end": "0x77da1000", 
+                    "addr": "0x77da0000", 
+                    "state": 4096, 
+                    "offset": 16585048, 
+                    "type": 16777216, 
+                    "size": 4096
+                }, 
+                {
+                    "protect": "rx", 
+                    "end": "0x77e16000", 
+                    "addr": "0x77da1000", 
+                    "state": 4096, 
+                    "offset": 16589168, 
+                    "type": 16777216, 
+                    "size": 479232
+                }, 
+                {
+                    "protect": "rw", 
+                    "end": "0x77e17000", 
+                    "addr": "0x77e16000", 
+                    "state": 4096, 
+                    "offset": 17068424, 
+                    "type": 16777216, 
+                    "size": 4096
+                }, 
+                {
+                    "protect": "rwc", 
+                    "end": "0x77e1b000", 
+                    "addr": "0x77e17000", 
+                    "state": 4096, 
+                    "offset": 17072544, 
+                    "type": 16777216, 
+                    "size": 16384
+                }, 
+                {
+                    "protect": "r", 
+                    "end": "0x77e49000", 
+                    "addr": "0x77e1b000", 
+                    "state": 4096, 
+                    "offset": 17088952, 
+                    "type": 16777216, 
+                    "size": 188416
+                }, 
+                {
+                    "protect": "r", 
+                    "end": "0x77e51000", 
+                    "addr": "0x77e50000", 
+                    "state": 4096, 
+                    "offset": 17277392, 
+                    "type": 16777216, 
+                    "size": 4096
+                }, 
+                {
+                    "protect": "rx", 
+                    "end": "0x77edb000", 
+                    "addr": "0x77e51000", 
+                    "state": 4096, 
+                    "offset": 17281512, 
+                    "type": 16777216, 
+                    "size": 565248
+                }, 
+                {
+                    "protect": "rw", 
+                    "end": "0x77edc000", 
+                    "addr": "0x77edb000", 
+                    "state": 4096, 
+                    "offset": 17846784, 
+                    "type": 16777216, 
+                    "size": 4096
+                }, 
+                {
+                    "protect": "r", 
+                    "end": "0x77ee2000", 
+                    "addr": "0x77edc000", 
+                    "state": 4096, 
+                    "offset": 17850904, 
+                    "type": 16777216, 
+                    "size": 24576
+                }, 
+                {
+                    "protect": "r", 
+                    "end": "0x77ef1000", 
+                    "addr": "0x77ef0000", 
+                    "state": 4096, 
+                    "offset": 17875504, 
+                    "type": 16777216, 
+                    "size": 4096
+                }, 
+                {
+                    "protect": "rx", 
+                    "end": "0x77f34000", 
+                    "addr": "0x77ef1000", 
+                    "state": 4096, 
+                    "offset": 17879624, 
+                    "type": 16777216, 
+                    "size": 274432
+                }, 
+                {
+                    "protect": "rw", 
+                    "end": "0x77f36000", 
+                    "addr": "0x77f34000", 
+                    "state": 4096, 
+                    "offset": 18154080, 
+                    "type": 16777216, 
+                    "size": 8192
+                }, 
+                {
+                    "protect": "r", 
+                    "end": "0x77f39000", 
+                    "addr": "0x77f36000", 
+                    "state": 4096, 
+                    "offset": 18162296, 
+                    "type": 16777216, 
+                    "size": 12288
+                }, 
+                {
+                    "protect": "r", 
+                    "end": "0x77f41000", 
+                    "addr": "0x77f40000", 
+                    "state": 4096, 
+                    "offset": 18174608, 
+                    "type": 16777216, 
+                    "size": 4096
+                }, 
+                {
+                    "protect": "rx", 
+                    "end": "0x77fad000", 
+                    "addr": "0x77f41000", 
+                    "state": 4096, 
+                    "offset": 18178728, 
+                    "type": 16777216, 
+                    "size": 442368
+                }, 
+                {
+                    "protect": "rw", 
+                    "end": "0x77fae000", 
+                    "addr": "0x77fad000", 
+                    "state": 4096, 
+                    "offset": 18621120, 
+                    "type": 16777216, 
+                    "size": 4096
+                }, 
+                {
+                    "protect": "r", 
+                    "end": "0x77fb6000", 
+                    "addr": "0x77fae000", 
+                    "state": 4096, 
+                    "offset": 18625240, 
+                    "type": 16777216, 
+                    "size": 32768
+                }, 
+                {
+                    "protect": "r", 
+                    "end": "0x77fc1000", 
+                    "addr": "0x77fc0000", 
+                    "state": 4096, 
+                    "offset": 18658032, 
+                    "type": 16777216, 
+                    "size": 4096
+                }, 
+                {
+                    "protect": "rx", 
+                    "end": "0x77fce000", 
+                    "addr": "0x77fc1000", 
+                    "state": 4096, 
+                    "offset": 18662152, 
+                    "type": 16777216, 
+                    "size": 53248
+                }, 
+                {
+                    "protect": "rw", 
+                    "end": "0x77fcf000", 
+                    "addr": "0x77fce000", 
+                    "state": 4096, 
+                    "offset": 18715424, 
+                    "type": 16777216, 
+                    "size": 4096
+                }, 
+                {
+                    "protect": "r", 
+                    "end": "0x77fd1000", 
+                    "addr": "0x77fcf000", 
+                    "state": 4096, 
+                    "offset": 18719544, 
+                    "type": 16777216, 
+                    "size": 8192
+                }, 
+                {
+                    "protect": "r", 
+                    "end": "0x7c801000", 
+                    "addr": "0x7c800000", 
+                    "state": 4096, 
+                    "offset": 18727760, 
+                    "type": 16777216, 
+                    "size": 4096
+                }, 
+                {
+                    "protect": "rx", 
+                    "end": "0x7c885000", 
+                    "addr": "0x7c801000", 
+                    "state": 4096, 
+                    "offset": 18731880, 
+                    "type": 16777216, 
+                    "size": 540672
+                }, 
+                {
+                    "protect": "rw", 
+                    "end": "0x7c888000", 
+                    "addr": "0x7c885000", 
+                    "state": 4096, 
+                    "offset": 19272576, 
+                    "type": 16777216, 
+                    "size": 12288
+                }, 
+                {
+                    "protect": "rwc", 
+                    "end": "0x7c88a000", 
+                    "addr": "0x7c888000", 
+                    "state": 4096, 
+                    "offset": 19284888, 
+                    "type": 16777216, 
+                    "size": 8192
+                }, 
+                {
+                    "protect": "r", 
+                    "end": "0x7c91e000", 
+                    "addr": "0x7c88a000", 
+                    "state": 4096, 
+                    "offset": 19293104, 
+                    "type": 16777216, 
+                    "size": 606208
+                }, 
+                {
+                    "protect": "r", 
+                    "end": "0x7c921000", 
+                    "addr": "0x7c920000", 
+                    "state": 4096, 
+                    "offset": 19899336, 
+                    "type": 16777216, 
+                    "size": 4096
+                }, 
+                {
+                    "protect": "rx", 
+                    "end": "0x7c99b000", 
+                    "addr": "0x7c921000", 
+                    "state": 4096, 
+                    "offset": 19903456, 
+                    "type": 16777216, 
+                    "size": 499712
+                }, 
+                {
+                    "protect": "rw", 
+                    "end": "0x7c99e000", 
+                    "addr": "0x7c99b000", 
+                    "state": 4096, 
+                    "offset": 20403192, 
+                    "type": 16777216, 
+                    "size": 12288
+                }, 
+                {
+                    "protect": "rwc", 
+                    "end": "0x7c99f000", 
+                    "addr": "0x7c99e000", 
+                    "state": 4096, 
+                    "offset": 20415504, 
+                    "type": 16777216, 
+                    "size": 4096
+                }, 
+                {
+                    "protect": "rw", 
+                    "end": "0x7c9a0000", 
+                    "addr": "0x7c99f000", 
+                    "state": 4096, 
+                    "offset": 20419624, 
+                    "type": 16777216, 
+                    "size": 4096
+                }, 
+                {
+                    "protect": "r", 
+                    "end": "0x7c9b3000", 
+                    "addr": "0x7c9a0000", 
+                    "state": 4096, 
+                    "offset": 20423744, 
+                    "type": 16777216, 
+                    "size": 77824
+                }, 
+                {
+                    "protect": "r", 
+                    "end": "0x7d591000", 
+                    "addr": "0x7d590000", 
+                    "state": 4096, 
+                    "offset": 20501592, 
+                    "type": 16777216, 
+                    "size": 4096
+                }, 
+                {
+                    "protect": "rx", 
+                    "end": "0x7d78f000", 
+                    "addr": "0x7d591000", 
+                    "state": 4096, 
+                    "offset": 20505712, 
+                    "type": 16777216, 
+                    "size": 2088960
+                }, 
+                {
+                    "protect": "rwc", 
+                    "end": "0x7d79f000", 
+                    "addr": "0x7d78f000", 
+                    "state": 4096, 
+                    "offset": 22594696, 
+                    "type": 16777216, 
+                    "size": 65536
+                }, 
+                {
+                    "protect": "rw", 
+                    "end": "0x7d7a5000", 
+                    "addr": "0x7d79f000", 
+                    "state": 4096, 
+                    "offset": 22660256, 
+                    "type": 16777216, 
+                    "size": 24576
+                }, 
+                {
+                    "protect": "rwc", 
+                    "end": "0x7d7ac000", 
+                    "addr": "0x7d7a5000", 
+                    "state": 4096, 
+                    "offset": 22684856, 
+                    "type": 16777216, 
+                    "size": 28672
+                }, 
+                {
+                    "protect": "r", 
+                    "end": "0x7dd84000", 
+                    "addr": "0x7d7ac000", 
+                    "state": 4096, 
+                    "offset": 22713552, 
+                    "type": 16777216, 
+                    "size": 6127616
+                }, 
+                {
+                    "protect": "rx", 
+                    "end": "0x7f6f7000", 
+                    "addr": "0x7f6f0000", 
+                    "state": 4096, 
+                    "offset": 28841192, 
+                    "type": 262144, 
+                    "size": 28672
+                }, 
+                {
+                    "protect": "r", 
+                    "end": "0x7ffd3000", 
+                    "addr": "0x7ffa0000", 
+                    "state": 4096, 
+                    "offset": 28869888, 
+                    "type": 262144, 
+                    "size": 208896
+                }, 
+                {
+                    "protect": "rw", 
+                    "end": "0x7ffdc000", 
+                    "addr": "0x7ffdb000", 
+                    "state": 4096, 
+                    "offset": 29078808, 
+                    "type": 131072, 
+                    "size": 4096
+                }, 
+                {
+                    "protect": "rw", 
+                    "end": "0x7ffe0000", 
+                    "addr": "0x7ffdf000", 
+                    "state": 4096, 
+                    "offset": 29082928, 
+                    "type": 131072, 
+                    "size": 4096
+                }, 
+                {
+                    "protect": "r", 
+                    "end": "0x7ffe1000", 
+                    "addr": "0x7ffe0000", 
+                    "state": 4096, 
+                    "offset": 29087048, 
+                    "type": 131072, 
+                    "size": 4096
+                }
+            ], 
+            "yara": [], 
+            "num": 1, 
+            "file": "/home/cuckoo/.cuckoo/storage/analyses/67/memory/1812-1.dmp", 
+            "urls": [
+                "http://shell.windows.com/fileassoc/fileassoc.asp?LangID=%%04x", 
+                "http://shell.windows.com/fileassoc/%%04x/xml/redir.asp?Ext=%%s"
+            ], 
+            "extracted": [], 
+            "pid": 1812
+        }
+    ], 
+    "target": {
+        "category": "archive", 
+        "human": "fdd7e8582ef8d7a23f269653435582cfe924ca9b2db34af63af5e57d1f3e09c2 @ fdd7e8582ef8d7a23f269653435582cfe924ca9b2db34af63af5e57d1f3e09c2.zip", 
+        "archive": {
+            "yara": [
+                {
+                    "meta": {
+                        "description": "Matched shellcode byte patterns", 
+                        "author": "nex"
+                    }, 
+                    "name": "shellcode", 
+                    "offsets": {
+                        "shell6": [
+                            [
+                                2685, 
+                                1
+                            ], 
+                            [
+                                4357, 
+                                1
+                            ], 
+                            [
+                                8429, 
+                                1
+                            ], 
+                            [
+                                13165, 
+                                1
+                            ], 
+                            [
+                                17582, 
+                                1
+                            ], 
+                            [
+                                28268, 
+                                1
+                            ]
+                        ], 
+                        "shell7": [
+                            [
+                                5779, 
+                                0
+                            ]
+                        ]
+                    }, 
+                    "strings": [
+                        "VYvs6A==", 
+                        "VYvsgew="
+                    ]
+                }, 
+                {
+                    "meta": {
+                        "description": "Contains an embedded PE32 file", 
+                        "author": "nex"
+                    }, 
+                    "name": "embedded_pe", 
+                    "offsets": {
+                        "b": [
+                            [
+                                172, 
+                                0
+                            ]
+                        ]
+                    }, 
+                    "strings": [
+                        "VGhpcyBwcm9ncmFt"
+                    ]
+                }, 
+                {
+                    "meta": {
+                        "description": "A non-Windows executable contains win32 API functions names", 
+                        "author": "nex"
+                    }, 
+                    "name": "embedded_win_api", 
+                    "offsets": {
+                        "api6": [
+                            [
+                                43416, 
+                                2
+                            ]
+                        ], 
+                        "api12": [
+                            [
+                                43398, 
+                                1
+                            ]
+                        ], 
+                        "api2": [
+                            [
+                                42558, 
+                                0
+                            ]
+                        ]
+                    }, 
+                    "strings": [
+                        "R2V0UHJvY0FkZHJlc3M=", 
+                        "U2V0RmlsZVBvaW50ZXI=", 
+                        "V3JpdGVGaWxl"
+                    ]
+                }
+            ], 
+            "sha1": "c6f264d7526e725b68645378c9ad0ddb95269b52", 
+            "name": "fdd7e8582ef8d7a23f269653435582cfe924ca9b2db34af63af5e57d1f3e09c2.zip", 
+            "type": "Zip archive data, at least v2.0 to extract", 
+            "sha256": "6e18c6a17e0012141835c713000212a0ac18e88f077db8f8eea40bb086c52a5c", 
+            "urls": [], 
+            "crc32": "8F838567", 
+            "path": "/home/cuckoo/.cuckoo/storage/binaries/6e18c6a17e0012141835c713000212a0ac18e88f077db8f8eea40bb086c52a5c", 
+            "ssdeep": null, 
+            "size": 53994, 
+            "sha512": "245bf87d37ee3431fa2ca2d40eddd5f092bf066361585b95ba49d575650e82797982e7fd9a9bfd24dfd79626613ab35cd0bcfcde3e1db00d9bf66dc533ede632", 
+            "md5": "86940155a155b4728c22ec3726dc7b2f"
+        }, 
+        "file": {
+            "yara": [], 
+            "sha1": "0e020c03fffabc6d20eca67f559c46b4939bb4f4", 
+            "name": "fdd7e8582ef8d7a23f269653435582cfe924ca9b2db34af63af5e57d1f3e09c2", 
+            "type": "PE32 executable (DLL) (GUI) Intel 80386, for MS Windows", 
+            "sha256": "fdd7e8582ef8d7a23f269653435582cfe924ca9b2db34af63af5e57d1f3e09c2", 
+            "urls": [], 
+            "crc32": "DAF60852", 
+            "path": "/tmp/tmpxPLO8a", 
+            "ssdeep": null, 
+            "size": 53768, 
+            "sha512": "efc8e5e5d56d04f9da128782fabbd5c1eeb3d78c278edc7f7e2b6e8344c92bf010cd6a7a689588825f0d53e05fb0f444fb0ccfd1a2e89483b076b55097bd5fab", 
+            "md5": "83f57f0116a3b3d69ef7b1dbe9943801"
+        }, 
+        "filename": "fdd7e8582ef8d7a23f269653435582cfe924ca9b2db34af63af5e57d1f3e09c2"
+    }, 
+    "network": {
+        "tls": [], 
+        "udp": [], 
+        "dns_servers": [], 
+        "http": [], 
+        "icmp": [], 
+        "smtp": [], 
+        "tcp": [], 
+        "smtp_ex": [], 
+        "mitm": [], 
+        "hosts": [], 
+        "pcap_sha256": "5c6a61b015dc372e36a6dea18addd1f1c2fcc3880ead0771f84e42d9590368fe", 
+        "dns": [], 
+        "http_ex": [], 
+        "domains": [], 
+        "dead_hosts": [], 
+        "sorted_pcap_sha256": "c2ca808c9f76666f1f0565f6165a8f1692ef341e29b87713b618d1eddac04349", 
+        "irc": [], 
+        "https_ex": []
+    }, 
+    "signatures": [], 
+    "static": {
+        "pdb_path": null, 
+        "pe_imports": [
+            {
+                "imports": [
+                    {
+                        "name": "GetCurrentThreadId", 
+                        "address": "0x10009010"
+                    }, 
+                    {
+                        "name": "DecodePointer", 
+                        "address": "0x10009014"
+                    }, 
+                    {
+                        "name": "GetCommandLineA", 
+                        "address": "0x10009018"
+                    }, 
+                    {
+                        "name": "TerminateProcess", 
+                        "address": "0x1000901c"
+                    }, 
+                    {
+                        "name": "GetCurrentProcess", 
+                        "address": "0x10009020"
+                    }, 
+                    {
+                        "name": "UnhandledExceptionFilter", 
+                        "address": "0x10009024"
+                    }, 
+                    {
+                        "name": "SetUnhandledExceptionFilter", 
+                        "address": "0x10009028"
+                    }, 
+                    {
+                        "name": "IsDebuggerPresent", 
+                        "address": "0x1000902c"
+                    }, 
+                    {
+                        "name": "EncodePointer", 
+                        "address": "0x10009030"
+                    }, 
+                    {
+                        "name": "HeapAlloc", 
+                        "address": "0x10009034"
+                    }, 
+                    {
+                        "name": "GetLastError", 
+                        "address": "0x10009038"
+                    }, 
+                    {
+                        "name": "HeapFree", 
+                        "address": "0x1000903c"
+                    }, 
+                    {
+                        "name": "IsProcessorFeaturePresent", 
+                        "address": "0x10009040"
+                    }, 
+                    {
+                        "name": "TlsAlloc", 
+                        "address": "0x10009044"
+                    }, 
+                    {
+                        "name": "TlsGetValue", 
+                        "address": "0x10009048"
+                    }, 
+                    {
+                        "name": "TlsSetValue", 
+                        "address": "0x1000904c"
+                    }, 
+                    {
+                        "name": "TlsFree", 
+                        "address": "0x10009050"
+                    }, 
+                    {
+                        "name": "InterlockedIncrement", 
+                        "address": "0x10009054"
+                    }, 
+                    {
+                        "name": "GetModuleHandleW", 
+                        "address": "0x10009058"
+                    }, 
+                    {
+                        "name": "SetLastError", 
+                        "address": "0x1000905c"
+                    }, 
+                    {
+                        "name": "InterlockedDecrement", 
+                        "address": "0x10009060"
+                    }, 
+                    {
+                        "name": "ExitProcess", 
+                        "address": "0x10009064"
+                    }, 
+                    {
+                        "name": "SetHandleCount", 
+                        "address": "0x10009068"
+                    }, 
+                    {
+                        "name": "GetStdHandle", 
+                        "address": "0x1000906c"
+                    }, 
+                    {
+                        "name": "InitializeCriticalSectionAndSpinCount", 
+                        "address": "0x10009070"
+                    }, 
+                    {
+                        "name": "GetFileType", 
+                        "address": "0x10009074"
+                    }, 
+                    {
+                        "name": "GetStartupInfoW", 
+                        "address": "0x10009078"
+                    }, 
+                    {
+                        "name": "DeleteCriticalSection", 
+                        "address": "0x1000907c"
+                    }, 
+                    {
+                        "name": "GetModuleFileNameA", 
+                        "address": "0x10009080"
+                    }, 
+                    {
+                        "name": "FreeEnvironmentStringsW", 
+                        "address": "0x10009084"
+                    }, 
+                    {
+                        "name": "WideCharToMultiByte", 
+                        "address": "0x10009088"
+                    }, 
+                    {
+                        "name": "GetEnvironmentStringsW", 
+                        "address": "0x1000908c"
+                    }, 
+                    {
+                        "name": "HeapDestroy", 
+                        "address": "0x10009090"
+                    }, 
+                    {
+                        "name": "QueryPerformanceCounter", 
+                        "address": "0x10009094"
+                    }, 
+                    {
+                        "name": "GetTickCount", 
+                        "address": "0x10009098"
+                    }, 
+                    {
+                        "name": "GetCurrentProcessId", 
+                        "address": "0x1000909c"
+                    }, 
+                    {
+                        "name": "GetSystemTimeAsFileTime", 
+                        "address": "0x100090a0"
+                    }, 
+                    {
+                        "name": "SetFilePointer", 
+                        "address": "0x100090a4"
+                    }, 
+                    {
+                        "name": "WriteFile", 
+                        "address": "0x100090a8"
+                    }, 
+                    {
+                        "name": "GetConsoleCP", 
+                        "address": "0x100090ac"
+                    }, 
+                    {
+                        "name": "GetConsoleMode", 
+                        "address": "0x100090b0"
+                    }, 
+                    {
+                        "name": "EnterCriticalSection", 
+                        "address": "0x100090b4"
+                    }, 
+                    {
+                        "name": "LeaveCriticalSection", 
+                        "address": "0x100090b8"
+                    }, 
+                    {
+                        "name": "GetCPInfo", 
+                        "address": "0x100090bc"
+                    }, 
+                    {
+                        "name": "GetACP", 
+                        "address": "0x100090c0"
+                    }, 
+                    {
+                        "name": "GetOEMCP", 
+                        "address": "0x100090c4"
+                    }, 
+                    {
+                        "name": "IsValidCodePage", 
+                        "address": "0x100090c8"
+                    }, 
+                    {
+                        "name": "MultiByteToWideChar", 
+                        "address": "0x100090cc"
+                    }, 
+                    {
+                        "name": "GetModuleFileNameW", 
+                        "address": "0x100090d0"
+                    }, 
+                    {
+                        "name": "RtlUnwind", 
+                        "address": "0x100090d4"
+                    }, 
+                    {
+                        "name": "HeapSize", 
+                        "address": "0x100090d8"
+                    }, 
+                    {
+                        "name": "HeapReAlloc", 
+                        "address": "0x100090dc"
+                    }, 
+                    {
+                        "name": "SetStdHandle", 
+                        "address": "0x100090e0"
+                    }, 
+                    {
+                        "name": "WriteConsoleW", 
+                        "address": "0x100090e4"
+                    }, 
+                    {
+                        "name": "LCMapStringW", 
+                        "address": "0x100090e8"
+                    }, 
+                    {
+                        "name": "GetStringTypeW", 
+                        "address": "0x100090ec"
+                    }, 
+                    {
+                        "name": "CreateFileW", 
+                        "address": "0x100090f0"
+                    }, 
+                    {
+                        "name": "FlushFileBuffers", 
+                        "address": "0x100090f4"
+                    }, 
+                    {
+                        "name": "ExpandEnvironmentStringsW", 
+                        "address": "0x100090f8"
+                    }, 
+                    {
+                        "name": "CreateThread", 
+                        "address": "0x100090fc"
+                    }, 
+                    {
+                        "name": "CloseHandle", 
+                        "address": "0x10009100"
+                    }, 
+                    {
+                        "name": "GetProcAddress", 
+                        "address": "0x10009104"
+                    }, 
+                    {
+                        "name": "Sleep", 
+                        "address": "0x10009108"
+                    }, 
+                    {
+                        "name": "LoadLibraryW", 
+                        "address": "0x1000910c"
+                    }, 
+                    {
+                        "name": "CreateProcessW", 
+                        "address": "0x10009110"
+                    }, 
+                    {
+                        "name": "HeapCreate", 
+                        "address": "0x10009114"
+                    }, 
+                    {
+                        "name": "GetFullPathNameW", 
+                        "address": "0x10009118"
+                    }
+                ], 
+                "dll": "KERNEL32.dll"
+            }, 
+            {
+                "imports": [
+                    {
+                        "name": "RegCloseKey", 
+                        "address": "0x10009000"
+                    }, 
+                    {
+                        "name": "RegOpenKeyExW", 
+                        "address": "0x10009004"
+                    }, 
+                    {
+                        "name": "RegQueryValueExW", 
+                        "address": "0x10009008"
+                    }
+                ], 
+                "dll": "ADVAPI32.dll"
+            }
+        ], 
+        "peid_signatures": null, 
+        "keys": [], 
+        "signature": [], 
+        "pe_timestamp": "2015-01-20 07:18:28", 
+        "pe_exports": [
+            {
+                "ordinal": 1, 
+                "name": "DllCanUnloadNow", 
+                "address": "0x10001b30"
+            }, 
+            {
+                "ordinal": 2, 
+                "name": "DllGetClassObject", 
+                "address": "0x100069c0"
+            }, 
+            {
+                "ordinal": 3, 
+                "name": "DllRegisterServer", 
+                "address": "0x10002150"
+            }, 
+            {
+                "ordinal": 4, 
+                "name": "DllUnregisterServer", 
+                "address": "0x100028e0"
+            }
+        ], 
+        "imported_dll_count": 2, 
+        "pe_imphash": "fe2a7643cf031ab11448a7b78dbcb8e3", 
+        "pe_resources": [], 
+        "pe_versioninfo": [], 
+        "pe_sections": [
+            {
+                "size_of_data": "0x00007a00", 
+                "virtual_address": "0x00001000", 
+                "entropy": 6.4801989226623045, 
+                "name": ".text", 
+                "virtual_size": "0x00007918"
+            }, 
+            {
+                "size_of_data": "0x00002e00", 
+                "virtual_address": "0x00009000", 
+                "entropy": 5.0650135625433315, 
+                "name": ".rdata", 
+                "virtual_size": "0x00002d6a"
+            }, 
+            {
+                "size_of_data": "0x00000e00", 
+                "virtual_address": "0x0000c000", 
+                "entropy": 2.1989655247574245, 
+                "name": ".data", 
+                "virtual_size": "0x00002c00"
+            }, 
+            {
+                "size_of_data": "0x00001400", 
+                "virtual_address": "0x0000f000", 
+                "entropy": 3.7035027736070547, 
+                "name": ".reloc", 
+                "virtual_size": "0x000013ea"
+            }
+        ]
+    }, 
+    "behavior": {
+        "generic": [
+            {
+                "process_path": "C:\\WINDOWS\\system32\\rundll32.exe", 
+                "process_name": "rundll32.exe", 
+                "pid": 1812, 
+                "summary": {
+                    "file_exists": [
+                        "C:\\Documents and Settings\\user1\\Local Settings\\Temp\\fdd7e8582ef8d7a23f269653435582cfe924ca9b2db34af63af5e57d1f3e09c2.dll.manifest", 
+                        "C:\\Documents and Settings\\user1\\Local Settings\\Temp\\fdd7e8582ef8d7a23f269653435582cfe924ca9b2db34af63af5e57d1f3e09c2.dll"
+                    ], 
+                    "regkey_opened": [
+                        "HKEY_CURRENT_USER\\Software\\Classes\\CLSID\\{603D3801-BD81-11D0-A3A5-00C04FD706EC}"
+                    ], 
+                    "dll_loaded": [
+                        "C:\\DOCUME~1\\user1\\LOCALS~1\\Temp\\fdd7e8582ef8d7a23f269653435582cfe924ca9b2db34af63af5e57d1f3e09c2.dll", 
+                        "C:\\WINDOWS\\system32\\Msctf.dll"
+                    ]
+                }, 
+                "first_seen": 1773670806.542217, 
+                "ppid": 940
+            }, 
+            {
+                "process_path": "C:\\WINDOWS\\system32\\lsass.exe", 
+                "process_name": "lsass.exe", 
+                "pid": 700, 
+                "summary": {}, 
+                "first_seen": 1773670806.171684, 
+                "ppid": 644
+            }
+        ], 
+        "apistats": {
+            "1812": {
+                "NtQuerySystemInformation": 1, 
+                "GetSystemTimeAsFileTime": 2, 
+                "CreateActCtxW": 1, 
+                "CreateThread": 1, 
+                "GetSystemDirectoryW": 2, 
+                "LdrGetProcedureAddress": 8, 
+                "RegOpenKeyExW": 1, 
+                "NtDelayExecution": 1, 
+                "LoadStringW": 1, 
+                "NtClose": 1, 
+                "NtAllocateVirtualMemory": 4, 
+                "LdrLoadDll": 2, 
+                "GetFileAttributesW": 2, 
+                "LdrGetDllHandle": 5, 
+                "NtQueryAttributesFile": 1
+            }
+        }, 
+        "processes": [
+            {
+                "process_path": "C:\\WINDOWS\\system32\\lsass.exe", 
+                "calls": [], 
+                "track": false, 
+                "pid": 700, 
+                "process_name": "lsass.exe", 
+                "command_line": "C:\\WINDOWS\\system32\\lsass.exe", 
+                "modules": [
+                    {
+                        "basename": "lsass.exe", 
+                        "imgsize": 24576, 
+                        "baseaddr": "0x1000000", 
+                        "filepath": "C:\\WINDOWS\\system32\\lsass.exe"
+                    }, 
+                    {
+                        "basename": "ntdll.dll", 
+                        "imgsize": 602112, 
+                        "baseaddr": "0x7c920000", 
+                        "filepath": "C:\\WINDOWS\\system32\\ntdll.dll"
+                    }, 
+                    {
+                        "basename": "kernel32.dll", 
+                        "imgsize": 1171456, 
+                        "baseaddr": "0x7c800000", 
+                        "filepath": "C:\\WINDOWS\\system32\\kernel32.dll"
+                    }, 
+                    {
+                        "basename": "ADVAPI32.dll", 
+                        "imgsize": 692224, 
+                        "baseaddr": "0x77da0000", 
+                        "filepath": "C:\\WINDOWS\\system32\\ADVAPI32.dll"
+                    }, 
+                    {
+                        "basename": "RPCRT4.dll", 
+                        "imgsize": 598016, 
+                        "baseaddr": "0x77e50000", 
+                        "filepath": "C:\\WINDOWS\\system32\\RPCRT4.dll"
+                    }, 
+                    {
+                        "basename": "Secur32.dll", 
+                        "imgsize": 69632, 
+                        "baseaddr": "0x77fc0000", 
+                        "filepath": "C:\\WINDOWS\\system32\\Secur32.dll"
+                    }, 
+                    {
+                        "basename": "LSASRV.dll", 
+                        "imgsize": 716800, 
+                        "baseaddr": "0x74480000", 
+                        "filepath": "C:\\WINDOWS\\system32\\LSASRV.dll"
+                    }, 
+                    {
+                        "basename": "MPR.dll", 
+                        "imgsize": 73728, 
+                        "baseaddr": "0x71a90000", 
+                        "filepath": "C:\\WINDOWS\\system32\\MPR.dll"
+                    }, 
+                    {
+                        "basename": "USER32.dll", 
+                        "imgsize": 589824, 
+                        "baseaddr": "0x77d10000", 
+                        "filepath": "C:\\WINDOWS\\system32\\USER32.dll"
+                    }, 
+                    {
+                        "basename": "GDI32.dll", 
+                        "imgsize": 299008, 
+                        "baseaddr": "0x77ef0000", 
+                        "filepath": "C:\\WINDOWS\\system32\\GDI32.dll"
+                    }, 
+                    {
+                        "basename": "MSASN1.dll", 
+                        "imgsize": 73728, 
+                        "baseaddr": "0x76db0000", 
+                        "filepath": "C:\\WINDOWS\\system32\\MSASN1.dll"
+                    }, 
+                    {
+                        "basename": "msvcrt.dll", 
+                        "imgsize": 360448, 
+                        "baseaddr": "0x77be0000", 
+                        "filepath": "C:\\WINDOWS\\system32\\msvcrt.dll"
+                    }, 
+                    {
+                        "basename": "NETAPI32.dll", 
+                        "imgsize": 348160, 
+                        "baseaddr": "0x5fdd0000", 
+                        "filepath": "C:\\WINDOWS\\system32\\NETAPI32.dll"
+                    }, 
+                    {
+                        "basename": "NTDSAPI.dll", 
+                        "imgsize": 77824, 
+                        "baseaddr": "0x76770000", 
+                        "filepath": "C:\\WINDOWS\\system32\\NTDSAPI.dll"
+                    }, 
+                    {
+                        "basename": "DNSAPI.dll", 
+                        "imgsize": 159744, 
+                        "baseaddr": "0x76ef0000", 
+                        "filepath": "C:\\WINDOWS\\system32\\DNSAPI.dll"
+                    }, 
+                    {
+                        "basename": "WS2_32.dll", 
+                        "imgsize": 94208, 
+                        "baseaddr": "0x71a20000", 
+                        "filepath": "C:\\WINDOWS\\system32\\WS2_32.dll"
+                    }, 
+                    {
+                        "basename": "WS2HELP.dll", 
+                        "imgsize": 32768, 
+                        "baseaddr": "0x71a10000", 
+                        "filepath": "C:\\WINDOWS\\system32\\WS2HELP.dll"
+                    }, 
+                    {
+                        "basename": "WLDAP32.dll", 
+                        "imgsize": 180224, 
+                        "baseaddr": "0x76f30000", 
+                        "filepath": "C:\\WINDOWS\\system32\\WLDAP32.dll"
+                    }, 
+                    {
+                        "basename": "SAMLIB.dll", 
+                        "imgsize": 77824, 
+                        "baseaddr": "0x71b70000", 
+                        "filepath": "C:\\WINDOWS\\system32\\SAMLIB.dll"
+                    }, 
+                    {
+                        "basename": "SAMSRV.dll", 
+                        "imgsize": 425984, 
+                        "baseaddr": "0x743a0000", 
+                        "filepath": "C:\\WINDOWS\\system32\\SAMSRV.dll"
+                    }, 
+                    {
+                        "basename": "cryptdll.dll", 
+                        "imgsize": 49152, 
+                        "baseaddr": "0x76760000", 
+                        "filepath": "C:\\WINDOWS\\system32\\cryptdll.dll"
+                    }, 
+                    {
+                        "basename": "ShimEng.dll", 
+                        "imgsize": 155648, 
+                        "baseaddr": "0x5cc30000", 
+                        "filepath": "C:\\WINDOWS\\system32\\ShimEng.dll"
+                    }, 
+                    {
+                        "basename": "AcGenral.DLL", 
+                        "imgsize": 1875968, 
+                        "baseaddr": "0x58fb0000", 
+                        "filepath": "C:\\WINDOWS\\AppPatch\\AcGenral.DLL"
+                    }, 
+                    {
+                        "basename": "WINMM.dll", 
+                        "imgsize": 172032, 
+                        "baseaddr": "0x76b10000", 
+                        "filepath": "C:\\WINDOWS\\system32\\WINMM.dll"
+                    }, 
+                    {
+                        "basename": "ole32.dll", 
+                        "imgsize": 1298432, 
+                        "baseaddr": "0x76990000", 
+                        "filepath": "C:\\WINDOWS\\system32\\ole32.dll"
+                    }, 
+                    {
+                        "basename": "OLEAUT32.dll", 
+                        "imgsize": 569344, 
+                        "baseaddr": "0x770f0000", 
+                        "filepath": "C:\\WINDOWS\\system32\\OLEAUT32.dll"
+                    }, 
+                    {
+                        "basename": "MSACM32.dll", 
+                        "imgsize": 86016, 
+                        "baseaddr": "0x77bb0000", 
+                        "filepath": "C:\\WINDOWS\\system32\\MSACM32.dll"
+                    }, 
+                    {
+                        "basename": "VERSION.dll", 
+                        "imgsize": 32768, 
+                        "baseaddr": "0x77bd0000", 
+                        "filepath": "C:\\WINDOWS\\system32\\VERSION.dll"
+                    }, 
+                    {
+                        "basename": "SHELL32.dll", 
+                        "imgsize": 8339456, 
+                        "baseaddr": "0x7d590000", 
+                        "filepath": "C:\\WINDOWS\\system32\\SHELL32.dll"
+                    }, 
+                    {
+                        "basename": "SHLWAPI.dll", 
+                        "imgsize": 483328, 
+                        "baseaddr": "0x77f40000", 
+                        "filepath": "C:\\WINDOWS\\system32\\SHLWAPI.dll"
+                    }, 
+                    {
+                        "basename": "USERENV.dll", 
+                        "imgsize": 716800, 
+                        "baseaddr": "0x759d0000", 
+                        "filepath": "C:\\WINDOWS\\system32\\USERENV.dll"
+                    }, 
+                    {
+                        "basename": "UxTheme.dll", 
+                        "imgsize": 225280, 
+                        "baseaddr": "0x5adc0000", 
+                        "filepath": "C:\\WINDOWS\\system32\\UxTheme.dll"
+                    }, 
+                    {
+                        "basename": "IMM32.DLL", 
+                        "imgsize": 118784, 
+                        "baseaddr": "0x76300000", 
+                        "filepath": "C:\\WINDOWS\\system32\\IMM32.DLL"
+                    }, 
+                    {
+                        "basename": "LPK.DLL", 
+                        "imgsize": 36864, 
+                        "baseaddr": "0x62c20000", 
+                        "filepath": "C:\\WINDOWS\\system32\\LPK.DLL"
+                    }, 
+                    {
+                        "basename": "USP10.dll", 
+                        "imgsize": 438272, 
+                        "baseaddr": "0x73fa0000", 
+                        "filepath": "C:\\WINDOWS\\system32\\USP10.dll"
+                    }, 
+                    {
+                        "basename": "comctl32.dll", 
+                        "imgsize": 1060864, 
+                        "baseaddr": "0x77180000", 
+                        "filepath": "C:\\WINDOWS\\WinSxS\\x86_Microsoft.Windows.Common-Controls_6595b64144ccf1df_6.0.2600.5512_x-ww_35d4ce83\\comctl32.dll"
+                    }, 
+                    {
+                        "basename": "comctl32.dll", 
+                        "imgsize": 630784, 
+                        "baseaddr": "0x5d170000", 
+                        "filepath": "C:\\WINDOWS\\system32\\comctl32.dll"
+                    }, 
+                    {
+                        "basename": "msprivs.dll", 
+                        "imgsize": 57344, 
+                        "baseaddr": "0x4d200000", 
+                        "filepath": "C:\\WINDOWS\\system32\\msprivs.dll"
+                    }, 
+                    {
+                        "basename": "kerberos.dll", 
+                        "imgsize": 311296, 
+                        "baseaddr": "0x71c70000", 
+                        "filepath": "C:\\WINDOWS\\system32\\kerberos.dll"
+                    }, 
+                    {
+                        "basename": "msv1_0.dll", 
+                        "imgsize": 147456, 
+                        "baseaddr": "0x77c40000", 
+                        "filepath": "C:\\WINDOWS\\system32\\msv1_0.dll"
+                    }, 
+                    {
+                        "basename": "iphlpapi.dll", 
+                        "imgsize": 98304, 
+                        "baseaddr": "0x76d30000", 
+                        "filepath": "C:\\WINDOWS\\system32\\iphlpapi.dll"
+                    }, 
+                    {
+                        "basename": "netlogon.dll", 
+                        "imgsize": 413696, 
+                        "baseaddr": "0x74410000", 
+                        "filepath": "C:\\WINDOWS\\system32\\netlogon.dll"
+                    }, 
+                    {
+                        "basename": "w32time.dll", 
+                        "imgsize": 188416, 
+                        "baseaddr": "0x76790000", 
+                        "filepath": "C:\\WINDOWS\\system32\\w32time.dll"
+                    }, 
+                    {
+                        "basename": "MSVCP60.dll", 
+                        "imgsize": 413696, 
+                        "baseaddr": "0x75ff0000", 
+                        "filepath": "C:\\WINDOWS\\system32\\MSVCP60.dll"
+                    }, 
+                    {
+                        "basename": "schannel.dll", 
+                        "imgsize": 159744, 
+                        "baseaddr": "0x767c0000", 
+                        "filepath": "C:\\WINDOWS\\system32\\schannel.dll"
+                    }, 
+                    {
+                        "basename": "CRYPT32.dll", 
+                        "imgsize": 602112, 
+                        "baseaddr": "0x765e0000", 
+                        "filepath": "C:\\WINDOWS\\system32\\CRYPT32.dll"
+                    }, 
+                    {
+                        "basename": "wdigest.dll", 
+                        "imgsize": 61440, 
+                        "baseaddr": "0x742e0000", 
+                        "filepath": "C:\\WINDOWS\\system32\\wdigest.dll"
+                    }, 
+                    {
+                        "basename": "rsaenh.dll", 
+                        "imgsize": 221184, 
+                        "baseaddr": "0x68000000", 
+                        "filepath": "C:\\WINDOWS\\system32\\rsaenh.dll"
+                    }, 
+                    {
+                        "basename": "setupapi.dll", 
+                        "imgsize": 1400832, 
+                        "baseaddr": "0x76060000", 
+                        "filepath": "C:\\WINDOWS\\system32\\setupapi.dll"
+                    }, 
+                    {
+                        "basename": "scecli.dll", 
+                        "imgsize": 184320, 
+                        "baseaddr": "0x74370000", 
+                        "filepath": "C:\\WINDOWS\\system32\\scecli.dll"
+                    }, 
+                    {
+                        "basename": "ipsecsvc.dll", 
+                        "imgsize": 192512, 
+                        "baseaddr": "0x74340000", 
+                        "filepath": "C:\\WINDOWS\\system32\\ipsecsvc.dll"
+                    }, 
+                    {
+                        "basename": "AUTHZ.dll", 
+                        "imgsize": 73728, 
+                        "baseaddr": "0x77fe0000", 
+                        "filepath": "C:\\WINDOWS\\system32\\AUTHZ.dll"
+                    }, 
+                    {
+                        "basename": "oakley.DLL", 
+                        "imgsize": 851968, 
+                        "baseaddr": "0x73ed0000", 
+                        "filepath": "C:\\WINDOWS\\system32\\oakley.DLL"
+                    }, 
+                    {
+                        "basename": "WINIPSEC.DLL", 
+                        "imgsize": 45056, 
+                        "baseaddr": "0x742d0000", 
+                        "filepath": "C:\\WINDOWS\\system32\\WINIPSEC.DLL"
+                    }, 
+                    {
+                        "basename": "mswsock.dll", 
+                        "imgsize": 253952, 
+                        "baseaddr": "0x719c0000", 
+                        "filepath": "C:\\WINDOWS\\system32\\mswsock.dll"
+                    }, 
+                    {
+                        "basename": "hnetcfg.dll", 
+                        "imgsize": 348160, 
+                        "baseaddr": "0x60fd0000", 
+                        "filepath": "C:\\WINDOWS\\system32\\hnetcfg.dll"
+                    }, 
+                    {
+                        "basename": "wshtcpip.dll", 
+                        "imgsize": 32768, 
+                        "baseaddr": "0x71a00000", 
+                        "filepath": "C:\\WINDOWS\\System32\\wshtcpip.dll"
+                    }, 
+                    {
+                        "basename": "pstorsvc.dll", 
+                        "imgsize": 45056, 
+                        "baseaddr": "0x74300000", 
+                        "filepath": "C:\\WINDOWS\\system32\\pstorsvc.dll"
+                    }, 
+                    {
+                        "basename": "psbase.dll", 
+                        "imgsize": 106496, 
+                        "baseaddr": "0x74320000", 
+                        "filepath": "C:\\WINDOWS\\system32\\psbase.dll"
+                    }, 
+                    {
+                        "basename": "dssenh.dll", 
+                        "imgsize": 155648, 
+                        "baseaddr": "0x68100000", 
+                        "filepath": "C:\\WINDOWS\\system32\\dssenh.dll"
+                    }, 
+                    {
+                        "basename": "monitor-x86.dll", 
+                        "imgsize": 2117632, 
+                        "baseaddr": "0x63dc0000", 
+                        "filepath": "C:\\tmpzieajv\\bin\\monitor-x86.dll"
+                    }
+                ], 
+                "time": 20, 
+                "tid": 296, 
+                "first_seen": 1773670806.171684, 
+                "ppid": 644, 
+                "type": "process"
+            }, 
+            {
+                "process_path": "C:\\WINDOWS\\system32\\rundll32.exe", 
+                "calls": [
+                    {
+                        "category": "synchronisation", 
+                        "status": 1, 
+                        "stacktrace": [], 
+                        "api": "GetSystemTimeAsFileTime", 
+                        "return_value": 0, 
+                        "arguments": {}, 
+                        "time": 1773670806.623217, 
+                        "tid": 220, 
+                        "flags": {}
+                    }, 
+                    {
+                        "category": "file", 
+                        "status": 1, 
+                        "stacktrace": [], 
+                        "api": "GetFileAttributesW", 
+                        "return_value": 32, 
+                        "arguments": {
+                            "file_attributes": 32, 
+                            "filepath_r": "C:\\DOCUME~1\\user1\\LOCALS~1\\Temp\\fdd7e8582ef8d7a23f269653435582cfe924ca9b2db34af63af5e57d1f3e09c2.dll", 
+                            "filepath": "C:\\Documents and Settings\\user1\\Local Settings\\Temp\\fdd7e8582ef8d7a23f269653435582cfe924ca9b2db34af63af5e57d1f3e09c2.dll"
+                        }, 
+                        "time": 1773670806.633217, 
+                        "tid": 220, 
+                        "flags": {}
+                    }, 
+                    {
+                        "category": "file", 
+                        "status": 0, 
+                        "stacktrace": [], 
+                        "last_error": 2, 
+                        "nt_status": -1073741772, 
+                        "api": "GetFileAttributesW", 
+                        "return_value": 4294967295, 
+                        "arguments": {
+                            "file_attributes": 4294967295, 
+                            "filepath_r": "C:\\DOCUME~1\\user1\\LOCALS~1\\Temp\\fdd7e8582ef8d7a23f269653435582cfe924ca9b2db34af63af5e57d1f3e09c2.dll.manifest", 
+                            "filepath": "C:\\Documents and Settings\\user1\\Local Settings\\Temp\\fdd7e8582ef8d7a23f269653435582cfe924ca9b2db34af63af5e57d1f3e09c2.dll.manifest"
+                        }, 
+                        "time": 1773670806.633217, 
+                        "tid": 220, 
+                        "flags": {}
+                    }, 
+                    {
+                        "category": "misc", 
+                        "status": 0, 
+                        "stacktrace": [], 
+                        "last_error": 1812, 
+                        "nt_status": -1073741687, 
+                        "api": "CreateActCtxW", 
+                        "return_value": 4294967295, 
+                        "arguments": {
+                            "application_name": "", 
+                            "module_handle": "0x00000000", 
+                            "resource_name": ""
+                        }, 
+                        "time": 1773670806.633217, 
+                        "tid": 220, 
+                        "flags": {}
+                    }, 
+                    {
+                        "category": "synchronisation", 
+                        "status": 1, 
+                        "stacktrace": [], 
+                        "api": "GetSystemTimeAsFileTime", 
+                        "return_value": 0, 
+                        "arguments": {}, 
+                        "time": 1773670806.653217, 
+                        "tid": 220, 
+                        "flags": {}
+                    }, 
+                    {
+                        "category": "system", 
+                        "status": 1, 
+                        "stacktrace": [], 
+                        "api": "NtQuerySystemInformation", 
+                        "return_value": 0, 
+                        "arguments": {
+                            "information_class": 0
+                        }, 
+                        "time": 1773670806.673217, 
+                        "tid": 220, 
+                        "flags": {
+                            "information_class": "SystemBasicInformation"
+                        }
+                    }, 
+                    {
+                        "category": "process", 
+                        "status": 1, 
+                        "stacktrace": [], 
+                        "api": "NtAllocateVirtualMemory", 
+                        "return_value": 0, 
+                        "arguments": {
+                            "process_identifier": 1812, 
+                            "region_size": 65536, 
+                            "stack_dep_bypass": 0, 
+                            "stack_pivoted": 0, 
+                            "heap_dep_bypass": 0, 
+                            "protection": 4, 
+                            "process_handle": "0xffffffff", 
+                            "allocation_type": 8192, 
+                            "base_address": "0x00b30000"
+                        }, 
+                        "time": 1773670806.673217, 
+                        "tid": 220, 
+                        "flags": {
+                            "protection": "PAGE_READWRITE", 
+                            "allocation_type": "MEM_RESERVE"
+                        }
+                    }, 
+                    {
+                        "category": "process", 
+                        "status": 1, 
+                        "stacktrace": [], 
+                        "api": "NtAllocateVirtualMemory", 
+                        "return_value": 0, 
+                        "arguments": {
+                            "process_identifier": 1812, 
+                            "region_size": 4096, 
+                            "stack_dep_bypass": 0, 
+                            "stack_pivoted": 0, 
+                            "heap_dep_bypass": 0, 
+                            "protection": 4, 
+                            "process_handle": "0xffffffff", 
+                            "allocation_type": 4096, 
+                            "base_address": "0x00b30000"
+                        }, 
+                        "time": 1773670806.683217, 
+                        "tid": 220, 
+                        "flags": {
+                            "protection": "PAGE_READWRITE", 
+                            "allocation_type": "MEM_COMMIT"
+                        }
+                    }, 
+                    {
+                        "category": "process", 
+                        "status": 1, 
+                        "stacktrace": [], 
+                        "api": "NtAllocateVirtualMemory", 
+                        "return_value": 0, 
+                        "arguments": {
+                            "process_identifier": 1812, 
+                            "region_size": 8192, 
+                            "stack_dep_bypass": 0, 
+                            "stack_pivoted": 0, 
+                            "heap_dep_bypass": 0, 
+                            "protection": 4, 
+                            "process_handle": "0xffffffff", 
+                            "allocation_type": 4096, 
+                            "base_address": "0x00b31000"
+                        }, 
+                        "time": 1773670806.683217, 
+                        "tid": 220, 
+                        "flags": {
+                            "protection": "PAGE_READWRITE", 
+                            "allocation_type": "MEM_COMMIT"
+                        }
+                    }, 
+                    {
+                        "category": "system", 
+                        "status": 1, 
+                        "stacktrace": [], 
+                        "api": "LdrGetDllHandle", 
+                        "return_value": 0, 
+                        "arguments": {
+                            "module_name": "KERNEL32.DLL", 
+                            "stack_pivoted": 0, 
+                            "module_address": "0x7c800000"
+                        }, 
+                        "time": 1773670806.683217, 
+                        "tid": 220, 
+                        "flags": {}
+                    }, 
+                    {
+                        "category": "system", 
+                        "status": 0, 
+                        "stacktrace": [], 
+                        "last_error": 1812, 
+                        "nt_status": -1073741687, 
+                        "api": "LdrGetProcedureAddress", 
+                        "return_value": 3221225785, 
+                        "arguments": {
+                            "ordinal": 0, 
+                            "module": "kernel32", 
+                            "module_address": "0x7c800000", 
+                            "function_address": "0x100091a0", 
+                            "function_name": "FlsAlloc"
+                        }, 
+                        "time": 1773670806.693217, 
+                        "tid": 220, 
+                        "flags": {}
+                    }, 
+                    {
+                        "category": "system", 
+                        "status": 0, 
+                        "stacktrace": [], 
+                        "last_error": 127, 
+                        "nt_status": -1073741511, 
+                        "api": "LdrGetProcedureAddress", 
+                        "return_value": 3221225785, 
+                        "arguments": {
+                            "ordinal": 0, 
+                            "module": "kernel32", 
+                            "module_address": "0x7c800000", 
+                            "function_address": "0x10009194", 
+                            "function_name": "FlsGetValue"
+                        }, 
+                        "time": 1773670806.693217, 
+                        "tid": 220, 
+                        "flags": {}
+                    }, 
+                    {
+                        "category": "system", 
+                        "status": 0, 
+                        "stacktrace": [], 
+                        "last_error": 127, 
+                        "nt_status": -1073741511, 
+                        "api": "LdrGetProcedureAddress", 
+                        "return_value": 3221225785, 
+                        "arguments": {
+                            "ordinal": 0, 
+                            "module": "kernel32", 
+                            "module_address": "0x7c800000", 
+                            "function_address": "0x10009188", 
+                            "function_name": "FlsSetValue"
+                        }, 
+                        "time": 1773670806.693217, 
+                        "tid": 220, 
+                        "flags": {}
+                    }, 
+                    {
+                        "category": "system", 
+                        "status": 0, 
+                        "stacktrace": [], 
+                        "last_error": 127, 
+                        "nt_status": -1073741511, 
+                        "api": "LdrGetProcedureAddress", 
+                        "return_value": 3221225785, 
+                        "arguments": {
+                            "ordinal": 0, 
+                            "module": "kernel32", 
+                            "module_address": "0x7c800000", 
+                            "function_address": "0x10009180", 
+                            "function_name": "FlsFree"
+                        }, 
+                        "time": 1773670806.693217, 
+                        "tid": 220, 
+                        "flags": {}
+                    }, 
+                    {
+                        "category": "system", 
+                        "status": 1, 
+                        "stacktrace": [], 
+                        "api": "LdrGetDllHandle", 
+                        "return_value": 0, 
+                        "arguments": {
+                            "module_name": "KERNEL32.DLL", 
+                            "stack_pivoted": 0, 
+                            "module_address": "0x7c800000"
+                        }, 
+                        "time": 1773670806.693217, 
+                        "tid": 220, 
+                        "flags": {}
+                    }, 
+                    {
+                        "category": "process", 
+                        "status": 1, 
+                        "stacktrace": [], 
+                        "api": "NtAllocateVirtualMemory", 
+                        "return_value": 0, 
+                        "arguments": {
+                            "process_identifier": 1812, 
+                            "region_size": 4096, 
+                            "stack_dep_bypass": 0, 
+                            "stack_pivoted": 0, 
+                            "heap_dep_bypass": 0, 
+                            "protection": 4, 
+                            "process_handle": "0xffffffff", 
+                            "allocation_type": 4096, 
+                            "base_address": "0x00b33000"
+                        }, 
+                        "time": 1773670806.703217, 
+                        "tid": 220, 
+                        "flags": {
+                            "protection": "PAGE_READWRITE", 
+                            "allocation_type": "MEM_COMMIT"
+                        }
+                    }, 
+                    {
+                        "category": "process", 
+                        "status": 1, 
+                        "stacktrace": [], 
+                        "api": "CreateThread", 
+                        "return_value": 116, 
+                        "arguments": {
+                            "thread_identifier": 1964, 
+                            "function_address": "0x10003c60", 
+                            "flags": 0, 
+                            "parameter": "0x00000000", 
+                            "stack_size": 0
+                        }, 
+                        "time": 1773670806.703217, 
+                        "tid": 220, 
+                        "flags": {}
+                    }, 
+                    {
+                        "category": "system", 
+                        "status": 1, 
+                        "stacktrace": [], 
+                        "api": "NtClose", 
+                        "return_value": 0, 
+                        "arguments": {
+                            "handle": "0x00000074"
+                        }, 
+                        "time": 1773670806.703217, 
+                        "tid": 220, 
+                        "flags": {}
+                    }, 
+                    {
+                        "category": "system", 
+                        "status": 1, 
+                        "stacktrace": [], 
+                        "api": "LdrLoadDll", 
+                        "return_value": 0, 
+                        "arguments": {
+                            "basename": "fdd7e8582ef8d7a23f269653435582cfe924ca9b2db34af63af5e57d1f3e09c2", 
+                            "module_address": "0x10000000", 
+                            "flags": 0, 
+                            "module_name": "C:\\DOCUME~1\\user1\\LOCALS~1\\Temp\\fdd7e8582ef8d7a23f269653435582cfe924ca9b2db34af63af5e57d1f3e09c2.dll", 
+                            "stack_pivoted": 0
+                        }, 
+                        "time": 1773670806.713217, 
+                        "tid": 220, 
+                        "flags": {}
+                    }, 
+                    {
+                        "category": "system", 
+                        "status": 0, 
+                        "stacktrace": [], 
+                        "last_error": 127, 
+                        "nt_status": -1073741511, 
+                        "api": "LdrGetProcedureAddress", 
+                        "return_value": 3221225785, 
+                        "arguments": {
+                            "ordinal": 0, 
+                            "module": "fdd7e8582ef8d7a23f269653435582cfe924ca9b2db34af63af5e57d1f3e09c2", 
+                            "module_address": "0x10000000", 
+                            "function_address": "0x000c9dc0", 
+                            "function_name": "DllMainW"
+                        }, 
+                        "time": 1773670806.713217, 
+                        "tid": 220, 
+                        "flags": {}
+                    }, 
+                    {
+                        "category": "system", 
+                        "status": 0, 
+                        "stacktrace": [], 
+                        "last_error": 127, 
+                        "nt_status": -1073741511, 
+                        "api": "LdrGetProcedureAddress", 
+                        "return_value": 3221225785, 
+                        "arguments": {
+                            "ordinal": 0, 
+                            "module": "fdd7e8582ef8d7a23f269653435582cfe924ca9b2db34af63af5e57d1f3e09c2", 
+                            "module_address": "0x10000000", 
+                            "function_address": "0x000c9dc0", 
+                            "function_name": "DllMainA"
+                        }, 
+                        "time": 1773670806.713217, 
+                        "tid": 220, 
+                        "flags": {}
+                    }, 
+                    {
+                        "category": "system", 
+                        "status": 0, 
+                        "stacktrace": [], 
+                        "last_error": 127, 
+                        "nt_status": -1073741511, 
+                        "api": "LdrGetProcedureAddress", 
+                        "return_value": 3221225785, 
+                        "arguments": {
+                            "ordinal": 0, 
+                            "module": "fdd7e8582ef8d7a23f269653435582cfe924ca9b2db34af63af5e57d1f3e09c2", 
+                            "module_address": "0x10000000", 
+                            "function_address": "0x000c9dc0", 
+                            "function_name": "DllMain"
+                        }, 
+                        "time": 1773670806.713217, 
+                        "tid": 220, 
+                        "flags": {}
+                    }, 
+                    {
+                        "category": "system", 
+                        "status": 1, 
+                        "stacktrace": [], 
+                        "api": "LdrGetDllHandle", 
+                        "return_value": 0, 
+                        "arguments": {
+                            "module_name": "KERNEL32.DLL", 
+                            "stack_pivoted": 0, 
+                            "module_address": "0x7c800000"
+                        }, 
+                        "time": 1773670806.723217, 
+                        "tid": 1964, 
+                        "flags": {}
+                    }, 
+                    {
+                        "category": "ui", 
+                        "status": 1, 
+                        "stacktrace": [], 
+                        "api": "LoadStringW", 
+                        "return_value": 14, 
+                        "arguments": {
+                            "module_handle": "0x01000000", 
+                            "id": 1024, 
+                            "string": "%s \u51fa\u9519\n\u4e22\u5931\u6761\u76ee: %s"
+                        }, 
+                        "time": 1773670806.723217, 
+                        "tid": 220, 
+                        "flags": {}
+                    }, 
+                    {
+                        "category": "file", 
+                        "status": 1, 
+                        "stacktrace": [], 
+                        "api": "NtQueryAttributesFile", 
+                        "return_value": 0, 
+                        "arguments": {
+                            "filepath_r": "\\??\\C:\\WINDOWS\\system32\\ole32.dll", 
+                            "filepath": "C:\\WINDOWS\\system32\\ole32.dll"
+                        }, 
+                        "time": 1773670806.743217, 
+                        "tid": 220, 
+                        "flags": {}
+                    }, 
+                    {
+                        "category": "synchronisation", 
+                        "status": 1, 
+                        "stacktrace": [], 
+                        "api": "NtDelayExecution", 
+                        "return_value": 0, 
+                        "arguments": {
+                            "skipped": 0, 
+                            "milliseconds": 5000
+                        }, 
+                        "time": 1773670811.730217, 
+                        "tid": 1964, 
+                        "flags": {}
+                    }, 
+                    {
+                        "category": "registry", 
+                        "status": 0, 
+                        "stacktrace": [], 
+                        "last_error": 0, 
+                        "nt_status": -1073741772, 
+                        "api": "RegOpenKeyExW", 
+                        "return_value": 2, 
+                        "arguments": {
+                            "access": "0x00020119", 
+                            "base_handle": "0x80000001", 
+                            "key_handle": "0x00000000", 
+                            "regkey": "HKEY_CURRENT_USER\\Software\\Classes\\CLSID\\{603D3801-BD81-11D0-A3A5-00C04FD706EC}", 
+                            "regkey_r": "Software\\Classes\\CLSID\\{603D3801-BD81-11D0-A3A5-00C04FD706EC}", 
+                            "options": 0
+                        }, 
+                        "time": 1773670811.730217, 
+                        "tid": 1964, 
+                        "flags": {}
+                    }, 
+                    {
+                        "category": "file", 
+                        "status": 1, 
+                        "stacktrace": [], 
+                        "api": "GetSystemDirectoryW", 
+                        "return_value": 19, 
+                        "arguments": {
+                            "dirpath": "C:\\WINDOWS\\system32"
+                        }, 
+                        "time": 1773670811.740217, 
+                        "tid": 1964, 
+                        "flags": {}
+                    }, 
+                    {
+                        "category": "system", 
+                        "status": 0, 
+                        "stacktrace": [], 
+                        "last_error": 0, 
+                        "nt_status": -1073741772, 
+                        "api": "LdrGetDllHandle", 
+                        "return_value": 3221225781, 
+                        "arguments": {
+                            "module_name": "C:\\WINDOWS\\system32\\Msctf.dll", 
+                            "stack_pivoted": 0, 
+                            "module_address": "0x00000000"
+                        }, 
+                        "time": 1773670811.740217, 
+                        "tid": 1964, 
+                        "flags": {}
+                    }, 
+                    {
+                        "category": "system", 
+                        "status": 1, 
+                        "stacktrace": [], 
+                        "api": "LdrGetDllHandle", 
+                        "return_value": 0, 
+                        "arguments": {
+                            "module_name": "C:\\WINDOWS\\system32\\Msctf.dll", 
+                            "stack_pivoted": 0, 
+                            "module_address": "0x74680000"
+                        }, 
+                        "time": 1773670811.740217, 
+                        "tid": 1964, 
+                        "flags": {}
+                    }, 
+                    {
+                        "category": "file", 
+                        "status": 1, 
+                        "stacktrace": [], 
+                        "api": "GetSystemDirectoryW", 
+                        "return_value": 19, 
+                        "arguments": {
+                            "dirpath": "C:\\WINDOWS\\system32"
+                        }, 
+                        "time": 1773670811.750217, 
+                        "tid": 1964, 
+                        "flags": {}
+                    }, 
+                    {
+                        "category": "system", 
+                        "status": 1, 
+                        "stacktrace": [], 
+                        "api": "LdrLoadDll", 
+                        "return_value": 0, 
+                        "arguments": {
+                            "basename": "Msctf", 
+                            "module_address": "0x74680000", 
+                            "flags": 0, 
+                            "module_name": "C:\\WINDOWS\\system32\\Msctf.dll", 
+                            "stack_pivoted": 0
+                        }, 
+                        "time": 1773670811.750217, 
+                        "tid": 1964, 
+                        "flags": {}
+                    }, 
+                    {
+                        "category": "system", 
+                        "status": 1, 
+                        "stacktrace": [], 
+                        "api": "LdrGetProcedureAddress", 
+                        "return_value": 0, 
+                        "arguments": {
+                            "ordinal": 0, 
+                            "module": "MSCTF", 
+                            "module_address": "0x74680000", 
+                            "function_address": "0x7468f2e2", 
+                            "function_name": "TF_DllDetachInOther"
+                        }, 
+                        "time": 1773670811.750217, 
+                        "tid": 1964, 
+                        "flags": {}
+                    }
+                ], 
+                "track": true, 
+                "pid": 1812, 
+                "process_name": "rundll32.exe", 
+                "command_line": "\"C:\\WINDOWS\\system32\\rundll32.exe\" C:\\DOCUME~1\\user1\\LOCALS~1\\Temp\\fdd7e8582ef8d7a23f269653435582cfe924ca9b2db34af63af5e57d1f3e09c2.dll,DllMain", 
+                "modules": [
+                    {
+                        "basename": "rundll32.exe", 
+                        "imgsize": 45056, 
+                        "baseaddr": "0x1000000", 
+                        "filepath": "C:\\WINDOWS\\system32\\rundll32.exe"
+                    }, 
+                    {
+                        "basename": "ntdll.dll", 
+                        "imgsize": 602112, 
+                        "baseaddr": "0x7c920000", 
+                        "filepath": "C:\\WINDOWS\\system32\\ntdll.dll"
+                    }, 
+                    {
+                        "basename": "kernel32.dll", 
+                        "imgsize": 1171456, 
+                        "baseaddr": "0x7c800000", 
+                        "filepath": "C:\\WINDOWS\\system32\\kernel32.dll"
+                    }, 
+                    {
+                        "basename": "msvcrt.dll", 
+                        "imgsize": 360448, 
+                        "baseaddr": "0x77be0000", 
+                        "filepath": "C:\\WINDOWS\\system32\\msvcrt.dll"
+                    }, 
+                    {
+                        "basename": "GDI32.dll", 
+                        "imgsize": 299008, 
+                        "baseaddr": "0x77ef0000", 
+                        "filepath": "C:\\WINDOWS\\system32\\GDI32.dll"
+                    }, 
+                    {
+                        "basename": "USER32.dll", 
+                        "imgsize": 589824, 
+                        "baseaddr": "0x77d10000", 
+                        "filepath": "C:\\WINDOWS\\system32\\USER32.dll"
+                    }, 
+                    {
+                        "basename": "IMAGEHLP.dll", 
+                        "imgsize": 163840, 
+                        "baseaddr": "0x76c60000", 
+                        "filepath": "C:\\WINDOWS\\system32\\IMAGEHLP.dll"
+                    }, 
+                    {
+                        "basename": "ShimEng.dll", 
+                        "imgsize": 155648, 
+                        "baseaddr": "0x5cc30000", 
+                        "filepath": "C:\\WINDOWS\\system32\\ShimEng.dll"
+                    }, 
+                    {
+                        "basename": "AcGenral.DLL", 
+                        "imgsize": 1875968, 
+                        "baseaddr": "0x58fb0000", 
+                        "filepath": "C:\\WINDOWS\\AppPatch\\AcGenral.DLL"
+                    }, 
+                    {
+                        "basename": "ADVAPI32.dll", 
+                        "imgsize": 692224, 
+                        "baseaddr": "0x77da0000", 
+                        "filepath": "C:\\WINDOWS\\system32\\ADVAPI32.dll"
+                    }, 
+                    {
+                        "basename": "RPCRT4.dll", 
+                        "imgsize": 598016, 
+                        "baseaddr": "0x77e50000", 
+                        "filepath": "C:\\WINDOWS\\system32\\RPCRT4.dll"
+                    }, 
+                    {
+                        "basename": "Secur32.dll", 
+                        "imgsize": 69632, 
+                        "baseaddr": "0x77fc0000", 
+                        "filepath": "C:\\WINDOWS\\system32\\Secur32.dll"
+                    }, 
+                    {
+                        "basename": "WINMM.dll", 
+                        "imgsize": 172032, 
+                        "baseaddr": "0x76b10000", 
+                        "filepath": "C:\\WINDOWS\\system32\\WINMM.dll"
+                    }, 
+                    {
+                        "basename": "ole32.dll", 
+                        "imgsize": 1298432, 
+                        "baseaddr": "0x76990000", 
+                        "filepath": "C:\\WINDOWS\\system32\\ole32.dll"
+                    }, 
+                    {
+                        "basename": "OLEAUT32.dll", 
+                        "imgsize": 569344, 
+                        "baseaddr": "0x770f0000", 
+                        "filepath": "C:\\WINDOWS\\system32\\OLEAUT32.dll"
+                    }, 
+                    {
+                        "basename": "MSACM32.dll", 
+                        "imgsize": 86016, 
+                        "baseaddr": "0x77bb0000", 
+                        "filepath": "C:\\WINDOWS\\system32\\MSACM32.dll"
+                    }, 
+                    {
+                        "basename": "VERSION.dll", 
+                        "imgsize": 32768, 
+                        "baseaddr": "0x77bd0000", 
+                        "filepath": "C:\\WINDOWS\\system32\\VERSION.dll"
+                    }, 
+                    {
+                        "basename": "SHELL32.dll", 
+                        "imgsize": 8339456, 
+                        "baseaddr": "0x7d590000", 
+                        "filepath": "C:\\WINDOWS\\system32\\SHELL32.dll"
+                    }, 
+                    {
+                        "basename": "SHLWAPI.dll", 
+                        "imgsize": 483328, 
+                        "baseaddr": "0x77f40000", 
+                        "filepath": "C:\\WINDOWS\\system32\\SHLWAPI.dll"
+                    }, 
+                    {
+                        "basename": "USERENV.dll", 
+                        "imgsize": 716800, 
+                        "baseaddr": "0x759d0000", 
+                        "filepath": "C:\\WINDOWS\\system32\\USERENV.dll"
+                    }, 
+                    {
+                        "basename": "UxTheme.dll", 
+                        "imgsize": 225280, 
+                        "baseaddr": "0x5adc0000", 
+                        "filepath": "C:\\WINDOWS\\system32\\UxTheme.dll"
+                    }, 
+                    {
+                        "basename": "IMM32.DLL", 
+                        "imgsize": 118784, 
+                        "baseaddr": "0x76300000", 
+                        "filepath": "C:\\WINDOWS\\system32\\IMM32.DLL"
+                    }, 
+                    {
+                        "basename": "LPK.DLL", 
+                        "imgsize": 36864, 
+                        "baseaddr": "0x62c20000", 
+                        "filepath": "C:\\WINDOWS\\system32\\LPK.DLL"
+                    }, 
+                    {
+                        "basename": "USP10.dll", 
+                        "imgsize": 438272, 
+                        "baseaddr": "0x73fa0000", 
+                        "filepath": "C:\\WINDOWS\\system32\\USP10.dll"
+                    }, 
+                    {
+                        "basename": "comctl32.dll", 
+                        "imgsize": 1060864, 
+                        "baseaddr": "0x77180000", 
+                        "filepath": "C:\\WINDOWS\\WinSxS\\x86_Microsoft.Windows.Common-Controls_6595b64144ccf1df_6.0.2600.5512_x-ww_35d4ce83\\comctl32.dll"
+                    }, 
+                    {
+                        "basename": "comctl32.dll", 
+                        "imgsize": 630784, 
+                        "baseaddr": "0x5d170000", 
+                        "filepath": "C:\\WINDOWS\\system32\\comctl32.dll"
+                    }, 
+                    {
+                        "basename": "monitor-x86.dll", 
+                        "imgsize": 2117632, 
+                        "baseaddr": "0x63dc0000", 
+                        "filepath": "C:\\tmpzieajv\\bin\\monitor-x86.dll"
+                    }
+                ], 
+                "time": 0, 
+                "tid": 220, 
+                "first_seen": 1773670806.542217, 
+                "ppid": 940, 
+                "type": "process"
+            }
+        ], 
+        "processtree": [
+            {
+                "track": false, 
+                "pid": 700, 
+                "process_name": "lsass.exe", 
+                "command_line": "C:\\WINDOWS\\system32\\lsass.exe", 
+                "first_seen": 1773670806.171684, 
+                "ppid": 644, 
+                "children": []
+            }, 
+            {
+                "track": true, 
+                "pid": 1812, 
+                "process_name": "rundll32.exe", 
+                "command_line": "\"C:\\WINDOWS\\system32\\rundll32.exe\" C:\\DOCUME~1\\user1\\LOCALS~1\\Temp\\fdd7e8582ef8d7a23f269653435582cfe924ca9b2db34af63af5e57d1f3e09c2.dll,DllMain", 
+                "first_seen": 1773670806.542217, 
+                "ppid": 940, 
+                "children": []
+            }
+        ], 
+        "summary": {
+            "file_exists": [
+                "C:\\Documents and Settings\\user1\\Local Settings\\Temp\\fdd7e8582ef8d7a23f269653435582cfe924ca9b2db34af63af5e57d1f3e09c2.dll.manifest", 
+                "C:\\Documents and Settings\\user1\\Local Settings\\Temp\\fdd7e8582ef8d7a23f269653435582cfe924ca9b2db34af63af5e57d1f3e09c2.dll"
+            ], 
+            "regkey_opened": [
+                "HKEY_CURRENT_USER\\Software\\Classes\\CLSID\\{603D3801-BD81-11D0-A3A5-00C04FD706EC}"
+            ], 
+            "dll_loaded": [
+                "C:\\DOCUME~1\\user1\\LOCALS~1\\Temp\\fdd7e8582ef8d7a23f269653435582cfe924ca9b2db34af63af5e57d1f3e09c2.dll", 
+                "C:\\WINDOWS\\system32\\Msctf.dll"
+            ]
+        }
+    }, 
+    "debug": {
+        "action": [
+            "gatherer"
+        ], 
+        "dbgview": [], 
+        "errors": [], 
+        "log": [
+            "2026-03-17 05:20:05,019 [analyzer] DEBUG: Starting analyzer from: C:\\tmpzieajv\n", 
+            "2026-03-17 05:20:05,019 [analyzer] DEBUG: Pipe server name: \\\\.\\PIPE\\BYZweMfHHkurhFWeattIqEp\n", 
+            "2026-03-17 05:20:05,019 [analyzer] DEBUG: Log pipe server name: \\\\.\\PIPE\\UYesROEHBAIVkwwJl\n", 
+            "2026-03-17 05:20:05,349 [analyzer] DEBUG: Started auxiliary module DbgView\n", 
+            "2026-03-17 05:20:05,960 [analyzer] DEBUG: Started auxiliary module Disguise\n", 
+            "2026-03-17 05:20:06,240 [analyzer] DEBUG: Loaded monitor into process with pid 700\n", 
+            "2026-03-17 05:20:06,240 [analyzer] DEBUG: Started auxiliary module DumpTLSMasterSecrets\n", 
+            "2026-03-17 05:20:06,270 [analyzer] DEBUG: Started auxiliary module Human\n", 
+            "2026-03-17 05:20:06,270 [analyzer] DEBUG: Started auxiliary module InstallCertificate\n", 
+            "2026-03-17 05:20:06,280 [analyzer] DEBUG: Started auxiliary module Reboot\n", 
+            "2026-03-17 05:20:06,280 [analyzer] DEBUG: Started auxiliary module RecentFiles\n", 
+            "2026-03-17 05:20:06,290 [analyzer] DEBUG: Started auxiliary module Screenshots\n", 
+            "2026-03-17 05:20:06,290 [analyzer] DEBUG: Started auxiliary module LoadZer0m0n\n", 
+            "2026-03-17 05:20:06,451 [lib.api.process] INFO: Successfully executed process from path 'C:\\\\WINDOWS\\\\System32\\\\rundll32.exe' with arguments ['C:\\\\DOCUME~1\\\\user1\\\\LOCALS~1\\\\Temp\\\\fdd7e8582ef8d7a23f269653435582cfe924ca9b2db34af63af5e57d1f3e09c2.dll,DllMain'] and pid 1812\n", 
+            "2026-03-17 05:20:06,621 [analyzer] DEBUG: Loaded monitor into process with pid 1812\n", 
+            "2026-03-17 20:24:29,095 [analyzer] INFO: Analysis timeout hit, terminating analysis.\n", 
+            "2026-03-17 20:24:40,391 [lib.api.process] INFO: Memory dump of process with pid 1812 completed\n", 
+            "2026-03-17 20:24:40,391 [analyzer] INFO: Analysis completed.\n"
+        ], 
+        "cuckoo": [
+            "2026-03-17 05:22:18,910 [cuckoo.core.scheduler] INFO: Task #67: acquired machine xp-cuckoo (label=xp-cuckoo)\n", 
+            "2026-03-17 05:22:18,911 [cuckoo.core.resultserver] DEBUG: Now tracking machine 192.168.56.101 for task #67\n", 
+            "2026-03-17 05:22:18,911 [cuckoo.core.plugins] DEBUG: Started auxiliary module: Replay\n", 
+            "2026-03-17 05:22:18,933 [cuckoo.auxiliary.sniffer] INFO: Started sniffer with PID 31442 (interface=vboxnet0, host=192.168.56.101)\n", 
+            "2026-03-17 05:22:18,934 [cuckoo.core.plugins] DEBUG: Started auxiliary module: Sniffer\n", 
+            "2026-03-17 05:22:18,955 [cuckoo.machinery.virtualbox] DEBUG: Starting vm xp-cuckoo\n", 
+            "2026-03-17 05:22:19,210 [cuckoo.machinery.virtualbox] DEBUG: Restoring virtual machine xp-cuckoo to Snapshot1\n", 
+            "2026-03-17 05:22:23,042 [cuckoo.core.guest] INFO: Starting analysis #67 on guest (id=xp-cuckoo, ip=192.168.56.101)\n", 
+            "2026-03-17 05:22:24,045 [cuckoo.core.guest] DEBUG: xp-cuckoo: not ready yet\n", 
+            "2026-03-17 05:22:25,050 [cuckoo.core.guest] DEBUG: xp-cuckoo: not ready yet\n", 
+            "2026-03-17 05:22:26,054 [cuckoo.core.guest] DEBUG: xp-cuckoo: not ready yet\n", 
+            "2026-03-17 05:22:26,118 [cuckoo.core.guest] DEBUG: xp-cuckoo: not ready yet\n", 
+            "2026-03-17 05:22:27,148 [cuckoo.core.guest] INFO: Guest is running Cuckoo Agent 0.10 (id=xp-cuckoo, ip=192.168.56.101)\n", 
+            "2026-03-17 05:22:27,209 [cuckoo.core.guest] DEBUG: Uploading analyzer to guest (id=xp-cuckoo, ip=192.168.56.101, monitor=latest, size=1720495)\n", 
+            "2026-03-17 05:22:28,284 [cuckoo.core.resultserver] DEBUG: Task #67: live log analysis.log initialized.\n", 
+            "2026-03-17 05:22:29,502 [cuckoo.core.resultserver] DEBUG: Task #67 is sending a BSON stream\n", 
+            "2026-03-17 05:22:29,848 [cuckoo.core.resultserver] DEBUG: Task #67 is sending a BSON stream\n", 
+            "2026-03-17 05:22:30,701 [cuckoo.core.resultserver] DEBUG: Task #67: File upload for 'shots/0001.jpg'\n", 
+            "2026-03-17 05:22:31,743 [cuckoo.core.resultserver] DEBUG: Task #67 uploaded file length: 79045\n", 
+            "2026-03-17 05:22:32,865 [cuckoo.core.resultserver] DEBUG: Task #67: File upload for 'shots/0002.jpg'\n", 
+            "2026-03-17 05:22:32,879 [cuckoo.core.guest] DEBUG: xp-cuckoo: analysis #67 still processing\n", 
+            "2026-03-17 05:22:33,786 [cuckoo.core.resultserver] DEBUG: Task #67 uploaded file length: 72897\n", 
+            "2026-03-17 05:22:38,002 [cuckoo.core.guest] DEBUG: xp-cuckoo: analysis #67 still processing\n", 
+            "2026-03-17 05:22:43,106 [cuckoo.core.guest] DEBUG: xp-cuckoo: analysis #67 still processing\n", 
+            "2026-03-17 05:22:48,201 [cuckoo.core.guest] DEBUG: xp-cuckoo: analysis #67 still processing\n", 
+            "2026-03-17 05:22:53,299 [cuckoo.core.guest] DEBUG: xp-cuckoo: analysis #67 still processing\n", 
+            "2026-03-17 05:22:58,390 [cuckoo.core.guest] DEBUG: xp-cuckoo: analysis #67 still processing\n", 
+            "2026-03-17 05:23:03,486 [cuckoo.core.guest] DEBUG: xp-cuckoo: analysis #67 still processing\n", 
+            "2026-03-17 05:23:08,573 [cuckoo.core.guest] DEBUG: xp-cuckoo: analysis #67 still processing\n", 
+            "2026-03-17 05:23:13,661 [cuckoo.core.guest] DEBUG: xp-cuckoo: analysis #67 still processing\n", 
+            "2026-03-17 05:23:18,749 [cuckoo.core.guest] DEBUG: xp-cuckoo: analysis #67 still processing\n", 
+            "2026-03-17 05:23:23,836 [cuckoo.core.guest] DEBUG: xp-cuckoo: analysis #67 still processing\n", 
+            "2026-03-17 05:23:28,924 [cuckoo.core.guest] DEBUG: xp-cuckoo: analysis #67 still processing\n", 
+            "2026-03-17 05:23:29,857 [cuckoo.core.resultserver] DEBUG: Task #67: File upload for 'shots/0003.jpg'\n", 
+            "2026-03-17 05:23:30,884 [cuckoo.core.resultserver] DEBUG: Task #67 uploaded file length: 73047\n", 
+            "2026-03-17 05:23:32,031 [cuckoo.core.resultserver] DEBUG: Task #67: File upload for 'shots/0004.jpg'\n", 
+            "2026-03-17 05:23:32,911 [cuckoo.core.resultserver] DEBUG: Task #67 uploaded file length: 72935\n", 
+            "2026-03-17 05:23:34,013 [cuckoo.core.guest] DEBUG: xp-cuckoo: analysis #67 still processing\n", 
+            "2026-03-17 05:23:39,107 [cuckoo.core.guest] DEBUG: xp-cuckoo: analysis #67 still processing\n", 
+            "2026-03-17 05:23:44,203 [cuckoo.core.guest] DEBUG: xp-cuckoo: analysis #67 still processing\n", 
+            "2026-03-17 05:23:49,303 [cuckoo.core.guest] DEBUG: xp-cuckoo: analysis #67 still processing\n", 
+            "2026-03-17 05:23:54,391 [cuckoo.core.guest] DEBUG: xp-cuckoo: analysis #67 still processing\n", 
+            "2026-03-17 05:23:59,488 [cuckoo.core.guest] DEBUG: xp-cuckoo: analys"
+        ]
+    }, 
+    "screenshots": [
+        {
+            "path": "/home/cuckoo/.cuckoo/storage/analyses/67/shots/0001.jpg", 
+            "ocr": ""
+        }, 
+        {
+            "path": "/home/cuckoo/.cuckoo/storage/analyses/67/shots/0002.jpg", 
+            "ocr": ""
+        }, 
+        {
+            "path": "/home/cuckoo/.cuckoo/storage/analyses/67/shots/0003.jpg", 
+            "ocr": ""
+        }, 
+        {
+            "path": "/home/cuckoo/.cuckoo/storage/analyses/67/shots/0004.jpg", 
+            "ocr": ""
+        }
+    ], 
+    "metadata": {
+        "output": {
+            "memdumps": [
+                {
+                    "basename": "1812-1.dmp", 
+                    "sha256": "65b31352384162ee763633a3dfed2d1d7915e14e93a4dce0d1156fc4447baebb", 
+                    "dirname": "memory"
+                }
+            ], 
+            "pcap": {
+                "basename": "dump.pcap", 
+                "sha256": "5c6a61b015dc372e36a6dea18addd1f1c2fcc3880ead0771f84e42d9590368fe", 
+                "dirname": ""
+            }
+        }
+    }
+}
