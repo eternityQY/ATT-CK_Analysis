@@ -7,8 +7,8 @@ Cuckoo Sandbox Analysis
 Project/
 │
 ├── data/                  # 存放数据
-│   ├── raw_reports/       # Cuckoo 原始 JSON 报告（用户输入）
 │   ├── knowledge_source/  # ATT&CK, MS-API, CTI 的原始文档 (PDF/HTML)（开发者维护）
+│   ├── models/            # 模型
 │   └── vector_db/         # FAISS 向量数据库（预构建，随系统分发）
 │
 ├── src/                   # 源代码目录
@@ -44,6 +44,7 @@ Project/
 │   └── __init__.py
 │
 ├── main.py                # 用户入口（恶意软件分析工具）
+├── mian_save.py           # 文本记录ttp结果
 ├── requirements.txt       # 依赖库列表
 ├── README.md              # 项目说明书
 └── .gitignore             # Git 忽略配置
