@@ -1,0 +1,32 @@
+# 核心依赖
+openai>=1.0.0
+numpy>=1.24.0
+pandas>=2.0.0
+
+# 向量数据库
+faiss-cpu>=1.7.4
+# faiss-gpu>=1.7.4  # 如果有 GPU 可使用此版本
+
+# 文本处理
+nltk>=3.8
+spacy>=3.5.0
+beautifulsoup4>=4.12.0
+lxml>=4.9.0
+
+# PDF 处理
+PyPDF2>=3.0.0
+pdfplumber>=0.9.0
+
+# 嵌入模型
+sentence-transformers>=2.2.0
+
+# LangChain (可选，用于更高级的 RAG 功能)
+langchain>=0.1.0
+langchain-openai>=0.0.5
+
+# 其他工具
+python-dotenv>=1.0.0
+tqdm>=4.65.0
+requests>=2.31.0
+
+openai
